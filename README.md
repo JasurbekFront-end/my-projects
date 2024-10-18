@@ -1,21 +1,21 @@
 # ---------- 18.10.24 ----------(1)
 
-## Dating
+## Dating 👍
 
-       ✅ About my self (Arslonbek Alimbaev, 2001y TATU)
-       ✅ About your self
+       ✅ About my self (Arslonbek Alimbaev, 2001y TATU) 👍
+       ✅ About your self 👍
               🔷 Full name
               🔷 Address
               🔷 Work or Study
 
-## Explain Course
+## Explain Course (10 month) 👍
 
-       ✅ HTML & CSS (2 month)
-       ✅ JavaScript (4 month)
-       ✅ React & Typescript (3 month)
+       ✅ HTML & CSS (3 month)
+       ✅ JavaScript and Typescript (4 month)
+       ✅ React & Typescript (2 month)
        ✅ React & Redux & Others... (1 month)
 
-## HTML & CSS
+## HTML & CSS 👍
 
        ✅ BASICS
               🔷 Web fundamentals
@@ -69,5 +69,5 @@
        ✅ Lists
        ✅ Tables
 
-[Github Repo](https://bit.ly/3phEV9I)
+[Github Repo](https://github.com/PDP-FRONTEND/PDP-G-20)
 [Figma](https://bit.ly/42xOVtL)
