@@ -39,11 +39,11 @@
 
 ## Web fundamentals
 
-       ✅ what is front-end
-       ✅ keynote basics.key
-       ✅ keynote web-fun.key
-       ✅ How the Web Works
-       ✅ Inspecting HTTP Requests and Responses
+       ✅ what is front-end 👍
+       ✅ keynote basics.key 👍
+       ✅ keynote web-fun.key 👍
+       ✅ How the Web Works 👍
+       ✅ Inspecting HTTP Requests and Responses 👍
        ✅ Write HTML codes
        ✅ Write CSS codes
        ✅ Formatting Code
@@ -70,4 +70,4 @@
        ✅ Tables
 
 [Github Repo](https://github.com/PDP-FRONTEND/PDP-G-20)
-[Figma](https://bit.ly/42xOVtL)
+[Figma](https://www.figma.com/design/Jc1hoBhxuXXfG2W88HiK1u/PDP-G-20?node-id=0-1&t=K7Ad7jMSmM0pj3I6-1)
