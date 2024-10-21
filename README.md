@@ -37,18 +37,18 @@
        ✅ Google Chrome - https://bit.ly/3zRyvQS
        ✅ Github registration - https://github.com
 
-## Web fundamentals
+## Web fundamentals 👍
 
        ✅ what is front-end 👍
        ✅ keynote basics.key 👍
        ✅ keynote web-fun.key 👍
        ✅ How the Web Works 👍
        ✅ Inspecting HTTP Requests and Responses 👍
-       ✅ Write HTML codes
-       ✅ Write CSS codes
-       ✅ Formatting Code
-       ✅ Inspecting Pages Using Chrome DevTools
-       ✅ We Validate Our Codes (HTML || CSS)
+       ✅ Write HTML codes  👍
+       ✅ Write CSS codes 👍
+       ✅ Formatting Code 👍
+       ✅ Inspecting Pages Using Chrome DevTools 👍
+       ✅ We Validate Our Codes (HTML || CSS) 👍
               🔷 HTML -> https://validator.w3.org/
               🔷 CSS -> https://jigsaw.w3.org/css-validator/
 
