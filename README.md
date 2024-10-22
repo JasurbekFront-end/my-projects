@@ -54,16 +54,16 @@
 
 ## HTML Basics
 
-       ✅ Introduction
-       ✅ The Head Section
+       ✅ Introduction 👍
+       ✅ The Head Section 👍
               🔷 ASCII    -   https://www.asciitable.com/
               🔷 UNICODE  -   https://unicode-table.com/
-       ✅ Text
-       ✅ Entities
-       ✅ File & folder paths
+       ✅ Text 👍
+       ✅ Entities 👍
+       ✅ File & folder paths 👍
        ✅ Hyperlinks
-              🔷 Redirect new HTML file
-              🔷 Download
+              🔷 Redirect new HTML file 👍
+              🔷 Download 👍
               🔷 Go to section
        ✅ Video and Audio
        ✅ Lists
