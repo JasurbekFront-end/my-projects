@@ -2,23 +2,24 @@
 
 ## Checking homeworks
 
-## HTML Basics
+## HTML Basics 👍
 
-       ✅ Video and Audio
-            🎁 can i use
-       ✅ Lists
-            🎁 ul
-            🎁 ol
-            🎁 li
+       ✅ Video and Audio 👍
+            🎁 can i use 👍
+       ✅ Lists 👍
+            🎁 ul 👍
+            🎁 ol 👍
+            🎁 li 👍
        ✅ Tables
-            🎁 DRY -> Don't repeat yourself
-            🎁 tr
-            🎁 th
-            🎁 td
-            🎁 thead
-            🎁 tbody
+            🎁 DRY -> Don't repeat yourself 👍
+            🎁 tr - table row 👍
+            🎁 th - table header 👍
+            🎁 td - table detail
+            🎁 thead - table header 👍
+            🎁 tbody - table body 👍
+            🎁 tfoot - table footer 👍
 
-## Explain CSS Basics
+## Explain CSS Basics 👍
 
        ✅ Providing CSS
        ✅ Normalizing CSS
@@ -30,9 +31,9 @@
 
 ## Providing CSS && Providing priority
 
-       ✅ Inline
-       ✅ Internal
-       ✅ External
+       ✅ Inline (Men) 👍
+       ✅ Internal (Onamiz) 👍
+       ✅ External (Ortogimiz) 👍
 
 ## Normalizing CSS
 
