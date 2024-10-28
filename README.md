@@ -22,32 +22,39 @@
 
        ✅ https://necolas.github.io/normalize.css/ 👍
 
-## How to deploy your project to netlify
+## How to deploy your project to netlify 👍
 
-## Basic Selectors
+## Code cases 👍
 
-       ✅ What is selector
-       ✅ TYPE
-       ✅ ID
-       ✅ CLASS
-       ✅ ATTRIBUTE
-       ✅ ALL ELEMENTS
+       ✅ kebab-case 🥰
+       ✅ snake_case
+       ✅ camelCase
+       ✅ PascalCase
 
-## Relational Selectors
+## Basic Selectors 👍
 
-       ✅ [ ] -> descendant selector
-       ✅ [>] -> child selector
-       ✅ [+] -> adjacent sibling selector
-       ✅ [~] -> adjacent sibling selector
+       ✅ What is selector 👍
+       ✅ TYPE 👍
+       ✅ ID 👍
+       ✅ CLASS 👍
+       ✅ ATTRIBUTE 👍
+       ✅ ALL ELEMENTS 👍
 
-## Pseudo Class Selectors
+## Relational Selectors 👍
 
-       ✅ :root
-       ✅ :empty
-       ✅ :first-child
-       ✅ :first-of-type
-       ✅ :last-child
-       ✅ :last-of-type
+       ✅ [ ] -> descendant selector 👍
+       ✅ [>] -> child selector 👍
+       ✅ [+] -> adjacent sibling selector 👍
+       ✅ [~] -> adjacent sibling selector 👍
+
+## Pseudo Class Selectors 👍
+
+       ✅ :root 🛑
+       ✅ :empty 👍
+       ✅ :first-child 👍
+       ✅ :first-of-type 👍
+       ✅ :last-child 👍
+       ✅ :last-of-type 👍
        ✅ :nth-child(n)
               🎁 odd(toq)
               🎁 even(juft)
@@ -55,8 +62,8 @@
        ✅ :nth-of-type(n)
        ✅ :nth-last-of-type(n)
        ✅ :visited
-       ✅ :hover
-       ✅ :active
+       ✅ :hover 👍
+       ✅ :active 👍
        ✅ :focus
        ✅ :not
 

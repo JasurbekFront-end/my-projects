@@ -1,0 +1,32 @@
+#boxes {
+	border: 4px solid lightgray;
+	padding: 5px 10px; /* top right bottom left(trbl) */
+}
+
+.box {
+	width: 200px;
+	height: 200px;
+	background-color: red;
+}
+
+.text-center {
+	display: grid;
+	font-size: 30px;
+	place-items: center;
+	font-weight: bold;
+}
+
+.bg-blue {
+	background-color: blue;
+}
+
+.bg-green {
+	background-color: green;
+}
+
+.bg-yellow {
+	background-color: yellow;
+}
+.bg-red {
+	background-color: red;
+}
