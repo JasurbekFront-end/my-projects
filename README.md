@@ -1,43 +1,28 @@
-# ---------- 25.10.24 ----------(4)
+# ---------- 28.10.24 ----------(5)
 
 ## Checking homeworks
 
-## HTML Basics 👍
-
-       ✅ Video and Audio 👍
-            🎁 can i use 👍
-       ✅ Lists 👍
-            🎁 ul 👍
-            🎁 ol 👍
-            🎁 li 👍
-       ✅ Tables
-            🎁 DRY -> Don't repeat yourself 👍
-            🎁 tr - table row 👍
-            🎁 th - table header 👍
-            🎁 td - table detail
-            🎁 thead - table header 👍
-            🎁 tbody - table body 👍
-            🎁 tfoot - table footer 👍
-
 ## Explain CSS Basics 👍
 
-       ✅ Providing CSS
-       ✅ Normalizing CSS
+       ✅ Providing CSS 👍
+       ✅ Normalizing CSS 👍
        ✅ Selectors
        ✅ Colors
        ✅ Gradients
        ✅ Borders
        ✅ Shadows
 
-## Providing CSS && Providing priority
+## Providing CSS && Providing priority 👍
 
        ✅ Inline (Men) 👍
        ✅ Internal (Onamiz) 👍
        ✅ External (Ortogimiz) 👍
 
-## Normalizing CSS
+## Normalizing CSS 👍
 
-       ✅ https://necolas.github.io/normalize.css/
+       ✅ https://necolas.github.io/normalize.css/ 👍
+
+## How to deploy your project to netlify
 
 ## Basic Selectors
 
@@ -54,3 +39,51 @@
        ✅ [>] -> child selector
        ✅ [+] -> adjacent sibling selector
        ✅ [~] -> adjacent sibling selector
+
+## Pseudo Class Selectors
+
+       ✅ :root
+       ✅ :empty
+       ✅ :first-child
+       ✅ :first-of-type
+       ✅ :last-child
+       ✅ :last-of-type
+       ✅ :nth-child(n)
+              🎁 odd(toq)
+              🎁 even(juft)
+       ✅ :nth-last-child(n)
+       ✅ :nth-of-type(n)
+       ✅ :nth-last-of-type(n)
+       ✅ :visited
+       ✅ :hover
+       ✅ :active
+       ✅ :focus
+       ✅ :not
+
+## Pseudo-element Selectors
+
+         ✅ ::first-latter
+         ✅ ::first-line
+         ✅ ::selection
+         ✅ ::before
+         ✅ ::after
+
+## Selectors Specificity
+
+           ✅ Explain site -> https://css-tricks.com/specifics-on-css-specificity/
+           ✅ SITE -> https://specifishity.com/
+
+## :not pseudo-class selector
+
+           ✅ :not(simple selector)
+           ✅ Negations may not be nested (ichma-ich negativlardan foydalanish mumkin emas) -> :not(:not) !
+           ✅ no specificity
+           ✅ not use pseudo-element selectors
+
+## Inheritance
+
+## Colors
+
+           ✅ Named colors
+           ✅ RGB(Red, Green, Blue) | RGBA(Red, Green, Blue,Alfa)
+           ✅ HEX
