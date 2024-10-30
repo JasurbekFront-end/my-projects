@@ -1,4 +1,4 @@
-# ---------- 28.10.24 ----------(5)
+# ---------- 30.10.24 ----------(6)
 
 ## Checking homeworks
 
@@ -14,9 +14,9 @@
 
 ## Providing CSS && Providing priority 👍
 
-       ✅ Inline (Men) 👍
-       ✅ Internal (Onamiz) 👍
-       ✅ External (Ortogimiz) 👍
+       ✅ Inline (Men) 👍  // <h1 style="color: red;">
+       ✅ Internal (Onamiz) 👍 // <head><style>color: red;</style></head>
+       ✅ External (Ortogimiz) 👍 // <link: rel="stylesheet" href="style.css" />
 
 ## Normalizing CSS 👍
 
@@ -49,43 +49,100 @@
 
 ## Pseudo Class Selectors 👍
 
-       ✅ :root 🛑
+       ✅ :root 👍
        ✅ :empty 👍
        ✅ :first-child 👍
        ✅ :first-of-type 👍
        ✅ :last-child 👍
        ✅ :last-of-type 👍
-       ✅ :nth-child(n)
+       ✅ :nth-child(n) 👍
               🎁 odd(toq)
               🎁 even(juft)
-       ✅ :nth-last-child(n)
-       ✅ :nth-of-type(n)
-       ✅ :nth-last-of-type(n)
-       ✅ :visited
+       ✅ :nth-last-child(n) 👍
+       ✅ :nth-of-type(n) 👍
+       ✅ :nth-last-of-type(n) 👍
+       ✅ :visited 👍
        ✅ :hover 👍
        ✅ :active 👍
-       ✅ :focus
-       ✅ :not
+       ✅ :focus 👍
+       ✅ :not 👍
 
 ## Pseudo-element Selectors
 
-         ✅ ::first-latter
-         ✅ ::first-line
-         ✅ ::selection
-         ✅ ::before
-         ✅ ::after
+       ✅ ::first-latter
+       ✅ ::first-line
+       ✅ ::selection
+       ✅ ::before
+       ✅ ::after
 
-## Selectors Specificity
+## Selectors Specificity 👍
 
-           ✅ Explain site -> https://css-tricks.com/specifics-on-css-specificity/
-           ✅ SITE -> https://specifishity.com/
+       ✅ Explain site -> https://css-tricks.com/specifics-on-css-specificity/
+       ✅ SITE -> https://specifishity.com/
 
-## :not pseudo-class selector
+## :not pseudo-class selector 👍
 
-           ✅ :not(simple selector)
-           ✅ Negations may not be nested (ichma-ich negativlardan foydalanish mumkin emas) -> :not(:not) !
-           ✅ no specificity
-           ✅ not use pseudo-element selectors
+       ✅ :not(simple selector)
+       ✅ Negations may not be nested (ichma-ich negativlardan foydalanish mumkin emas) -> :not(:not) !
+       ✅ no specificity
+       ✅ not use pseudo-element selectors
+
+## Layout
+
+       ✅ Box Model 👍
+       ✅ Sizing Elements 👍
+       ✅ Overflowing
+
+## FlexBox
+
+       ---Properties for the Parent
+       ✅ flex-direction 👍
+              🎁 row | row-reverse
+              🎁 column | column-reverse
+       ✅ flex-wrap
+              🎁 nowrap
+              🎁 wrap
+              🎁 wrap-reverse
+
+       ✅ flex-flow
+       ✅ Axes
+              x-axes
+              y-axes
+
+       ✅ align-items(y-axes) 👍
+              🎁 flex-start
+              🎁 flex-end
+              🎁 center
+              🎁 stretch
+
+       ✅ justify-content(x-axes) 👍
+              🎁 flex-start
+              🎁 flex-end
+              🎁 center
+              🎁 space-between
+              🎁 space-evenly
+              🎁 space-around
+
+       ✅ align-content (x-axes control with y-axes)
+              🎁 flex-start
+              🎁 flex-end
+              🎁 center
+              🎁 stretch
+              🎁 space-between
+              🎁 space-evenly
+              🎁 space-around
+
+       ---Properties for the Children
+       ✅ order
+       ✅ flex-grow
+       ✅ flex-shrink
+       ✅ flex-basis
+       ✅ align-self
+              🎁 flex-start
+              🎁 flex-end
+              🎁 center
+              🎁 stretch
+              🎁 baseline
 
 ## Inheritance
 

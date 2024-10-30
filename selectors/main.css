@@ -1,0 +1,38 @@
+.boxes {
+	border: 6px solid black;
+	padding: 5px;
+}
+
+.box {
+	width: 60px;
+	height: 60px;
+	line-height: 60px;
+	font-size: 15px;
+	text-align: center;
+	font-weight: bold;
+	transition: 0.3s linear all;
+	background-color: red;
+}
+
+.box-1 {
+	/* 22 */
+	background-color: blue !important;
+}
+
+#box-1 {
+	/* 100 */
+	background-color: yellow !important;
+}
+
+div id #id .id [id='id'] {
+	background-color: red;
+}
+
+body id p[class='.box'].box.app p[id='#id'] > div.box {
+	background-color: red !important;
+}
+
+
+.box:not(::before) {
+
+}

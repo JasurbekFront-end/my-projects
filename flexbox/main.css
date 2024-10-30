@@ -1,0 +1,26 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+	background-color: #efed40;
+}
+
+.boxes {
+	height: 600px;
+	display: flex;
+	background-color: blue;
+	justify-content: center;
+	gap: 10px;
+}
+
+.box {
+	width: 200px;
+	height: 200px;
+	background-color: black;
+	color: white;
+	font-size: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
