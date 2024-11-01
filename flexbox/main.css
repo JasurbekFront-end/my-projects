@@ -24,3 +24,8 @@ body {
 	align-items: center;
 	justify-content: center;
 }
+
+.box-1 {
+	--red: #ff0000;
+	background-color: rgba(0, 0, 0, 0.5);
+}

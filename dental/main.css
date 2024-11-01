@@ -1,0 +1,138 @@
+* {
+	box-sizing: border-box;
+	font-family: Poppins, sans-serif;
+}
+
+body {
+	margin: 0;
+}
+
+/* ---- HEADER ----- */
+header {
+	height: 100vh;
+	background-image: linear-gradient(to right, #ffffff 85%, #49b3fb 85%);
+}
+
+/* --Navbar-- */
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.navbar .logo {
+	display: flex;
+	align-items: center;
+	gap: 18.62px;
+}
+
+.navbar .logo .brand {
+	font-size: 24px;
+	font-weight: 600;
+	line-height: 26.4px;
+}
+
+.navbar .right {
+	display: flex;
+	align-items: center;
+	gap: 82px;
+}
+
+.navbar .menu {
+	display: flex;
+	align-items: center;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	gap: 50px;
+}
+
+.navbar .menu .menu-link {
+	font-size: 17px;
+	font-weight: 500;
+	line-height: 18.7px;
+	color: #031126;
+	text-decoration: none;
+}
+
+.navbar .btns {
+	display: flex;
+	align-items: center;
+	gap: 30px;
+}
+
+/* --Hero-- */
+
+.hero {
+	display: flex;
+	align-items: center;
+	height: 100%;
+}
+
+.hero .left {
+	width: 660px;
+}
+
+.hero .left .title {
+	font-size: 64px;
+	font-weight: 600;
+	line-height: 86.4px;
+	margin: 0;
+}
+
+.hero .left .description {
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 30.6px;
+	margin: 0;
+	margin-top: 40px;
+}
+
+.hero .left .actions {
+	display: flex;
+	align-items: center;
+	gap: 30px;
+	margin-top: 54px;
+}
+
+.hero .left .actions .btn-watch {
+	background-color: transparent;
+	border: none;
+	display: flex;
+	align-items: center;
+	gap: 12px;
+	font-size: 17px;
+	font-weight: 600;
+	line-height: 18.7px;
+}
+
+/* ---- COMPONENTS ----- */
+
+.btn {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 17px;
+	font-weight: 500;
+	line-height: 18.7px;
+	background-color: #0098ff;
+	border: 1px solid transparent;
+	padding: 12px 36px;
+	color: white;
+	border-radius: 15px;
+}
+
+.btn-outline {
+	border: 1px solid #49b3fb;
+	background-color: transparent;
+	color: #0098ff;
+}
+
+.btn-borderless {
+	background-color: transparent;
+	color: #49b3fb;
+}
+
+.container {
+	padding: 0 370px;
+}
