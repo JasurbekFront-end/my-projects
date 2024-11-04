@@ -12,18 +12,18 @@
        ✅ Borders
        ✅ Shadows
 
-## Colors
+## Colors 👍
 
-       ✅ Named colors
-       ✅ RGB(Red, Green, Blue) | RGBA(Red, Green, Blue,Alfa)
-       ✅ HEX
+       ✅ Named colors (Red, Blue, green ...) 👍
+       ✅ RGB(Red, Green, Blue) | RGBA(Red, Green, Blue,Alfa) 👍
+       ✅ HEX 👍
 
 ## Gradients
 
-       ✅ Linear-gradient
-       ✅ Radial-gradient
+       ✅ Linear-gradient 👍
+       ✅ Radial-gradient 👍
 
-## Borders
+## Borders 👍
 
        ✅ border-width
        ✅ border-style
