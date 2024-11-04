@@ -1,4 +1,4 @@
-# ---------- 01.11.24 ----------(7)
+# ---------- 04.11.24 ----------(8)
 
 ## Checking homeworks
 
@@ -12,19 +12,33 @@
        ✅ Borders
        ✅ Shadows
 
-## Pseudo-element Selectors
+## Colors
 
-       ✅ ::first-latter 👍
-       ✅ ::first-line 👍
-       ✅ ::selection 👍
-       ✅ ::before 👍
-       ✅ ::after 👍
+       ✅ Named colors
+       ✅ RGB(Red, Green, Blue) | RGBA(Red, Green, Blue,Alfa)
+       ✅ HEX
 
-## Layout 👍
+## Gradients
 
-       ✅ Box Model 👍
-       ✅ Sizing Elements 👍
-       ✅ Overflowing 👍
+       ✅ Linear-gradient
+       ✅ Radial-gradient
+
+## Borders
+
+       ✅ border-width
+       ✅ border-style
+       ✅ border-color
+       ✅ border
+
+## Shadows
+
+       ✅ box-shadow
+              🎁 outset shadow
+              🎁 inset shadow
+       ✅ text-shadow
+       ✅ drop-shadow
+
+## Explain new part (advanced)
 
 ## FlexBox
 
