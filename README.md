@@ -1,34 +1,6 @@
-# ---------- 04.11.24 ----------(8)
+# ---------- 06.11.24 ----------(9)
 
 ## Checking homeworks
-
-## Explain CSS Basics 👍
-
-       ✅ Providing CSS 👍
-       ✅ Normalizing CSS 👍
-       ✅ Selectors 👍
-       ✅ Colors
-       ✅ Gradients
-       ✅ Borders
-       ✅ Shadows
-
-## Colors 👍
-
-       ✅ Named colors (Red, Blue, green ...) 👍
-       ✅ RGB(Red, Green, Blue) | RGBA(Red, Green, Blue,Alfa) 👍
-       ✅ HEX 👍
-
-## Gradients
-
-       ✅ Linear-gradient 👍
-       ✅ Radial-gradient 👍
-
-## Borders 👍
-
-       ✅ border-width
-       ✅ border-style
-       ✅ border-color
-       ✅ border
 
 ## Shadows
 
@@ -38,63 +10,101 @@
        ✅ text-shadow
        ✅ drop-shadow
 
+## CSS Variables
+
+## Inheritance
+
+## Shadows
+
+       ✅ box-shadow
+              🎁 outset shadow 👍🏻
+              🎁 inset shadow 👍🏻
+       ✅ text-shadow 👍🏻
+       ✅ drop-shadow 👍🏻
+
 ## Explain new part (advanced)
+
+## Layout
+
+       ✅ Box Model 👍🏻
+       ✅ Sizing Elements 👍🏻
+       ✅ Overflowing 👍🏻
+
+## Measurement Units
+
+       ✅ absolute
+              🎁 px
+       ✅ relative
+              🎁 % -> relative to size of the container
+              🎁 [em, rem] -> relative to the font-size
+              🎁 [vw, vh] -> relative to the viewport
+
+## Positioning
+
+       ✅ static
+              🎁 all element default position value
+              🎁 not working [top,right,bottom,left]
+              🎁 element asosiy sathda qoladi
+       ✅ relative
+              🎁 top & right & bottom & left
+              🎁 z-index
+              🎁 element asosiy sathda orni qoladi lekin z-index boyicha harakatlanishi mumkin
+       ✅ absolute
+              🎁 element asosiy sathda qolmaydi, otasi(relative element)ga nisbatan harakatlanadi
+       ✅ fixed
+              🎁 element asosiy sathda qolmaydi, har doim documentga nisbatan boladi, scroll tasir qilmaydi
+       ✅ sticky
+              🎁 example : https://codepen.io/geoffgraham/pen/ybVzeX
 
 ## FlexBox
 
-       ---Properties for the Parent
-       ✅ flex-direction 👍
+       🏆 Properties for the Parent
+          ✅ flex-direction
               🎁 row | row-reverse
               🎁 column | column-reverse
-       ✅ flex-wrap
+          ✅ flex-wrap
               🎁 nowrap
               🎁 wrap
               🎁 wrap-reverse
 
-       ✅ flex-flow
-       ✅ Axes
-              x-axes
-              y-axes
+          ✅ flex-flow
 
-       ✅ align-items(y-axes) 👍
-              🎁 flex-start
-              🎁 flex-end
-              🎁 center
-              🎁 stretch
+          ✅ Axes
+                    x-axes
+                    y-axes
 
-       ✅ justify-content(x-axes) 👍
-              🎁 flex-start
-              🎁 flex-end
-              🎁 center
-              🎁 space-between
-              🎁 space-evenly
-              🎁 space-around
-
-       ✅ align-content (x-axes control with y-axes)
-              🎁 flex-start
-              🎁 flex-end
-              🎁 center
-              🎁 stretch
-              🎁 space-between
-              🎁 space-evenly
-              🎁 space-around
-
-       ---Properties for the Children
-       ✅ order
-       ✅ flex-grow
-       ✅ flex-shrink
-       ✅ flex-basis
-       ✅ align-self
+          ✅ align-items(y-axes)
               🎁 flex-start
               🎁 flex-end
               🎁 center
               🎁 stretch
               🎁 baseline
 
-## Inheritance
+          ✅ justify-content(x-axes)
+              🎁 flex-start
+              🎁 flex-end
+              🎁 center
+              🎁 space-between
+              🎁 space-evenly
+              🎁 space-around
 
-## Colors
+          ✅ align-content (x-axes control with y-axes)
+              🎁 flex-start
+              🎁 flex-end
+              🎁 center
+              🎁 stretch
+              🎁 space-between
+              🎁 space-evenly
+              🎁 space-around
 
-           ✅ Named colors
-           ✅ RGB(Red, Green, Blue) | RGBA(Red, Green, Blue,Alfa)
-           ✅ HEX
+       🏆 Properties for the Children
+          ✅ order
+          ✅ flex-grow
+          ✅ flex-shrink
+          ✅ flex-basis
+          ✅ align-self
+              🎁 flex-start
+              🎁 flex-end
+              🎁 center
+              🎁 stretch
+              🎁 baseline
