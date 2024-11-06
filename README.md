@@ -4,23 +4,14 @@
 
 ## Shadows
 
-       ✅ box-shadow
-              🎁 outset shadow
-              🎁 inset shadow
-       ✅ text-shadow
-       ✅ drop-shadow
+       ✅ box-shadow 👍
+              🎁 outset shadow 👍
+              🎁 inset shadow 👍
+       ✅ text-shadow 👍
 
-## CSS Variables
+## Inheritance 👍
 
-## Inheritance
-
-## Shadows
-
-       ✅ box-shadow
-              🎁 outset shadow 👍🏻
-              🎁 inset shadow 👍🏻
-       ✅ text-shadow 👍🏻
-       ✅ drop-shadow 👍🏻
+## CSS Variables 👍
 
 ## Explain new part (advanced)
 
