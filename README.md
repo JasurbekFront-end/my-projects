@@ -1,17 +1,6 @@
-# ---------- 06.11.24 ----------(9)
+# ---------- 08.11.24 ----------(10)
 
 ## Checking homeworks
-
-## Shadows
-
-       ✅ box-shadow 👍
-              🎁 outset shadow 👍
-              🎁 inset shadow 👍
-       ✅ text-shadow 👍
-
-## Inheritance 👍
-
-## CSS Variables 👍
 
 ## Explain new part (advanced)
 
