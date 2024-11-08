@@ -1,0 +1,39 @@
+:root {
+	font-size: 40px;
+}
+
+body {
+	height: 100vh;
+	display: grid;
+	place-items: center;
+}
+
+.boxes {
+	width: 800px;
+	height: 800px;
+	/* background-color: #fff; */
+	border-radius: 8px;
+	border: 1px solid lightgray;
+	display: flex;
+	flex-direction: column;
+	position: relative;
+}
+
+.box {
+	width: 200px;
+	height: 200px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: 'Dank Mono';
+	font-weight: bold;
+	transition: 0.3s linear all;
+	background-color: var(--bg);
+	color: var(--color);
+}
+
+.box-2 {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}

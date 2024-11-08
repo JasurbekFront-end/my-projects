@@ -10,26 +10,26 @@
        ✅ Sizing Elements 👍🏻
        ✅ Overflowing 👍🏻
 
-## Measurement Units
+## Measurement Units 👍
 
        ✅ absolute
-              🎁 px
+              🎁 px 👍
        ✅ relative
-              🎁 % -> relative to size of the container
-              🎁 [em, rem] -> relative to the font-size
+              🎁 % -> relative to size of the container(parent) 👍
+              🎁 [em, rem] -> relative to the font-size 👍
               🎁 [vw, vh] -> relative to the viewport
 
 ## Positioning
 
-       ✅ static
+       ✅ static 👍
               🎁 all element default position value
               🎁 not working [top,right,bottom,left]
               🎁 element asosiy sathda qoladi
-       ✅ relative
+       ✅ relative 👍
               🎁 top & right & bottom & left
               🎁 z-index
               🎁 element asosiy sathda orni qoladi lekin z-index boyicha harakatlanishi mumkin
-       ✅ absolute
+       ✅ absolute 👍
               🎁 element asosiy sathda qolmaydi, otasi(relative element)ga nisbatan harakatlanadi
        ✅ fixed
               🎁 element asosiy sathda qolmaydi, har doim documentga nisbatan boladi, scroll tasir qilmaydi

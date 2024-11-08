@@ -1,0 +1,31 @@
+body {
+	display: grid;
+	place-items: center;
+	height: 100vh;
+}
+
+.chess {
+	width: 800px; /* Taxtaning eni */
+	height: 800px; /* Taxtaning bo'yi */
+}
+
+.row {
+	background: linear-gradient(
+		90deg,
+		#fff,
+		#fff 100px,
+		#000 200px,
+		#000 200px,
+		#fff 300px,
+		#fff 300px,
+		#000 400px,
+		#000 400px,
+		#fff 500px,
+		#fff 500px,
+		#000 600px,
+		#000 600px,
+		#fff 700px,
+		#fff 700px
+	);
+	height: 100px;
+}
