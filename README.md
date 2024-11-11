@@ -1,4 +1,4 @@
-# ---------- 08.11.24 ----------(10)
+# ---------- 11.11.24 ----------(11)
 
 ## Checking homeworks
 
@@ -10,20 +10,11 @@
        ✅ Sizing Elements 👍🏻
        ✅ Overflowing 👍🏻
 
-## Measurement Units 👍
-
-       ✅ absolute
-              🎁 px 👍
-       ✅ relative
-              🎁 % -> relative to size of the container(parent) 👍
-              🎁 [em, rem] -> relative to the font-size 👍
-              🎁 [vw, vh] -> relative to the viewport
-
-## Positioning
+## Positioning 👍
 
        ✅ static 👍
               🎁 all element default position value
-              🎁 not working [top,right,bottom,left]
+              🎁 not working [top, right, bottom, left]
               🎁 element asosiy sathda qoladi
        ✅ relative 👍
               🎁 top & right & bottom & left
@@ -31,58 +22,54 @@
               🎁 element asosiy sathda orni qoladi lekin z-index boyicha harakatlanishi mumkin
        ✅ absolute 👍
               🎁 element asosiy sathda qolmaydi, otasi(relative element)ga nisbatan harakatlanadi
-       ✅ fixed
+       ✅ fixed 👍
               🎁 element asosiy sathda qolmaydi, har doim documentga nisbatan boladi, scroll tasir qilmaydi
-       ✅ sticky
+       ✅ sticky 👍
               🎁 example : https://codepen.io/geoffgraham/pen/ybVzeX
 
 ## FlexBox
 
        🏆 Properties for the Parent
-          ✅ flex-direction
+          ✅ flex-direction 👍
               🎁 row | row-reverse
               🎁 column | column-reverse
           ✅ flex-wrap
-              🎁 nowrap
-              🎁 wrap
-              🎁 wrap-reverse
+              🎁 nowrap 👍
+              🎁 wrap 👍
+              🎁 wrap-reverse 👍
 
           ✅ flex-flow
 
-          ✅ Axes
+          ✅ Axes 👍
                     x-axes
                     y-axes
 
           ✅ align-items(y-axes)
-              🎁 flex-start
-              🎁 flex-end
-              🎁 center
-              🎁 stretch
-              🎁 baseline
+              🎁 flex-start 👍
+              🎁 flex-end 👍
+              🎁 center 👍
+              🎁 stretch 👍
 
-          ✅ justify-content(x-axes)
-              🎁 flex-start
-              🎁 flex-end
-              🎁 center
-              🎁 space-between
-              🎁 space-evenly
-              🎁 space-around
+          ✅ justify-content(x-axes) 👍
+              🎁 flex-start 👍
+              🎁 flex-end 👍
+              🎁 center 👍
+              🎁 space-between 👍 (0*x*x*0)
+              🎁 space-evenly 👍 (x*x*x*x)
+              🎁 space-around 👍 (x*2x*2x*x)
 
-          ✅ align-content (x-axes control with y-axes)
-              🎁 flex-start
-              🎁 flex-end
-              🎁 center
-              🎁 stretch
-              🎁 space-between
-              🎁 space-evenly
-              🎁 space-around
+          ✅ align-content (x-axes control with y-axes) 👍
+              🎁 flex-start 👍
+              🎁 flex-end 👍
+              🎁 center 👍
+              🎁 space-between 👍 (0*x*x*0)
+              🎁 space-evenly 👍 (x*x*x*x)
+              🎁 space-around 👍 (x*2x*2x*x)
+
 
        🏆 Properties for the Children
-          ✅ order
-          ✅ flex-grow
-          ✅ flex-shrink
-          ✅ flex-basis
-          ✅ align-self
+          ✅ order 👍
+          ✅ align-self 👍
               🎁 flex-start
               🎁 flex-end
               🎁 center

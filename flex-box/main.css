@@ -3,25 +3,23 @@
 }
 
 body {
-	/* height: 100vh;
+	height: 100vh;
 	display: grid;
-	place-items: center; */
+	place-items: center;
 }
 
 .boxes {
-	width: 800px;
+	width: 100%;
 	height: 800px;
-	/* background-color: #fff; */
-	border-radius: 8px;
 	border: 1px solid lightgray;
 	display: flex;
-	flex-direction: column;
 	position: relative;
+	flex-wrap: wrap;
 }
 
 .box {
-	width: 200px;
-	height: 200px;
+	min-width: 120px;
+	height: 100px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -30,10 +28,18 @@ body {
 	transition: 0.3s linear all;
 	background-color: var(--bg);
 	color: var(--color);
+	font-size: 20px;
+	color: white;
 }
 
-.box-2 {
-	position: fixed;
-	top: 40px;
-	left: 40px;
+/* .box-6 {
+	align-self: flex-start;
+} */
+
+.box-3 {
+	order: -1;
+}
+
+.box-9 {
+	order: -2;
 }
