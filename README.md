@@ -1,77 +1,85 @@
-# ---------- 11.11.24 ----------(11)
+# ---------- 18.11.24 ----------(14)
 
 ## Checking homeworks
 
-## Explain new part (advanced)
+## Grid
 
-## Layout
+## Important Terminology (Muhim terminlar)
 
-       ✅ Box Model 👍🏻
-       ✅ Sizing Elements 👍🏻
-       ✅ Overflowing 👍🏻
+        ✅ Grid Container 👍
+        ✅ Grid Line 👍
+        ✅ Grid Track 👍
+        ✅ Grid Area 👍
+        ✅ Grid Item 👍
+        ✅ Grid Cell 👍
+        ✅ Grid Gap 👍
 
-## Positioning 👍
+## Parent Properties
 
-       ✅ static 👍
-              🎁 all element default position value
-              🎁 not working [top, right, bottom, left]
-              🎁 element asosiy sathda qoladi
-       ✅ relative 👍
-              🎁 top & right & bottom & left
-              🎁 z-index
-              🎁 element asosiy sathda orni qoladi lekin z-index boyicha harakatlanishi mumkin
-       ✅ absolute 👍
-              🎁 element asosiy sathda qolmaydi, otasi(relative element)ga nisbatan harakatlanadi
-       ✅ fixed 👍
-              🎁 element asosiy sathda qolmaydi, har doim documentga nisbatan boladi, scroll tasir qilmaydi
-       ✅ sticky 👍
-              🎁 example : https://codepen.io/geoffgraham/pen/ybVzeX
+        ✅ display 👍
+            🎁 grid (https://courses.wesbos.com/account/access/639c3fbd40307fbbde954cae)
 
-## FlexBox
+        ✅ sizes units
+            🎁 px
+            🎁 auto
+            🎁 %
+            🎁 fr
 
-       🏆 Properties for the Parent
-          ✅ flex-direction 👍
-              🎁 row | row-reverse
-              🎁 column | column-reverse
-          ✅ flex-wrap
-              🎁 nowrap 👍
-              🎁 wrap 👍
-              🎁 wrap-reverse 👍
+        ✅ grid-template-columns :  200px 100px 👍
+        ✅ grid-template-rows: 100px 100px 👍
+        ✅ grid-template: rows / columns -> 100px 100px / 200px 200px; 👍
+        ✅ justify-items 👍
+            🎁 stretch
+            🎁 start
+            🎁 end
+            🎁 center
+        ✅ align-items 👍
+            🎁 stretch
+            🎁 start
+            🎁 end
+            🎁 center
+        ✅ place-items : align-items / justify-items 👍
+        ✅ justify-content 👍
+        ✅ align-content 👍
+        ✅ place-content: align-content / justify-content 👍
 
-          ✅ flex-flow
+## Child Properties
 
-          ✅ Axes 👍
-                    x-axes
-                    y-axes
+            ✅ grid-column       : <start-value> / <end-value>
+            ✅ grid-row          : <start-value> / <end-value>
+            ✅ grid-area         : <name> | row-start / column-start / row-end / column-end
+            ✅ justify-self
+            ✅ align-self
+            ✅ place-self       : align-self / [justify-self]
 
-          ✅ align-items(y-axes)
-              🎁 flex-start 👍
-              🎁 flex-end 👍
-              🎁 center 👍
-              🎁 stretch 👍
+## Sizing Functions
 
-          ✅ justify-content(x-axes) 👍
-              🎁 flex-start 👍
-              🎁 flex-end 👍
-              🎁 center 👍
-              🎁 space-between 👍 (0*x*x*0)
-              🎁 space-evenly 👍 (x*x*x*x)
-              🎁 space-around 👍 (x*2x*2x*x)
+            ✅ minmax
+            ✅ repeat
+                 🎁 auto-fill
+                 🎁 auto-fit
 
-          ✅ align-content (x-axes control with y-axes) 👍
-              🎁 flex-start 👍
-              🎁 flex-end 👍
-              🎁 center 👍
-              🎁 space-between 👍 (0*x*x*0)
-              🎁 space-evenly 👍 (x*x*x*x)
-              🎁 space-around 👍 (x*2x*2x*x)
+## JS Introduction
 
+        ✅ Data Types
+            🔷 Primitive
+                🎁 String
+                🎁 Number
+                🎁 Boolean
+                🎁 undefined
+                🎁 null
 
-       🏆 Properties for the Children
-          ✅ order 👍
-          ✅ align-self 👍
-              🎁 flex-start
-              🎁 flex-end
-              🎁 center
-              🎁 stretch
-              🎁 baseline
+            🔷 Non-Primitive(Reference)
+                🎁 Object
+                🎁 Array
+                🎁 Function
+
+        ✅ Function
+            🎁 What is Function
+            🎁 Function types
+            🎁 Return with function
+
+        ✅ Coding JS (https://bit.ly/3NbVsVX)
+            🎁 Explain coding js
+            🎁 Using vscode with js file
+            🎁 homeworks (warmup-1)

@@ -1,0 +1,35 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
+
+.boxes {
+	display: grid;
+	background-color: rgb(237, 245, 237);
+	width: 800px;
+	height: 800px;
+	grid-template: 200px / repeat(3, 200px);
+	align-items: center;
+	justify-items: center;
+	align-content: center;
+	justify-content: center;
+}
+
+.box {
+	width: 100px;
+	height: 100px;
+	background-color: rgb(255, 255, 255);
+	border: 1px solid black;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-weight: bold;
+	font-size: 30px;
+}
