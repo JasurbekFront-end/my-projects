@@ -1,0 +1,36 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
+
+.sudoku {
+	width: 900px;
+	height: 900px;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(3, 1fr);
+	background-color: #344861;
+	border: 1px solid #344861;
+	gap: 1px;
+}
+
+.board {
+	width: 100%;
+	height: 100%;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(3, 1fr);
+	background-color: #bfc6d4;
+	gap: 0.5px;
+}
+
+.cell {
+	background-color: white;
+}

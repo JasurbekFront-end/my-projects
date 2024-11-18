@@ -12,24 +12,28 @@ body {
 
 .boxes {
 	display: grid;
-	background-color: rgb(237, 245, 237);
+	background-color: black;
 	width: 800px;
 	height: 800px;
-	grid-template: 200px / repeat(3, 200px);
-	align-items: center;
-	justify-items: center;
-	align-content: center;
-	justify-content: center;
+	grid-template-columns: repeat(10, 1fr);
+	grid-template-rows: 200px 200px 200px;
+	align-content: start;
+	justify-content: start;
+	gap: 5px;
 }
 
 .box {
-	width: 100px;
-	height: 100px;
-	background-color: rgb(255, 255, 255);
-	border: 1px solid black;
+	background-color: rgb(32, 235, 124);
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	font-weight: bold;
-	font-size: 30px;
+	font-size: 20px;
+	transition: 0.3s linear all;
 }
+
+
+
+
+
+.

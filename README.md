@@ -20,10 +20,10 @@
             🎁 grid (https://courses.wesbos.com/account/access/639c3fbd40307fbbde954cae)
 
         ✅ sizes units
-            🎁 px
-            🎁 auto
-            🎁 %
-            🎁 fr
+            🎁 px 👍
+            🎁 auto 👍
+            🎁 % 👍
+            🎁 fr 👍
 
         ✅ grid-template-columns :  200px 100px 👍
         ✅ grid-template-rows: 100px 100px 👍
@@ -42,15 +42,18 @@
         ✅ justify-content 👍
         ✅ align-content 👍
         ✅ place-content: align-content / justify-content 👍
+        ✅ grid-auto-columns 👍
+        ✅ grid-auto-rows 👍
+        ✅ grid-auto-flow 👍
 
 ## Child Properties
 
-            ✅ grid-column       : <start-value> / <end-value>
-            ✅ grid-row          : <start-value> / <end-value>
-            ✅ grid-area         : <name> | row-start / column-start / row-end / column-end
-            ✅ justify-self
-            ✅ align-self
-            ✅ place-self       : align-self / [justify-self]
+            ✅ grid-column       : <start-value> / <end-value> 👍
+            ✅ grid-row          : <start-value> / <end-value> 👍
+            ✅ grid-area         : <name> | row-start / column-start / row-end / column-end 👍
+            ✅ justify-self 👍
+            ✅ align-self 👍
+            ✅ place-self       : align-self / [justify-self] 👍
 
 ## Sizing Functions
 
@@ -83,3 +86,6 @@
             🎁 Explain coding js
             🎁 Using vscode with js file
             🎁 homeworks (warmup-1)
+
+
+3(HTML + CSS + Bootstrap + Tailwind + JS) + JS + TS + OOP + Backend(4) + React(3)
