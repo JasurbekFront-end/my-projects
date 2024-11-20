@@ -55,6 +55,13 @@
             ✅ align-self 👍
             ✅ place-self       : align-self / [justify-self] 👍
 
+## Grid tricks
+
+            ✅ span 👍
+            ✅ span using with variable 👍
+            ✅ grid-area 👍
+            ✅ grid-template-areas 👍
+
 ## Sizing Functions
 
          ✅ minmax

@@ -17,6 +17,11 @@ body {
 	height: 400px;
 	grid-template-columns: repeat(3, 1fr);
 	grid-template-rows: repeat(4, 1fr);
+	grid-template-areas:
+		'box-1 box-2 box-2'
+		'box-3 box-2 box-2'
+		'box-4 box-5 box-6'
+		'box-4 box-7 box-8';
 	gap: 0.5px;
 	border: 0.5px solid black;
 }
@@ -29,7 +34,7 @@ body {
 	font-weight: bold;
 	font-size: 30px;
 }
-
+/*
 .box-2 {
 	grid-column-start: 2;
 	grid-column-end: 4;
@@ -39,4 +44,4 @@ body {
 .box-4 {
 	grid-row-start: 3;
 	grid-row-end: 5;
-}
+} */
