@@ -1,4 +1,4 @@
-# ---------- 18.11.24 ----------(14)
+# ---------- 20.11.24 ----------(15)
 
 ## Checking homeworks
 
@@ -57,22 +57,24 @@
 
 ## Sizing Functions
 
-            ✅ minmax
-            ✅ repeat
+         ✅ minmax
+         ✅ repeat
                  🎁 auto-fill
                  🎁 auto-fit
+
+## Grid Garden
 
 ## JS Introduction
 
         ✅ Data Types
-            🔷 Primitive
+            🔷 Promitive
                 🎁 String
                 🎁 Number
                 🎁 Boolean
                 🎁 undefined
                 🎁 null
 
-            🔷 Non-Primitive(Reference)
+            🔷 Non-Promitive(Reference)
                 🎁 Object
                 🎁 Array
                 🎁 Function
@@ -87,5 +89,9 @@
             🎁 Using vscode with js file
             🎁 homeworks (warmup-1)
 
+## Links
 
-3(HTML + CSS + Bootstrap + Tailwind + JS) + JS + TS + OOP + Backend(4) + React(3)
+    ✅ https://css-tricks.com/snippets/css/complete-guide-grid/#aa-justify-items
+    ✅ https://learncssgrid.com/
+    ✅ https://cssreference.io/property/grid-auto-rows/
+    ✅ https://www.youtube.com/watch?v=Dz9BzY21Zks&list=PLQkVA6z3dFvbnBJetfYDAF3-cG_ubgdZR
