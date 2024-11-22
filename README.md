@@ -1,4 +1,4 @@
-# ---------- 20.11.24 ----------(15)
+# ---------- 22.11.24 ----------(16)
 
 ## Checking homeworks
 
@@ -62,34 +62,34 @@
             ✅ grid-area 👍
             ✅ grid-template-areas 👍
 
-## Sizing Functions
+## Sizing Functions 👍
 
-         ✅ minmax
-         ✅ repeat
-                 🎁 auto-fill
-                 🎁 auto-fit
+         ✅ minmax 👍
+         ✅ repeat 👍
+                 🎁 auto-fill 👍
+                 🎁 auto-fit 👍
 
-## Grid Garden
+## Grid Garden 👍
 
 ## JS Introduction
 
         ✅ Data Types
-            🔷 Promitive
+            🔷 Primitive 👍
                 🎁 String
                 🎁 Number
                 🎁 Boolean
                 🎁 undefined
                 🎁 null
 
-            🔷 Non-Promitive(Reference)
+            🔷 Non-Primitive(Reference) 👍
                 🎁 Object
                 🎁 Array
                 🎁 Function
 
         ✅ Function
-            🎁 What is Function
-            🎁 Function types
-            🎁 Return with function
+            🎁 What is Function 👍
+            🎁 Function types 👍
+            🎁 Return with function 👍
 
         ✅ Coding JS (https://bit.ly/3NbVsVX)
             🎁 Explain coding js
