@@ -1,8 +1,10 @@
 // @operation: +, -, *, /
-function calculator(num1, num2, operation) {}
+function calculator(num1, num2, operation) {
+	return eval(num1 + operation + num2); // eval("100+5")
+}
 
-// Masalan:
-console.log(calculator(10, 5, '+')); // 15
-console.log(calculator(10, 5, '*')); // 50
-console.log(calculator(10, 5, '-')); // 5
-console.log(calculator(12, 5, '/')); // 2.4
+// Examples:
+console.log(calculator(100, 5, '+')); // 105
+console.log(calculator(10, 2, '*')); // 20
+console.log(calculator(10, 2, '-')); // 8
+console.log(calculator(12, 2, '/')); // 6

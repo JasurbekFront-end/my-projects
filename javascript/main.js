@@ -54,3 +54,15 @@
 
 // console.log('money1: ' + money1);
 // console.log('money2: ' + money2);
+
+let myAge = 17;
+let isAccess = myAge >= 18; // false
+let info = isAccess || ('arslonbek' && false && 'Mark') || 123;
+
+// console.log('info = ', info);
+
+const firstName = 'Arslonbek';
+
+const myDadName = firstName ? firstName : 'Mark';
+
+console.log('myDadName = ', myDadName);

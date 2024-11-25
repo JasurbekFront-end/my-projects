@@ -9,6 +9,22 @@
             🎁 Using vscode with js file
             🎁 homeworks (warmup-1)
 
+        ✅ Eval method for math calculations 👍
+
         ✅ JS Challenges
-            🎁 simple-calculator
-            🎁 bmi-calculator
+            🎁 simple-bmi 👍
+            🎁 simple-calculator 👍
+            🎁 square-area 👍
+            🎁 check bmi category 👍
+        ✅ Ternary operator ( ? : )
+        ✅ Logical operators
+            🎁 and = &&
+            🎁 or = ||
+            🎁 not = !
+
+        ✅ Falsy values
+            🎁 "" (empty string)
+            🎁 0 (zero)
+            🎁 false (boolean)
+            🎁 undefined
+            🎁 null
