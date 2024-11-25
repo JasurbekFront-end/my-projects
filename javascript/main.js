@@ -10,12 +10,12 @@
  * ------- Non-Primitive(Reference) -------
  * Object -> { name: "arslonbek", age: 20 }
  * Array -> [1, 2, 3]
- * Function -> function () {}
+ * Function -> function functionName() {}
  */
 
 // let firstName = 'arslonbek'; // SM_001 = "Arslonbek"
 
-// console.log(firstName);
+// console.log(firstName); // "Arslonbek"
 
 // let a = 10; // SM_001 = 10
 // let b = a; // SM_002 = SM_001(value)
@@ -45,12 +45,12 @@
 // hi('Sherlock', 'Mark');
 // hi('Holmes', 'Mark');
 
-function summa(a, b, c) {
-	return a + b + c;
-}
+// function summa(a, b, c) {
+// 	return a + b + c;
+// }
 
-let money1 = summa(1, 2, 3); // 6
-let money2 = summa(3, 4, 5); // 12
+// let money1 = summa(1, 2, 3); // 6
+// let money2 = summa(3, 4, 5); // 12
 
-console.log('money1: ' + money1);
-console.log('money2: ' + money2);
+// console.log('money1: ' + money1);
+// console.log('money2: ' + money2);

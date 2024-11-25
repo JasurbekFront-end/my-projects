@@ -8,5 +8,14 @@ function checkBMICategory(weight, height) {
 // Overweight: 25 - 29.9
 // Obese: 30+
 
-// Masalan:
-// console.log(checkBMICategory(70, 1.75)); // Normal
+// Examples:
+// console.log(checkBMICategory(70, 1.7)); // Normal
+
+/**
+ * Kent: weight = 70, height = 1.7m, BMI = 24.2
+ * Arslonbek: weight = 80, height = 1.8m
+ * Qozivoy: weight = 90, height = 1.9m
+ * Jasur: weight = 65, height = 1.85m
+ *
+ *
+ */

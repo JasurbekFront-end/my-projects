@@ -1,6 +1,5 @@
-function calculator(num1, num2, operation) {
-	return num1 + num2;
-}
+// @operation: +, -, *, /
+function calculator(num1, num2, operation) {}
 
 // Masalan:
 console.log(calculator(10, 5, '+')); // 15
