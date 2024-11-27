@@ -1,30 +1,37 @@
-# ---------- 22.11.24 ----------(16)
+# ---------- 27.11.24 ----------(1)
 
 ## Checking homeworks
 
-## JS Introduction
+## Media Queries
 
-        ✅ Coding JS (https://bit.ly/3NbVsVX)
-            🎁 Explain coding js
-            🎁 Using vscode with js file
-            🎁 homeworks (warmup-1)
+       ✅ At Rules
+            🔷 @media
+            🔷 @import
+            🔷 @keyframe
+            🔷 @font-face
+       ✅ Write Media Query code
+       ✅ Breakpoints(https://getbootstrap.com/docs/5.0/layout/breakpoints/)
 
-        ✅ Eval method for math calculations 👍
+## Practice Media Queries
 
-        ✅ JS Challenges
-            🎁 simple-bmi 👍
-            🎁 simple-calculator 👍
-            🎁 square-area 👍
-            🎁 check bmi category 👍
-        ✅ Ternary operator ( ? : )
-        ✅ Logical operators
-            🎁 and = &&
-            🎁 or = ||
-            🎁 not = !
+       ✅ https://bit.ly/411PgVl
 
-        ✅ Falsy values
-            🎁 "" (empty string)
-            🎁 0 (zero)
-            🎁 false (boolean)
-            🎁 undefined
-            🎁 null
+## Typography
+
+       ✅ What is "Web Safe Fonts"  🎁
+           🔷 Windows - 11 fonts : https://docs.microsoft.com/en-us/typography/fonts/windows_11_font_list
+           🔷 MacOS Monterey  - 11 fonts : https://apple.stackexchange.com/questions/429548/request-for-list-of-fonts-folder-contents-on-monterey
+
+       ✅ Using local fonts
+           🔷 Font Services and Sites 🎁
+               🎁 https://www.fontsquirrel.com/ [with compress service]
+               🎁 https://www.fonts.com/
+               🎁 https://www.myfonts.com/
+               🎁 https://fonts.google.com/  [most popular]
+
+           🔷 Font Formats 🎁
+               🎁 TTF       -> "True Type Font"
+               🎁 OTF       -> "Open Type Font"
+               🎁 EOT       -> "Embedded Open Type"
+               🎁 WOFF      -> "Web Open Font Format"  [more compressed]
+               🎁 WOFF 2.0  -> "Web Open Font Format"  [more compressed]
