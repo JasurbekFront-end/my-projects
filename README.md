@@ -5,16 +5,12 @@
 ## Media Queries
 
        ✅ At Rules
-            🔷 @media
-            🔷 @import
-            🔷 @keyframe
+            🔷 @media 👍
+            🔷 @import 👍
             🔷 @font-face
-       ✅ Write Media Query code
-       ✅ Breakpoints(https://getbootstrap.com/docs/5.0/layout/breakpoints/)
-
-## Practice Media Queries
-
-       ✅ https://bit.ly/411PgVl
+            🔷 @keyframe
+       ✅ Write Media Query code 👍
+       ✅ Breakpoints(https://getbootstrap.com/docs/5.0/layout/breakpoints/) 👍
 
 ## Typography
 
