@@ -1,0 +1,38 @@
+:root {
+	--sm: 567px;
+	--md: 767px;
+	--lg: 1024px;
+	--xl: 1280px;
+	--xxl: 1440px;
+}
+
+header {
+	background-color: red;
+}
+
+@media only screen and (min-width: 567px) {
+	header {
+		background-color: yellow;
+	}
+}
+@media only screen and (min-width: 767px) {
+	header {
+		background-color: blue;
+	}
+}
+@media only screen and (min-width: 992px) {
+	header {
+		background-color: green;
+	}
+}
+@media only screen and (min-width: 1280px) {
+	header {
+		background-color: purple;
+	}
+}
+
+@media only screen and (min-width: 1440px) {
+	header {
+		background-color: orange;
+	}
+}
