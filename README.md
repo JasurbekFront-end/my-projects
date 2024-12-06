@@ -5,10 +5,9 @@
 ## String methods
 
        ✅ Custom string methods
-           🔷 repeat
+           🔷 repeat 👍
            🔷 slice || substring
-           🔷 toUpperCase
-           🔷 indexOf
+           🔷 concat
            🔷 lastIndexOf
 
 ## Images
