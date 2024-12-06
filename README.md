@@ -1,28 +1,15 @@
-# ---------- 04.12.24 ----------(21)
+# ---------- 06.12.24 ----------(22)
 
 ## Checking homeworks
 
-## Formatting
+## String methods
 
-           ✅ Vertical Spacing
-               🎁 line-height
-
-           ✅ Horizontal Spacing
-               🎁 letter-spacing
-               🎁 word-spacing
-               🎁 white-spacing
-               🎁 word-break
-
-           ✅ Formatting Text
-               🎁 text-align
-               🎁 text-indent
-               🎁 text-decoration
-               🎁 text-transform
-               🎁 text-overflow
-               🎁 column-count
-               🎁 column-gap
-               🎁 column-rule
-               🎁 direction
+       ✅ Custom string methods
+           🔷 repeat
+           🔷 slice || substring
+           🔷 toUpperCase
+           🔷 indexOf
+           🔷 lastIndexOf
 
 ## Images
 
