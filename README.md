@@ -1,14 +1,8 @@
-# ---------- 06.12.24 ----------(22)
+# ---------- 11.12.24 ----------(23)
 
 ## Checking homeworks
 
-## String methods
-
-       ✅ Custom string methods
-           🔷 repeat 👍
-           🔷 slice || substring
-           🔷 concat
-           🔷 lastIndexOf
+## Coding JS problems
 
 ## Images
 

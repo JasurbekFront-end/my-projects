@@ -44,23 +44,23 @@
  * @param {string} text
  * @returns {number}
  */
-function lastIndexOf(str, text) {
-	let idx = -1;
-	if (!text) return -1;
+// function lastIndexOf(str, text) {
+// 	let idx = -1;
+// 	if (!text) return -1;
 
-	for (let i = 0; i < str.length; i++) {
-		let match = true;
-		for (let j = 0; j < text.length; j++) {
-			if (str[i + j] !== text[j]) {
-				match = false;
-				break;
-			}
-		}
-		if (match) idx = i;
-	}
+// 	for (let i = 0; i < str.length; i++) {
+// 		let match = true;
+// 		for (let j = 0; j < text.length; j++) {
+// 			if (str[i + j] !== text[j]) {
+// 				match = false;
+// 				break;
+// 			}
+// 		}
+// 		if (match) idx = i;
+// 	}
 
-	return idx;
-}
+// 	return idx;
+// }
 
 /**
 	* str = "pdp-aa-aa" , text = "aa";
