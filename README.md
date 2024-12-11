@@ -2,15 +2,17 @@
 
 ## Checking homeworks
 
+## String template literals
+
 ## Coding JS problems
 
 ## Images
 
        ✅ Background Images
-           🔷 background-image
-           🔷 background-repeat
-           🔷 background-position
-           🔷 background-size
+           🔷 background-image 👍
+           🔷 background-repeat  👍
+           🔷 background-position 👍
+           🔷 background-size 👍
            🔷 background-attachment
                🎁 local
                🎁 fixed
