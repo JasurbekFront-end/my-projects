@@ -4,12 +4,14 @@
 
 :root {
 	--boxes-size: 400px;
+	--box-initial-size: 100px; /* boxning boshlang'ich o'lchami */
+	--box-max-size: 160px; /* boxning maksimal o'lchami */
 }
 
 body {
 	margin: 0;
-	height: 100dvh;
-	width: 100dvw;
+	height: 100vh;
+	width: 100vw;
 	display: grid;
 	place-items: center;
 }
@@ -20,58 +22,64 @@ body {
 	border: 1px solid lightgray;
 	cursor: pointer;
 	user-select: none;
-
-	animation-name: scale;
-	animation-duration: 2s;
-	animation-timing-function: linear;
-	animation-iteration-count: infinite;
+	position: relative; /* Borderning ichida joylashganligiga ishonch hosil qilish uchun */
+	overflow: hidden; /* Tortburchak border ichida qolishi uchun */
 }
 
 .box {
-	width: calc(var(--boxes-size) / 3);
-	height: calc(var(--boxes-size) / 3);
 	font-weight: bold;
 	font-size: 20px;
 	display: grid;
 	place-items: center;
 	background-color: #efed40;
-}
-
-.box {
-	animation-name: sprint;
-	animation-duration: 2s;
-	animation-timing-function: linear;
-	animation-iteration-count: infinite;
-	--diff: calc(var(--boxes-size) - (var(--boxes-size) / 3));
+	position: absolute; /* Box position absolute qilib ichida harakatlanadi */
+	width: var(--box-initial-size);
+	height: var(--box-initial-size);
+	animation: sprint 4s linear infinite, scaleBox 4s linear infinite;
 }
 
 @keyframes sprint {
 	0%,
 	100% {
-		transform: translate(0, 0);
+		top: 0;
+		left: 0;
 	}
 	25% {
-		transform: translateX(var(--diff));
+		top: 0;
+		left: calc(100% - var(--box-initial-size));
 	}
 	50% {
-		transform: translate(var(--diff), var(--diff));
+		top: calc(100% - var(--box-initial-size));
+		left: calc(100% - var(--box-initial-size));
 	}
 	75% {
-		transform: translate(0, var(--diff));
+		top: calc(100% - var(--box-initial-size));
+		left: 0;
 	}
 }
 
-@keyframes scale {
+@keyframes scaleBox {
 	0%,
 	100% {
+		width: var(--box-initial-size);
+		height: var(--box-initial-size);
 	}
 	25% {
-		--boxes-size: 500px;
+		width: var(--box-max-size);
+		height: var(--box-max-size);
+		top: 0;
+		left: calc(100% - var(--box-max-size));
 	}
 	50% {
-		--boxes-size: 600px;
+		width: var(--box-max-size);
+		height: var(--box-max-size);
+		top: calc(100% - var(--box-max-size));
+		left: calc(100% - var(--box-max-size));
 	}
 	75% {
-		--boxes-size: 700px;
+		width: var(--box-max-size);
+		height: var(--box-max-size);
+		top: calc(100% - var(--box-max-size));
+		left: 0;
 	}
 }
