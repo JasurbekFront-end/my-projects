@@ -29,23 +29,27 @@ body {
 	width: 100%;
 	height: 100%;
 	background-color: var(--bg);
-	opacity: 0.5;
 	border-radius: 50%;
 	z-index: -1;
-	animation: scale-anime 1s linear var(--delay) infinite alternate-reverse;
+	animation: scale 5s linear var(--delay) infinite;
 }
 
 .loading:hover .dot::before {
 	animation-play-state: paused;
+	animation-fill-mode: backwards;
 }
 
-@keyframes scale-anime {
+@keyframes scale {
 	0% {
 		transform: scale(1);
 		opacity: 1;
 	}
-	100% {
+	20% {
 		transform: scale(2);
+		opacity: 0;
+	}
+	100% {
+		transform: scale(1);
 		opacity: 0;
 	}
 }

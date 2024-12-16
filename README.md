@@ -37,7 +37,7 @@
 
 ## Animations
 
-         ✅ animation-name
+         ✅ animation-name 👍
          ✅ animation-duration
          ✅ animation-timing-function
          ✅ animation-delay

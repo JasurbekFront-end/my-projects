@@ -4,14 +4,12 @@
 
 :root {
 	--boxes-size: 400px;
-	--box-initial-size: 100px; /* boxning boshlang'ich o'lchami */
-	--box-max-size: 160px; /* boxning maksimal o'lchami */
 }
 
 body {
 	margin: 0;
-	height: 100vh;
-	width: 100vw;
+	height: 100dvh;
+	width: 100dvw;
 	display: grid;
 	place-items: center;
 }
@@ -22,64 +20,40 @@ body {
 	border: 1px solid lightgray;
 	cursor: pointer;
 	user-select: none;
-	position: relative; /* Borderning ichida joylashganligiga ishonch hosil qilish uchun */
-	overflow: hidden; /* Tortburchak border ichida qolishi uchun */
 }
 
 .box {
+	width: calc(var(--boxes-size) / 3);
+	height: calc(var(--boxes-size) / 3);
 	font-weight: bold;
 	font-size: 20px;
 	display: grid;
 	place-items: center;
 	background-color: #efed40;
-	position: absolute; /* Box position absolute qilib ichida harakatlanadi */
-	width: var(--box-initial-size);
-	height: var(--box-initial-size);
-	animation: sprint 4s linear infinite, scaleBox 4s linear infinite;
+}
+
+.box {
+	animation-name: sprint;
+	animation-duration: 2s;
+	animation-timing-function: linear;
+	animation-iteration-count: 2;
+	animation-fill-mode: forwards;
+	animation-direction: alternate-reverse;
+	--diff: calc(var(--boxes-size) - (var(--boxes-size) / 3));
 }
 
 @keyframes sprint {
-	0%,
-	100% {
-		top: 0;
-		left: 0;
+	0% {
+		transform: translate(0, 0);
 	}
 	25% {
-		top: 0;
-		left: calc(100% - var(--box-initial-size));
+		transform: translateX(var(--diff));
 	}
 	50% {
-		top: calc(100% - var(--box-initial-size));
-		left: calc(100% - var(--box-initial-size));
+		transform: translate(var(--diff), var(--diff));
 	}
-	75% {
-		top: calc(100% - var(--box-initial-size));
-		left: 0;
-	}
-}
-
-@keyframes scaleBox {
-	0%,
+	75%,
 	100% {
-		width: var(--box-initial-size);
-		height: var(--box-initial-size);
-	}
-	25% {
-		width: var(--box-max-size);
-		height: var(--box-max-size);
-		top: 0;
-		left: calc(100% - var(--box-max-size));
-	}
-	50% {
-		width: var(--box-max-size);
-		height: var(--box-max-size);
-		top: calc(100% - var(--box-max-size));
-		left: calc(100% - var(--box-max-size));
-	}
-	75% {
-		width: var(--box-max-size);
-		height: var(--box-max-size);
-		top: calc(100% - var(--box-max-size));
-		left: 0;
+		transform: translate(0, var(--diff));
 	}
 }
