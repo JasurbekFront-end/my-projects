@@ -1,0 +1,49 @@
+* {
+	box-sizing: border-box;
+}
+
+:root {
+	--box-bg: #4fa7f4;
+	--box-color: black;
+}
+
+body {
+	margin: 0;
+	height: 100vh;
+	display: grid;
+	place-items: center;
+}
+
+.boxes {
+	display: flex;
+	width: auto;
+	height: 600px;
+	gap: 10px;
+	border: 1px solid black;
+}
+
+.box {
+	width: 200px;
+	height: 200px;
+	background-color: var(--box-bg);
+	color: var(--box-color);
+	font-size: 30px;
+	font-weight: bold;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	&-danger {
+		--box-bg: red;
+		--box-color: white;
+	}
+
+	&-success {
+		--box-bg: green;
+		--box-color: white;
+	}
+
+	&-warning {
+		--box-bg: yellow;
+	}
+}
