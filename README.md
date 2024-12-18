@@ -2,46 +2,24 @@
 
 ## Checking homeworks
 
-## String template literals
+## Setup
 
-## Coding JS problems
+      ✅ Install VS-Code
+      ✅ Install Node JS
+      ✅ Install node-sass with npm
+      ✅ Install vs code extensions
+           🎁 "SCSS IntelliSense"
 
-## Images
+## What is "NodeJS" and "npm"(Node package manager)
 
-       ✅ Background Images
-           🔷 background-image 👍
-           🔷 background-repeat  👍
-           🔷 background-position 👍
-           🔷 background-size 👍
-           🔷 background-attachment 👍
-               🎁 local
-               🎁 fixed
-               🎁 scroll
+## Create first Web app with SASS
 
-## Transformations 👍
+## What is map files
 
-         ✅ rotate 👍
-         ✅ scale 👍
-         ✅ translate 👍
-         ✅ skew 👍
+## SASS variables
 
-## Transitions
+## Nesting
 
-         ✅ transition-delay 👍
-         ✅ transition-duration 👍
-         ✅ transition-timing-function 👍
-         ✅ transition-property 👍
-         ✅ Universal property (Transition)
-         🔗  https://css-tricks.com/almanac/properties/t/transition/
-         🔗  https://cubic-bezier.com/
+## Parent Selector
 
-## Animations
-
-         ✅ animation-name 👍
-         ✅ animation-duration
-         ✅ animation-timing-function
-         ✅ animation-delay
-         ✅ animation-direction
-         ✅ animation-iteration-count
-
-## Links
+## [SASS STRUCTURE](https://gist.github.com/AdamMarsden/7b85e8d5bdb5bef969a0)
