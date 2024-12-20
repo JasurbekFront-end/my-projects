@@ -1,48 +1,55 @@
-* {
-  box-sizing: border-box;
+.primary-button {
+  background-color: #3498db;
+  color: #fff;
+  padding: 20px 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  transition: transform 0.3s linear;
+}
+.primary-button:hover {
+  background-color: rgb(33.1380753138, 125.1882845188, 186.8619246862);
+}
+.primary-button:active {
+  transform: scale(0.95);
 }
 
-:root {
-  --box-bg: #4fa7f4;
-  --box-color: black;
+.secondary-button {
+  background-color: #2ecc71;
+  color: #fff;
+  padding: 10px 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  transition: transform 0.3s linear;
+}
+.secondary-button:hover {
+  background-color: rgb(36.616, 162.384, 89.948);
+}
+.secondary-button:active {
+  transform: scale(0.95);
 }
 
-body {
-  margin: 0;
-  height: 100vh;
-  display: grid;
-  place-items: center;
+.third-button {
+  background-color: #e2f111;
+  color: #000;
+  padding: 10px 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  transition: transform 0.3s linear;
 }
-
-.boxes {
-  display: flex;
-  width: auto;
-  height: 600px;
-  gap: 10px;
-  border: 1px solid black;
+.third-button:hover {
+  background-color: rgb(183.1785714286, 195.5, 11.5);
 }
-
-.box {
-  width: 200px;
-  height: 200px;
-  background-color: var(--box-bg);
-  color: var(--box-color);
-  font-size: 30px;
-  font-weight: bold;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.box-danger {
-  --box-bg: red;
-  --box-color: white;
-}
-.box-success {
-  --box-bg: green;
-  --box-color: white;
-}
-.box-warning {
-  --box-bg: yellow;
+.third-button:active {
+  transform: scale(0.95);
 }
 
 /*# sourceMappingURL=main.css.map */
