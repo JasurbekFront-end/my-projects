@@ -90,6 +90,7 @@
 .secondary-button {
 	@include button-style(#2ecc71, #fff);
 }
+
 .third-button {
 	@include button-style(#e2f111, #000);
 }
