@@ -1,0 +1,26 @@
+{
+	"name": "pdp-20",
+	"version": "1.0.0",
+	"description": "First package for learning",
+	"scripts": {
+		"sass:watch": "sass --watch ./src/styles/style.scss:./dist/dist.css",
+		"sass": "sass ./src/styles/style.scss:./dist/dist.css"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/PDP-FRONTEND/PDP-G-20.git"
+	},
+	"keywords": [
+		"sass",
+		"js",
+		"pdp",
+		"html",
+		"css"
+	],
+	"author": "G-20",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/PDP-FRONTEND/PDP-G-20/issues"
+	},
+	"homepage": "https://github.com/PDP-FRONTEND/PDP-G-20#readme"
+}

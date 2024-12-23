@@ -1,0 +1,8 @@
+@use './a' with (
+	$box-bg: yellow
+);
+
+.button-home {
+	@include a.rounded;
+	padding: 5px + a.$radius;
+}

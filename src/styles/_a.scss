@@ -1,0 +1,7 @@
+$radius: 10px !default;
+$box-bg: yellow !default;
+
+@mixin rounded {
+	border-radius: $radius;
+	background-color: $box-bg;
+}

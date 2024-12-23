@@ -2,19 +2,19 @@
 
 ## Checking homeworks
 
-## [SASS STRUCTURE](https://gist.github.com/AdamMarsden/7b85e8d5bdb5bef969a0)
+## [SASS STRUCTURE](https://gist.github.com/AdamMarsden/7b85e8d5bdb5bef969a0) 👍
 
 # @use
 
-     ✅ Modules
-     ✅ Loading Members
-     ✅ Private Members
-     ✅ Aliases
-     ✅ @use vs @import
+     ✅ Modules 👍
+     ✅ Loading Members (Mixins, functions, variables, placeholders) 👍
+     ✅ Private Members 👍
+     ✅ Aliases 👍
+     ✅ @use vs @import 👍
 
 # @forward
 
-## Operations
+## Operations 👍
 
      ✅ math.div()
      ✅ *
@@ -23,7 +23,7 @@
 
 ## Variables
 
-     ✅ !default
+     ✅ !default 👍
      ✅ !global
 
 ## At-Rules
@@ -31,13 +31,13 @@
      ✅ @use
      ✅ @forward
      ✅ @import
-     ✅ @mixin && @include
+     ✅ @mixin && @include 👍
      ✅ @function
-     ✅ @extend
+     ✅ @extend 👍
      ✅ @at-root
-     ✅ @error
-     ✅ @warn
-     ✅ @debug
+     ✅ @error 👍
+     ✅ @warn 👍
+     ✅ @debug 👍
 
 ## Flow Control
 

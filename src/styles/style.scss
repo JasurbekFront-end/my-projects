@@ -1,0 +1,13 @@
+@use 'sass:math';
+// @forward './about';
+// @use './a';
+
+// @debug a.$box-bg;
+
+$a: 10;
+$b: 20px;
+
+@error math.max(20px, 50px, 40px);
+a {
+	padding: calc(10 * 20px);
+}

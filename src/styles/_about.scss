@@ -1,0 +1,9 @@
+@use './a' with (
+	$radius: 20px,
+	$box-bg: red
+);
+
+.button-danger {
+	@include a.rounded;
+	padding: 5px + a.$radius;
+}
