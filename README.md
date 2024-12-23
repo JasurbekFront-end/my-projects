@@ -1,6 +1,8 @@
-# ---------- 22.12.24 ----------(29)
+# ---------- 23.12.24 ----------(30)
 
 ## Checking homeworks
+
+## [SASS STRUCTURE](https://gist.github.com/AdamMarsden/7b85e8d5bdb5bef969a0)
 
 # @use
 
