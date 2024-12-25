@@ -1,0 +1,8 @@
+.rice {
+  display: gride;
+  grid-template-columns: 1fr 1fr;
+  height: 100vh;
+  background: url("../../public/assets/IMG.png");
+}
+
+/*# sourceMappingURL=about.css.map */

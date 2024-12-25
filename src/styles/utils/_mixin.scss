@@ -1,0 +1,24 @@
+@mixin media($break-point: 'md') {
+	@if $break-point == 'sm' {
+		@media (max-width: 567px) {
+			@content;
+		}
+	} @else if $break-point == 'md' {
+		@media (max-width: 768px) {
+			@content;
+			background-color: red;
+		}
+	} @else if $break-point == 'lg' {
+		@media (max-width: 992px) {
+			@content;
+		}
+	} @else if $break-point == 'xl' {
+		@media (max-width: 1024px) {
+			@content;
+		}
+	} @else if $break-point == 'xxl' {
+		@media (max-width: 1400px) {
+			@content;
+		}
+	}
+}

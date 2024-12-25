@@ -1,25 +1,21 @@
-# ---------- 23.12.24 ----------(30)
+# ---------- 25.12.24 ----------(31)
 
-## Checking homeworks
+## Checking homeworks 👍
 
-## [SASS STRUCTURE](https://gist.github.com/AdamMarsden/7b85e8d5bdb5bef969a0) 👍
+     ✅ split css dist files
+     ✅ forward vs import
+     ✅ using assets files (view from dist css folder)
+     ✅ remove public folder for netlify deploying
+     ✅ remove "source-map" and add "minimize build"
+     ✅ add scripts for "production build"
 
-# @use
+# Formatting with Prettier
 
-     ✅ Modules 👍
-     ✅ Loading Members (Mixins, functions, variables, placeholders) 👍
-     ✅ Private Members 👍
-     ✅ Aliases 👍
-     ✅ @use vs @import 👍
+     ✅ install "Prettier - Code formatter"
+     ✅ setup default formatter (Prettier)
+     ✅ enabled format on save (checked)
 
-# @forward
-
-## Operations 👍
-
-     ✅ math.div()
-     ✅ *
-     ✅ +
-     ✅ -
+# @forward 👍
 
 ## Variables
 
@@ -28,14 +24,14 @@
 
 ## At-Rules
 
-     ✅ @use
-     ✅ @forward
-     ✅ @import
+     ✅ @use 👍
+     ✅ @forward 👍
+     ✅ @import 👍
      ✅ @mixin && @include 👍
      ✅ @function
      ✅ @extend 👍
      ✅ @at-root
-     ✅ @error 👍
+     ✅ @error
      ✅ @warn 👍
      ✅ @debug 👍
 
@@ -45,3 +41,5 @@
      ✅ @each
      ✅ @for
      ✅ @while
+
+## I

@@ -1,0 +1,14 @@
+@use '../../utils/mixin';
+
+.rice {
+	display: gride;
+	grid-template-columns: 1fr 1fr;
+	height: 100vh;
+	background: url('../../public/assets/IMG.png');
+
+	@include mixin.media(800px) {
+		.box p {
+			grid-template-columns: 1fr;
+		}
+	}
+}
