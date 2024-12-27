@@ -1,0 +1,9 @@
+@use 'sass:list';
+
+$valid-sides: top, bottom, left, right;
+
+@mixin attach($side) {
+	@if not list.index($valid-sides, $side) {
+		@error "#{$side} is not a valid side. Expected one of #{$valid-sides}.";
+	}
+}

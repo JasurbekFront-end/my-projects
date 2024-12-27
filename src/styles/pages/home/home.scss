@@ -1,2 +1,10 @@
-@forward '../../base/index';
-@forward './hero';
+@use 'sass:list';
+$actions: error, success, warning, primary;
+$bg-colors: red, green, yellow, blue;
+
+@each $action in $actions {
+	.btn-#{$action} {
+		$index: list.index($actions, $action);
+		background-color: list.nth($bg-colors, $index);
+	}
+}

@@ -2,23 +2,32 @@
 
 ## Checking homeworks
 
-## Variables
+## Variables 👍
 
-     ✅ !default
-     ✅ !global
+     ✅ !default 👍
+     ✅ !global 👍
 
 ## At-Rules
 
      ✅ @function
-     ✅ @error
-     ✅ @warn
-     ✅ @debug
+     ✅ @error 👍
+     ✅ @warn 👍
+     ✅ @debug 👍
 
 ## List and Maps
 
+## Interpolation 👍
+
+## List methods 👍
+
+     ✅ list.nth
+     ✅ list.index
+     ✅ list.append
+     ✅ custom mixins
+
 ## Flow Control
 
-     ✅ @if and @else
+     ✅ @if and @else ans @else if 👍
      ✅ @each
      ✅ @for
      ✅ @while
