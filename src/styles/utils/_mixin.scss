@@ -1,31 +1,20 @@
-@use 'sass:list';
-$break-points: sm, md, lg, xl, xxl;
+@use 'sass:map';
+$break-points: (
+	sm: 567px,
+	md: 768px,
+	lg: 992px,
+	xl: 1024px,
+	xxl: 1400px,
+);
 
-@mixin media($break-point: list.nth($break-points, 2)) {
-	@if not list.index($break-points, $break-point) {
-		@error "#{$break-point} not supported, pls use this break points #{$break-points}";
+@mixin media($break-point) {
+	$width: map.get($break-points, $break-point); // 567px
+
+	@if not $width {
+		@error "#{$break-point} not supported";
 	}
 
-	@if $break-point == list.nth($break-points, 1) {
-		@media (max-width: 567px) {
-			@content;
-		}
-	} @else if $break-point == list.nth($break-points, 2) {
-		@media (max-width: 768px) {
-			@content;
-			background-color: red;
-		}
-	} @else if $break-point == list.nth($break-points, 3) {
-		@media (max-width: 992px) {
-			@content;
-		}
-	} @else if $break-point == list.nth($break-points, 4) {
-		@media (max-width: 1024px) {
-			@content;
-		}
-	} @else if $break-point == list.nth($break-points, 5) {
-		@media (max-width: 1400px) {
-			@content;
-		}
+	@media (max-width: $width) {
+		@content;
 	}
 }

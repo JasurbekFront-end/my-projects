@@ -28,6 +28,6 @@
 ## Flow Control
 
      ✅ @if and @else ans @else if 👍
-     ✅ @each
+     ✅ @each 👍
      ✅ @for
      ✅ @while

@@ -1,17 +1,10 @@
-.btn-error {
+.boxes {
   background-color: red;
 }
-
-.btn-success {
-  background-color: green;
-}
-
-.btn-warning {
-  background-color: yellow;
-}
-
-.btn-primary {
-  background-color: blue;
+@media (max-width: 768px) {
+  .boxes {
+    background-color: yellow;
+  }
 }
 
 /*# sourceMappingURL=home.css.map */
