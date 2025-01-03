@@ -3,12 +3,8 @@
 	"version": "1.0.0",
 	"description": "First package for learning",
 	"scripts": {
-		"sass:home": "sass --watch ./src/styles/pages/home/home.scss:./dist/styles/home.css",
-		"sass:about": "sass --watch ./src/styles/pages/about/about.scss:./dist/styles/about.css",
-		"sass:build:home": "sass --no-source-map --style compressed ./src/styles/pages/home/home.scss:./dist/styles/home.css",
-		"sass:build:about": "sass --no-source-map --style compressed ./src/styles/pages/about/about.scss:./dist/styles/about.css",
-		"sass:build:contact": "sass --no-source-map --style compressed ./src/styles/pages/about/about.scss:./dist/styles/about.css",
-		"sass:build": "bun sass:build:home && bun sass:build:about && bun sass:build:contact"
+		"sass:watch": "sass --watch ./src/styles/index.scss:./dist/styles/index.css",
+		"sass:build": "sass --no-source-map --style compressed ./src/styles/index.scss:./dist/styles/index.css"
 	},
 	"repository": {
 		"type": "git",

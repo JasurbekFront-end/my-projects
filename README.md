@@ -1,33 +1,7 @@
-# ---------- 27.12.24 ----------(32)
+# ---------- 03.01.25 ----------(33)
 
 ## Checking homeworks
 
-## Variables 👍
+## BEM - Block Element Modifier
 
-     ✅ !default 👍
-     ✅ !global 👍
-
-## At-Rules
-
-     ✅ @function
-     ✅ @error 👍
-     ✅ @warn 👍
-     ✅ @debug 👍
-
-## List and Maps
-
-## Interpolation 👍
-
-## List methods 👍
-
-     ✅ list.nth
-     ✅ list.index
-     ✅ list.append
-     ✅ custom mixins
-
-## Flow Control
-
-     ✅ @if and @else ans @else if 👍
-     ✅ @each 👍
-     ✅ @for
-     ✅ @while
+     ✅
