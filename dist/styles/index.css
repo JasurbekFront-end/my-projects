@@ -1,0 +1,21 @@
+/* Error: There is no module with the namespace "mixins".
+ *    ,
+ * 29 | /     @include mixins.media {
+ * 30 | |         padding: 0 15px;
+ * 31 | |         width: 100%;
+ * 32 | \     }
+ *    '
+ *   src/styles/base/_global.scss 29:2  @forward
+ *   src/styles/base/_index.scss 3:1    @forward
+ *   src/styles/index.scss 1:1          root stylesheet */
+
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: 'Error: There is no module with the namespace "mixins".\a    \2577 \a 29 \2502  \250c      @include mixins.media {\a 30 \2502  \2502          padding: 0 15px;\a 31 \2502  \2502          width: 100%;\a 32 \2502  \2514      }\a    \2575 \a   src/styles/base/_global.scss 29:2  @forward\a   src/styles/base/_index.scss 3:1    @forward\a   src/styles/index.scss 1:1          root stylesheet';
+}

@@ -1,0 +1,25 @@
+@use '../utils/mixins';
+
+.menu {
+	@include mixins.flex($gap: 16);
+	list-style: none;
+	&__item {
+		&__link {
+			@include mixins.typography($weight: 400, $size: 14, $line-height: 24.95);
+			color: var(--text-secondary);
+
+			&_active {
+				color: var(--text-primary);
+			}
+
+			&:hover {
+				color: var(--text-primary);
+			}
+		}
+
+		&:not(:last-child) {
+			border-right: 1px solid var(--light-gray-stroke);
+			padding-right: 16px;
+		}
+	}
+}

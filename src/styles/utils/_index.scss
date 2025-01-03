@@ -1,4 +1,2 @@
-@use 'functions';
 @use 'mixins';
-@use 'variables';
-@use 'helpers';
+@forward 'placeholders';

@@ -1,4 +1,3 @@
-@use './card';
-@use './buttons';
-@use './instagram-card';
-@use './food-card';
+@forward './navbar';
+@forward './menu';
+@forward './social';

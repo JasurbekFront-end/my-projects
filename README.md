@@ -2,6 +2,11 @@
 
 ## Checking homeworks
 
+## Initial styles 👍
+
+     ✅ variables
+     ✅ flex and typography mixins
+
 ## BEM - Block Element Modifier
 
      ✅
