@@ -33,14 +33,16 @@ $break-points: (
 	$size: 14,
 	$line-height: 24.95,
 	$align: left,
-	$decoration: none
+	$decoration: none,
+	$spacing: normal
 ) {
 	font-family: Lexend;
 	font-weight: $weight;
-	font-size: $size + px;
-	line-height: $line-height + px;
+	font-size: $size;
+	line-height: $line-height;
 	text-align: $align;
 	text-underline-position: from-font;
 	text-decoration-skip-ink: none;
 	text-decoration: $decoration;
+	letter-spacing: $spacing;
 }

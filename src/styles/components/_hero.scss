@@ -1,0 +1,77 @@
+@use '../utils/mixins';
+
+.hero {
+	margin-top: 2rem;
+	&__top {
+		padding: 48px 76px;
+		border-radius: 24px;
+		background: var(--light-green) url('../../images/hero-top.png') no-repeat bottom right;
+
+		&__title {
+			@include mixins.typography($weight: 600, $size: 48px, $line-height: 54px, $spacing: -5%);
+		}
+
+		&__description {
+			margin-top: 12px;
+			@include mixins.typography($weight: 300, $size: 16px, $line-height: 28px);
+		}
+
+		&__price {
+			margin-top: 21px;
+			@include mixins.flex($align: center);
+			&__icon {
+				color: var(--danger);
+			}
+
+			&__current {
+				margin-left: 16px;
+				@include mixins.typography($weight: 600, $size: 42px, $line-height: 54px);
+			}
+
+			&__old {
+				color: var(--text-secondary);
+				margin-left: 21px;
+
+				@include mixins.typography(
+					$weight: 600,
+					$size: 22px,
+					$line-height: 54px,
+					$decoration: line-through
+				);
+			}
+		}
+
+		&__buttons {
+			@include mixins.flex($gap: 12);
+
+			margin-top: 25px;
+		}
+	}
+
+	&__bottom {
+		padding: 23px 0;
+		border-radius: 12px;
+		margin-top: 16px;
+		background: #ffe62e17 url('../../images/hero-bottom.png') no-repeat 100%;
+
+		&__title {
+			@include mixins.typography(
+				$weight: 600,
+				$size: 24px,
+				$line-height: 31.5px,
+				$spacing: -2%,
+				$align: center
+			);
+		}
+		&__description {
+			color: var(--text-secondary);
+			@include mixins.typography(
+				$weight: 500,
+				$size: 16px,
+				$line-height: 178.2%,
+				$spacing: -3.5%,
+				$align: center
+			);
+		}
+	}
+}
