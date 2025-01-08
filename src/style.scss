@@ -1,1 +1,10 @@
 @forward './bootstrap';
+
+.box {
+	background-color: red;
+	cursor: pointer;
+
+	&:hover {
+		background-color: blue;
+	}
+}
