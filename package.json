@@ -3,8 +3,8 @@
 	"version": "1.0.0",
 	"description": "First package for learning",
 	"scripts": {
-		"sass:watch": "sass --watch ./src/styles/index.scss:./dist/styles/index.css",
-		"sass:build": "sass --no-source-map --style compressed ./src/styles/index.scss:./dist/styles/index.css"
+		"sass:watch": "sass --watch ./src/style.scss:./dist/style.css",
+		"sass:build": "sass --no-source-map --style compressed ./src/style.scss:./dist/style.css"
 	},
 	"repository": {
 		"type": "git",
