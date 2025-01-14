@@ -1,12 +1,27 @@
-# ---------- 06.01.25 ----------(34)
+# ---------- 13.01.25 ----------(37)
 
 ## Checking homeworks
 
-## Initial styles 👍
+## Always use px for border radius prop
 
-     ✅ variables
-     ✅ flex and typography mixins
+## Bootstrap components 👍
 
-## BEM - Block Element Modifier
+     ✅ Badge
+     ✅ Breadcrumb
+     ✅ Btn group
+     ✅ Carousel
+     ✅ Collapse
+     ✅ Dropdown
+     ✅ Modal
+     ✅ Tabs
+     ✅ Placeholder or Skeleton
+     ✅ Toasts
 
-     ✅
+## Bootstrap breakpoints 👍
+
+## Bootstrap responsive design 👍
+
+     ✅ Rows
+     ✅ Columns
+
+## Init config for tailwind
