@@ -1,10 +1,10 @@
 # ---------- 17.01.25 ----------(39)
 
-## Checking homeworks`
+## Checking homeworks 👍
 
 ## JS Introduction
 
-        ✅ Data Types
+        ✅ Data Types (Stack Memory, Heap Memory) 👍
             🔷 Primitive
                 🎁 String
                 🎁 Number
@@ -18,14 +18,24 @@
                 🎁 Function
 
         ✅ Function
-            🎁 What is Function
-            🎁 Function types
-            🎁 Return with function
+            🎁 What is Function 👍
+            🎁 Function types (void function, no-void function)
+            🎁 Return with function 👍
 
         ✅ Variables
             🎁 var
             🎁 let
             🎁 const
+
+        ✅ Variable Rules 👍
+            🎁 TDZ(Temporal Dead zone)
+            🎁 Hoisting
+            🎁 Scopes (Let and Const - Block scope, Var - Function scope)
+
+        ✅ String methods
+            🎁 slice 👍
+            🎁 replace
+            🎁
 
 
 
