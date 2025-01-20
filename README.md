@@ -2,7 +2,7 @@
 
 ## Checking homeworks
 
-## Challenges (40)
+## Challenges (find-idx)
 
 ## String Methods
 
