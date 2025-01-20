@@ -51,3 +51,42 @@
 // console.log(cut('firebase', 'aws', 'angular', 'react', 'next', 'js'));
 
 //
+
+/* CONCAT STRING METHOD */
+
+// let prefix = 'pdp';
+// let suffix = 'academy';
+
+// let full = prefix.concat(' ', suffix);
+
+// console.log('prefix = ', prefix);
+// console.log('suffix = ', suffix);
+// console.log('full = ', full);
+
+/**
+ *
+ * @param {string} str1
+ * @param {string} str2
+ * @returns {string}
+ */
+// function concat() {
+// 	let str = 'arslonbek';
+// 	let result = str;
+
+// 	for (let argument of arguments) {
+// 		result += argument;
+// 	}
+
+// 	return result;
+// }
+
+// const fullNames = concat('-jamshidbek', '-boburbek', '-sulton');
+// console.log(fullNames);
+
+// let str = 'hello world';
+
+function a(callback) {}
+
+function c() {}
+
+a(c);

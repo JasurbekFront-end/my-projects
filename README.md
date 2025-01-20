@@ -1,25 +1,33 @@
 # ---------- 20.01.25 ----------(40)
 
-## Checking homeworks
+## Checking homeworks 👍
 
-## Challenges (find-idx)
+## HOMEWORKS (map, reduce, filter, find)
 
-## String Methods
+## Challenges (find-idx) 👍
+
+## String Methods 👍
 
       ✅ concat
 
-## arguments
+## arguments 👍
 
-## Method vs Function
+## Method vs Function 👍
+
+## Undefined or Null errors 👍
+
+      ✅ From Index
+      ✅ From Dot notation
 
 ## Array
 
       ✅ Introduction to Arrays
-            🔷 Working simple array
-            🔷 Working matrix and x*y arrays
+            🔷 Working simple array 👍
+            🔷 Working matrix and x*y arrays 👍
 
       ✅ Basic Array Operations(Methods)
-            🔷 What is callback function
+            🔷 What is callback function 👍
+            🔷 What is Higher Order Function(HOF) ? 👍
             🔷 Crete simple forEach and map method
 
       ✅ Add and Remove Elements
