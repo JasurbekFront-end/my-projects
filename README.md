@@ -1,42 +1,42 @@
-# ---------- 17.01.25 ----------(39)
+# ---------- 20.01.25 ----------(40)
 
-## Checking homeworks 👍
+## Checking homeworks
 
-## JS Introduction
+## Challenges (40)
 
-        ✅ Data Types (Stack Memory, Heap Memory) 👍
-            🔷 Primitive
-                🎁 String
-                🎁 Number
-                🎁 Boolean
-                🎁 undefined
-                🎁 null
+## String Methods
 
-            🔷 Non-Primitive(Reference)
-                🎁 Object
-                🎁 Array
-                🎁 Function
+      ✅ concat
 
-        ✅ Function
-            🎁 What is Function 👍
-            🎁 Function types (void function, no-void function)
-            🎁 Return with function 👍
+## arguments
 
-        ✅ Variables
-            🎁 var
-            🎁 let
-            🎁 const
+## Method vs Function
 
-        ✅ Variable Rules 👍
-            🎁 TDZ(Temporal Dead zone)
-            🎁 Hoisting
-            🎁 Scopes (Let and Const - Block scope, Var - Function scope)
+## Array
 
-        ✅ String methods
-            🎁 slice 👍
-            🎁 replace
-            🎁
+      ✅ Introduction to Arrays
+            🔷 Working simple array
+            🔷 Working matrix and x*y arrays
 
+      ✅ Basic Array Operations(Methods)
+            🔷 What is callback function
+            🔷 Crete simple forEach and map method
 
+      ✅ Add and Remove Elements
+            🔷 push
+            🔷 unshift
+            🔷 pop
+            🔷 shift
+            🔷 forEach
+            🔷 map
 
-        ✅ Coding JS (https://bit.ly/3NbVsVX)
+## Spread operator and Rest param
+
+## Object
+
+      ✅ Introduction Object
+      ✅ Dot vs. Bracket Notation
+      ✅ Object Methods
+      ✅ this
+
+## https://github.com/leonardomso/33-js-concepts
