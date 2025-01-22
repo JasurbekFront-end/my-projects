@@ -1,23 +1,10 @@
-# ---------- 20.01.25 ----------(40)
+# ---------- 22.01.25 ----------(41)
 
-## Checking homeworks 👍
+## Checking homeworks
+
+## Challenges (filter-words)
 
 ## HOMEWORKS (map, reduce, filter, find)
-
-## Challenges (find-idx) 👍
-
-## String Methods 👍
-
-      ✅ concat
-
-## arguments 👍
-
-## Method vs Function 👍
-
-## Undefined or Null errors 👍
-
-      ✅ From Index
-      ✅ From Dot notation
 
 ## Array
 
