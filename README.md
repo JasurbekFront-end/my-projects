@@ -4,7 +4,16 @@
 
 ## Challenges (filter-words)
 
-## HOMEWORKS (map, reduce, filter, find)
+## Parsing 👍
+
+      ✅ Number to String
+      ✅ String to Number
+      ✅ Number to Boolean
+      ✅ String to Boolean
+      ✅ Boolean to Number
+      ✅ Boolean to String
+
+## HOMEWORKS (some, every, includes)
 
 ## Array
 
@@ -17,13 +26,18 @@
             🔷 What is Higher Order Function(HOF) ? 👍
             🔷 Crete simple forEach and map method
 
+      ✅ Methods
+            🔷 Method types
+            🔷 Mutable methods (push, pop, unshift, shift )
+            🔷 Immutable methods (forEach, map, filter)
+
       ✅ Add and Remove Elements
-            🔷 push
-            🔷 unshift
-            🔷 pop
-            🔷 shift
-            🔷 forEach
-            🔷 map
+            🔷 push 👍
+            🔷 pop 👍
+            🔷 unshift 👍
+            🔷 shift 👍
+            🔷 forEach 👍
+            🔷 map 👍
 
 ## Spread operator and Rest param
 
