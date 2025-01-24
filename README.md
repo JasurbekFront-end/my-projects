@@ -1,17 +1,8 @@
-# ---------- 22.01.25 ----------(41)
+# ---------- 24.01.25 ----------(42)
 
 ## Checking homeworks
 
-## Challenges (filter-words)
-
-## Parsing 👍
-
-      ✅ Number to String
-      ✅ String to Number
-      ✅ Number to Boolean
-      ✅ String to Boolean
-      ✅ Boolean to Number
-      ✅ Boolean to String
+## Challenges (maxRepeatedNumber)
 
 ## HOMEWORKS (some, every, includes)
 
