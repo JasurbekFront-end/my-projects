@@ -2,7 +2,9 @@
 
 ## Checking homeworks
 
-## Challenges (maxRepeatedNumber)
+## Challenges (maxRepeatedNumber) 👍
+
+      ✅ Introduction to Arrays
 
 ## HOMEWORKS (some, every, includes)
 
@@ -19,8 +21,8 @@
 
       ✅ Methods
             🔷 Method types
-            🔷 Mutable methods (push, pop, unshift, shift )
-            🔷 Immutable methods (forEach, map, filter)
+            🔷 Mutable methods (push, pop, unshift, shift)
+            🔷 Immutable methods (forEach, map, filter, some, every, includes)
 
       ✅ Add and Remove Elements
             🔷 push 👍
@@ -31,6 +33,10 @@
             🔷 map 👍
 
 ## Spread operator and Rest param
+
+      ✅ Destructuring 👍
+      ✅ Spread operator 👍
+      ✅ Rest param 👍
 
 ## Object
 
