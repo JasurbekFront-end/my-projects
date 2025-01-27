@@ -2,8 +2,8 @@
 
 ## Challenges
 
-      ✅ removeElement
-      ✅ reverseArray
+      ✅ removeElement 👍
+      ✅ reverseArray 👍
 
 ## Checking homeworks
 
