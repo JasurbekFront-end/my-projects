@@ -1,11 +1,16 @@
-# ---------- 27.01.25 ----------(43)
+# ---------- 29.01.25 ----------(44)
 
-## Challenges
+## Challenge
 
-      ✅ removeElement 👍
-      ✅ reverseArray 👍
+      ✅ mutations(Array)
 
 ## Checking homeworks
+
+      ✅
+
+## Array
+
+      ✅ sort
 
 ## Object
 
