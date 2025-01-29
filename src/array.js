@@ -1,33 +1,16 @@
-// const nums = [1, 2, 3];
-// const nums2 = new Array(nums.length).fill(3);
-// console.log('nums2 = ', nums2);
+/* Array sort method */
+/* string */
+// const names = ['alimbaev arslonbek', 'abinov arslonbek', 'boburbek'];
 
-// nums2.map((num) => {
-// 	console.log('num = ', num);
-// });
+// names.sort();
+// console.log('names = ', names);
 
-// // <li>List-1</li>, <li>List-2</li>, <li>List-3</li>
+/* number */
+const nums = [0, 3, 11, 33, 40, 44, 100];
 
-const nums = [1, 2, 3, 4]; // SM_nums_001 = HM_nums_0001
-
+nums.sort((a, b) => a - b);
 /**
- * HEAP MEMORY
- * HM_nums_0001 = [4, 2, 3, 4]
+ * cfr >= 0 => swap [a,b]
+ * cfr < 0 => no swap [a,b]
  */
-// nums[0] = nums[nums.length - 1]; // HM_nums_0001[0] = HM_nums_0001[3]
-// nums[nums.length - 1] = nums[0];
-
-// console.log('nums = ', nums);
-
-// let a = [1, 2, 3, [4, 5, 6]];
-// let b = [...a, [4, 5, 6]];
-// b[3] = [...a[3]];
-// a[3][0] = 10;
-// console.log(a); // [1,2,3,[10,5,6]]
-// console.log(b); // [1,2,3,[10,5,6],[4,5,6]]
-
-// const days = [30, 60, 90];
-// console.log(days.map((day) => `${day}days`).join(', ')); // 30days, 60days, 90days
-
-const num = prompt('Raqam kiriting...');
-console.log('num = ', Number(num));
+console.log('nums = ', nums);

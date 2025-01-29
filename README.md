@@ -4,18 +4,21 @@
 
       ✅ mutations(Array)
 
-## Checking homeworks
+## Checking homeworks 👍
 
-      ✅
+## Homeworks
 
-## Array
+      ✅ mutations(Array)
+      ✅ Array sort method
+
+## Array 👍
 
       ✅ sort
 
 ## Object
 
-      ✅ Introduction Object
-      ✅ Dot vs. Bracket Notation
+      ✅ Introduction Object 👍
+      ✅ Dot vs. Bracket Notation 👍
       ✅ Object Methods
       ✅ this
 

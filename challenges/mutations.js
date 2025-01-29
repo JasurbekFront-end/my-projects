@@ -2,7 +2,9 @@
  *
  * @param {number[]} nums
  */
-function mutations(nums) {}
+function mutations(nums) {
+	let result = [];
+}
 
 /**
  * Case 1:
