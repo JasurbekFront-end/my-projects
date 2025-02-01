@@ -1,4 +1,4 @@
-# ---------- 29.01.25 ----------(44)
+# ---------- 31.01.25 ----------(45)
 
 ## Challenge
 
@@ -9,7 +9,7 @@
 ## Homeworks
 
       ✅ mutations(Array)
-      ✅ Array sort method
+      ✅ Array sort method 👍
 
 ## Array 👍
 
@@ -21,5 +21,10 @@
       ✅ Dot vs. Bracket Notation 👍
       ✅ Object Methods
       ✅ this
+
+## Qolganlar
+
+      ✅ tenRun
+      ✅ notAlone
 
 ## https://github.com/leonardomso/33-js-concepts

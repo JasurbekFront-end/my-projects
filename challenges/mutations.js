@@ -4,7 +4,23 @@
  */
 function mutations(nums) {
 	let result = [];
+
+	return result;
 }
+
+plusOut('abXYabcXYZ', 'abc') → ++++abc+++
+/**
+	* Replaces all characters in the string except the target with '+'.
+	* @param {string} str - The input string.
+	* @param {string} target - The target substring to keep unchanged.
+	* @returns {string} - The modified string.
+	*/
+function plusOut(str, target) {
+	const regex = new RegExp(`(?!${target}).`, 'g');
+	return str.replace(regex, '+');
+}
+
+console.log(plusOut('abXYabcXYZ', 'abc')); // ++++abc+++
 
 /**
  * Case 1:
