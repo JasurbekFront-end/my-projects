@@ -1,4 +1,4 @@
-# ---------- 31.01.25 ----------(45)
+# ---------- 02.02.25 ----------(add-1)
 
 ## Challenge
 
@@ -22,7 +22,7 @@
       ✅ Object Methods
       ✅ this
 
-## Qolganlar
+## Qolganlar 👍
 
       ✅ tenRun
       ✅ notAlone
