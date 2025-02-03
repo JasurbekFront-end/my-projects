@@ -10,6 +10,14 @@
 
       ✅
 
-## Array 3
+## Typescript
+
+      ✅ Init project (tailwind with ts bun)
+      ✅ export and import
+      ✅ function return type
+      ✅ any
+      ✅ Array<T> vs T[]
+      ✅ Union types
+      ✅ Object key with similar key value
 
 ## https://github.com/leonardomso/33-js-concepts

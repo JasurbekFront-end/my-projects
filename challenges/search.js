@@ -6,10 +6,18 @@ console.log('-------SEARCH------');
  * @return {string[][]}
  */
 function search(words, searchWord) {
-	for (let letter of searchWord) {
-	}
-} // mouse
+	const result = {};
 
+	for (let i = 0; i < searchWord.length; i++) {
+		const currentSearch = searchWord.slice(0, i + 1);
+		const findWords = words
+			.filter((word, idx) => word.startsWith(currentSearch))
+			.filter((_, idx) => idx < 3);
+		result[currentSearch] = findWords;
+	}
+
+	return result;
+}
 console.log(search(['arslon'], 'arslon'));
 console.log(search(['pdp'], '')); // []
 console.log(search([], 'pdp')); // []
