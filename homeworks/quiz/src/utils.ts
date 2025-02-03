@@ -1,5 +1,5 @@
-import { ANSWER_INTERVAL } from './constants';
-import type { Operation } from './types';
+import { ANSWER_INTERVAL, MAX_NUMBER } from './constants';
+import type { Operation, Question } from './types';
 
 export function generateNumber(maxNumber: number): number {
 	const number = Math.floor(Math.random() * maxNumber);
