@@ -8,7 +8,16 @@ function isLetter(char) {
  *
  * @param {string[]} list
  */
-function findMax(list) {}
+function findMax(list) {
+	let max = 0;
+
+	for (const item of list) {
+		const num = Number(item) || item.length;
+		if (num > max) max = num;
+	}
+
+	return max;
+}
 
 console.log(findMax(['alic3', 'bob', '3', '4', '00000']) === 5);
 console.log(findMax(['bobur', '22', '15', 'arslonbek good boy']) === 22);

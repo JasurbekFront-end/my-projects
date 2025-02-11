@@ -5,7 +5,18 @@ console.log('-------SUM------');
  * @param {string[]} operations
  * @return {number}
  */
-function sum(nums, operations) {}
+function sum(nums, operations) {
+	if (!operations.length || nums.length < 2) return 0;
+
+	let str = '';
+	operations = operations.slice(0, nums.length - 1);
+
+	for (let i = 0; i < nums.length; i++) {
+		str += `${nums[i]}${operations[i] || ''}`;
+	}
+
+	return eval(str);
+}
 
 console.log(sum([4, 4, 1], ['+', '-', '*']) === 7); // 4 + 4 - 1 -> 7
 console.log(sum([1, 1], []) === 0); // 0
