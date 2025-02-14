@@ -1,14 +1,10 @@
-# ---------- 12.02.25 ---------- (50)
+# ---------- 14.02.25 ---------- (51)
 
 ## Homeworks
 
     ✅ Leetcode Daily for 12.02.25 (Optional)
     ✅ Install slack app
     ✅ Note for next lesson
-
-## Coding JS
-
-    ✅ Array 3
 
 ============= DOM =============
 
