@@ -3,34 +3,33 @@
 ## Homeworks
 
     ✅ Leetcode Daily for 12.02.25 (Optional)
-    ✅ Install slack app
     ✅ Note for next lesson
 
 ============= DOM =============
 
 ## DOM -> (Document Object Model)
 
-       ✅ What is this DOM ?
-       ✅ Simple example
+       ✅ What is this DOM ? 👍
+       ✅ Simple example 👍
 
-## DOM TREE and Nodes
+## DOM TREE and Nodes 👍
 
-       ✅ Most using nodes
+       ✅ Most using nodes 👍
            🔷 Element node
            🔷 Text node
            🔷 Comment node
-       ✅ Node types
+       ✅ Node types 👍
            🔷 https://developer.mozilla.org/en-US/docs/Web/API/Node/nodeType
 
 ## Change HTML codes
 
        ✅ Most using selectors
-           🔷 document.querySelector()
-           🔷 document.querySelectorAll()
-           🔷 document.getElementById()
-           🔷 document.getElementsByClassName()
-           🔷 document.getElementsByTagName()
-       ✅ Write Examples
+           🔷 document.getElementById() 👍
+           🔷 document.querySelector() 👍
+           🔷 document.querySelectorAll() 👍
+           🔷 document.getElementsByClassName() 👍
+           🔷 document.getElementsByTagName() 👍
+       ✅ Write Examples 👍
 
 ## Children Nodes
 

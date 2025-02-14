@@ -1,2 +1,4 @@
 // src/index.ts
-console.log("first");
+var animals = [];
+var firstAnimal = animals[0];
+firstAnimal.name;
