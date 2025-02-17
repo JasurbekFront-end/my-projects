@@ -1,9 +1,8 @@
-# ---------- 14.02.25 ---------- (51)
+# ---------- 17.02.25 ---------- (52)
 
 ## Homeworks
 
-    ✅ Leetcode Daily for 12.02.25 (Optional)
-    ✅ Note for next lesson
+    ✅ Sudoku
 
 ============= DOM =============
 
@@ -31,23 +30,41 @@
            🔷 document.getElementsByTagName() 👍
        ✅ Write Examples 👍
 
-## Children Nodes
+## Nodes
 
-       ✅ Write Examples
+       ✅ Root nodes
+           🔷 document
+           🔷 document.documentElement
+           🔷 document.head
+           🔷 document.body
 
-## Sibling Nodes
+       ✅ Parent nodes
+           🔷 parentNode
+           🔷 parentElement
 
-       ✅ Write Examples
+       ✅ Child nodes
+           🔷 childNodes
+           🔷 children
+           🔷 firstChild
+           🔷 firstElementChild
+           🔷 lastChild
+           🔷 lastElementChild
 
-## How To Make Changes to the DOM
+       ✅ Sibling Nodes
+           🔷 nextSibling
+           🔷 nextElementSibling
+           🔷 previousSibling
+           🔷 previousElementSibling
 
        ✅ Creating New Nodes
            🔷 createElement()
            🔷 createTextNode()
            🔷 textContent()
-           🔷 innerHTML()
-           🔷 https://developer.mozilla.org/en-US/docs/Web/API/Element/innerHTML#security_considerations - (cross-site scripting (XSS) )
+           🔷 innerText
+           🔷 innerHTML
+           🔷 https://developer.mozilla.org/en-US/docs/Web/API/Element/innerHTML#security_considerations - (cross-site scripting (XSS))
            🔷 https://www.youtube.com/watch?v=EoaDgUgS6QA
+
        ✅ Inserting Nodes into the DOM
            🔷 appendChild()
            🔷 insertBefore()
@@ -56,9 +73,7 @@
        ✅ Removing Nodes from the DOM
            🔷 removeChild()
            🔷 remove()
-       ✅ Removing Nodes from the DOM
-           🔷 removeChild()
-           🔷 remove()
+
 
 ## How To Modify Attributes, Classes, and Styles in the DOM
 
@@ -67,6 +82,7 @@
            🔷 getAttribute
            🔷 setAttribute
            🔷 removeAttribute
+
        ✅ Modifying Classes
            🔷 className
            🔷 classList.add
