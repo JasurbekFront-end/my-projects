@@ -1,4 +1,4 @@
 // src/index.ts
-var animals = [];
-var firstAnimal = animals[0];
-firstAnimal.name;
+var box1 = document.querySelector(".box-1");
+box1?.classList.remove("box-1");
+console.log(box1);

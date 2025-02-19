@@ -1,33 +1,6 @@
-// type Person = {
-// 	name: string;
-// 	age: number;
-// };
+const box1 = document.querySelector('.box-1');
 
-interface Animal {
-	name: string;
-	age: number;
-}
+// box1?.classList.toggle('box');
+box1?.classList.remove('box-1');
 
-interface Fish extends Animal {
-	swimTime: number;
-}
-
-interface Dog extends Animal {
-	runTime: number;
-}
-
-const fish: Fish = {
-	name: 'Nemo',
-	age: 20,
-	swimTime: 10,
-};
-
-const dog: Dog = {
-	name: 'Reks',
-	age: 10,
-	runTime: 20,
-};
-
-const animals: Dog[] = [];
-const firstAnimal = animals[0];
-firstAnimal.name
+console.log(box1);
