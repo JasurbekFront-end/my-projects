@@ -1,6 +1,10 @@
-const box1 = document.querySelector('.box-1');
+const container: HTMLDivElement = document.querySelector('#container')!;
+const btn: HTMLButtonElement = document.querySelector('.btn')!;
 
-// box1?.classList.toggle('box');
-box1?.classList.remove('box-1');
-
-console.log(box1);
+document.addEventListener('click', () => console.log('Clicked DOCUMENT'), { capture: true });
+document.documentElement?.addEventListener('click', () => console.log('Clicked HTML'), {
+	capture: true,
+});
+document.body?.addEventListener('click', () => console.log('Clicked Body'), { capture: true });
+container?.addEventListener('click', () => console.log('Clicked Container'), { capture: true });
+btn?.addEventListener('click', () => console.log('Clicked Button'), { capture: true });
