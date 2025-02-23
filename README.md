@@ -1,13 +1,14 @@
-# ---------- 21.02.25 ---------- (54)
+# ---------- 23.02.25 ---------- (Add-2)
 
-## Homeworks
+## Projects
 
-    ✅ Note Lessons(51-52-53)
-    ✅ Event (Events, Common Events, Events Phase)
-    ✅ Todo App (DOM, Events, Events Phase)
-    ✅ Leetcode 2 daily
+    ✅ Quiz App (v1 + v2)
+    ✅ Tic Tac Toe
+    ✅ Sudoku Flashing
+    ✅ Pig game
+    ✅ Todo App
 
-============= DOM =============
+
 
 ## Object and Set and Map
 
@@ -16,7 +17,7 @@
            🔷 Object.values()
            🔷 Object.entries()
 
-       ✅ Set
+       ✅ Set 👍
            🔷 new Set() 👍
            🔷 add() 👍
            🔷 delete() 👍
@@ -31,56 +32,12 @@
            🔷 has()
            🔷 clear()
 
-## Classes, and Styles in the DOM
-
-       ✅ Modifying Classes 👍
-           🔷 className 👍
-           🔷 classList.add 👍
-           🔷 classList.remove 👍
-           🔷 classList.toggle 👍
-           🔷 classList.replace 👍
-
-## Understanding Events in JavaScript
-
-       ✅ Inline Event Handler with Attributes 👍
-       ✅ Event Handler Properties 👍
-       ✅ Event Listeners 👍
-           🔷 addEventListener 👍
-           🔷 removeEventListener 👍
-
-## Common Events
-
-       ✅ Mouse Events 👍
-           🔷 click
-           🔷 dblclick
-           🔷 mouseenter
-           🔷 mouseleave
-           🔷 mousemove
-
-       ✅ Form Events
-           🔷 document.forms 👍
-           🔷 form.elements 👍
-           🔷 submit 👍
-           🔷 focus 👍
-           🔷 blur 👍
-
-       ✅ Keyboard Events 👍
-           🔷 key-down 👍
-           🔷 key-up 👍
-           🔷 keypress 👍
-
-## [ALL EVENTS](https://developer.mozilla.org/en-US/docs/Web/API/Event) 👍
-
-## Events Phase
-
-       ✅ Bubbling phase 👍
-       ✅ Capturing Phase 👍
-       ✅ Target Phase 👍
 
 ## Git and Github
 
-## Deploy ts app from github to Netlify
+## Deploy ts app from github to Online Hosting
+    ✅ Vercel
+    ✅ Netlify
 
-## Projects
 
-    ✅
+
