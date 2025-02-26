@@ -1,14 +1,12 @@
-# ---------- 23.02.25 ---------- (Add-2)
+# ---------- 26.02.25 ---------- (55)
 
 ## Projects
 
-    ✅ Quiz App (v1 + v2)
-    ✅ Tic Tac Toe
-    ✅ Sudoku Flashing
-    ✅ Pig game
     ✅ Todo App
-
-
+    ✅ Tic Tac Toe
+    ✅ Pig game
+    ✅ Sudoku Flashing
+    ✅ Quiz App (v1 + v2)
 
 ## Object and Set and Map
 
@@ -32,12 +30,9 @@
            🔷 has()
            🔷 clear()
 
-
 ## Git and Github
 
 ## Deploy ts app from github to Online Hosting
+
     ✅ Vercel
     ✅ Netlify
-
-
-
