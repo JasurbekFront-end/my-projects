@@ -1,58 +1,98 @@
-import { type Status, type Todo, type UpdateTodo } from './types';
-const todos: Todo[] = [
-  {
-    id: 0.55435204890881,
-    title: 'Buy milk',
-    status: 'PENDING'
-  },
-  {
-    id: 0.55435204890882,
-    title: 'Go to gym',
-    status: 'PENDING'
-  },
-  {
-    id: 0.55435204890883,
-    title: 'Wake Up Early',
-    status: 'PENDING'
+import { state, addTodo, deleteTodo, todos } from './db';
+import { todoForm, todosWrapper } from './elements';
+import type { Todo } from './types';
+
+// HANDLER FUNCTION
+function handleSubmit(e: SubmitEvent) {
+  e.preventDefault();
+  const input = todoForm.elements[0] as HTMLInputElement;
+  const title = input.value.trim();
+
+  if (title) {
+    const isEdit = state.currentTodoId;
+    if (isEdit) {
+      const todoIdx = todos.findIndex(todo => todo.id === state.currentTodoId);
+      const todo = todos[todoIdx];
+      todo.title = title;
+      state.currentTodoId = null;
+
+      updateTodo(todo, todoIdx);
+    } else {
+      const todo = addTodo(title);
+
+      renderTodo(todo);
+    }
+
+    todoForm.reset();
   }
-];
-
-function addTodo(todoTitle: string) {
-  const todo: Todo = { id: Math.random(), title: todoTitle, status: 'PENDING' };
-  todos.push(todo);
 }
 
-function deleteTodo(todoId: number) {
-  const idx = todos.findIndex(todo => todo.id === todoId);
-  todos.splice(idx, 1);
+function handleDeleteTodo(todoId: number) {
+  const deletedTodoIdx = deleteTodo(todoId);
+  removeTodo(deletedTodoIdx);
 }
 
-function updateTodo(todoId: number, newTodo: UpdateTodo) {
-  const idx = todos.findIndex(todo => todo.id === todoId);
-  const todo = todos[idx]; // HM_0004
-
-  todo.title = newTodo.title || todo.title;
-  todo.status = newTodo.status || todo.status;
+function handleEditTodo(todo: Todo) {
+  state.currentTodoId = todo.id;
+  const todoInput = todoForm.elements[0] as HTMLInputElement;
+  todoInput.value = todo.title;
 }
 
-function clearTodo() {
-  todos.splice(0, todos.length);
+// UI FUNCTION
+function renderTodo(todo: Todo) {
+  const todoElementElm = document.createElement('div');
+  todoElementElm.className = 'flex w-full items-center justify-between border-b border-gray-200 py-2 dark:border-gray-700';
+
+  const checkboxAndTitleWrapperElm = document.createElement('div');
+  checkboxAndTitleWrapperElm.className = 'flex items-center gap-2';
+
+  const checkboxElm = document.createElement('input');
+  checkboxElm.setAttribute('type', 'checkbox');
+
+  const titleElm = document.createElement('p');
+  titleElm.id = 'title';
+  titleElm.innerText = todo.title;
+
+  checkboxAndTitleWrapperElm.append(checkboxElm, titleElm);
+
+  const actionsWrapperElm = document.createElement('div');
+  actionsWrapperElm.className = 'flex w-max items-center gap-2';
+
+  const editBtnElm = document.createElement('button');
+  editBtnElm.className = 'btn';
+  editBtnElm.innerText = 'Edit';
+  editBtnElm.addEventListener('click', () => handleEditTodo(todo));
+
+  const deleteBtnElm = document.createElement('button');
+  deleteBtnElm.className = 'btn bg-[red]';
+  deleteBtnElm.innerText = 'Delete';
+  deleteBtnElm.addEventListener('click', () => handleDeleteTodo(todo.id));
+
+  actionsWrapperElm.append(editBtnElm, deleteBtnElm);
+
+  todoElementElm.append(checkboxAndTitleWrapperElm, actionsWrapperElm);
+
+  todosWrapper.append(todoElementElm);
 }
 
-function filterTodos(status?: Status) {
-  if (!status) return todos;
+function removeTodo(deletedTodoIdx: number) {
+  const deletedTodoElm = todosWrapper.children[deletedTodoIdx];
+  deletedTodoElm.remove();
+}
 
-  const filteredTodos = todos.filter(todo => todo.status === status);
-  return filteredTodos;
+function updateTodo(todo: Todo, todoIdx: number) {
+  const todoElm = todosWrapper.children[todoIdx];
+  const titleElm: HTMLParagraphElement = todoElm.querySelector('#title')!;
+  titleElm.innerText = todo.title;
+}
+
+// LOGIC FUNCTION
+function addListeners() {
+  todoForm.addEventListener('submit', handleSubmit);
 }
 
 function init() {
-  updateTodo(todos[0].id, { status: 'COMPLETED' });
-  updateTodo(todos[1].id, { status: 'COMPLETED' });
-
-  console.log(filterTodos());
-  console.log(filterTodos('PENDING'));
-  console.log(filterTodos('COMPLETED'));
+  addListeners();
 }
 
-init();
+window.addEventListener('load', init);

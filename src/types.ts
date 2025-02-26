@@ -4,5 +4,7 @@ export type Todo = {
   title: string;
   status: Status;
 };
-
 export type UpdateTodo = Partial<Pick<Todo, 'status' | 'title'>>;
+export type State = {
+  currentTodoId: number | null;
+};

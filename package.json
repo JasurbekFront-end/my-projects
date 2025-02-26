@@ -6,7 +6,7 @@
     "dev:tailwind": "bun tailwindcss -i ./src/styles/index.css -o  ./dist/index.css --watch",
     "dev:ts": "bun build --watch --outfile=./dist/index.js ./src/index.ts",
     "dev:html": "bun live-server --port=3000 --entry-file=index.html public",
-    "dev": "concurrently \"bun dev:tailwind\" \"bun dev:ts\" \"bun dev:html\""
+    "dev": "concurrently \"bun dev:tailwind\" \"bun dev:ts\""
   },
   "devDependencies": {
     "@types/bun": "latest",
