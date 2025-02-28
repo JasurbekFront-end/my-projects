@@ -1,9 +1,10 @@
-# ---------- 26.02.25 ---------- (55)
+# ---------- 28.02.25 ---------- (56)
 
 ## Projects
 
-    ✅ Todo App
-    ✅ Tic Tac Toe
+    ✅ Todo App 👍
+    ✅ Pomodoro
+    ✅ Tic Tac Toe (v1 + v2)
     ✅ Pig game
     ✅ Sudoku Flashing
     ✅ Quiz App (v1 + v2)
