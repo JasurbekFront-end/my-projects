@@ -1,10 +1,12 @@
-import { types } from './contants';
+import { types } from './constants';
 import { btns, startPauseBtn, timerElm } from './elements';
-import type { Type } from './types';
+import type { State, Type } from './types';
 
-let MAX_TIME = 25 * 60; // 25 minutes (seconds)
-let intervalId: NodeJS.Timer | null = null;
-
+let state: State = {
+  type: 'POMODORO',
+  currentTime: types.POMODORO.time,
+  intervalId: null
+};
 
 // HANDLE FUNCTIONS
 function handleChangeType(e: MouseEvent) {
@@ -13,19 +15,16 @@ function handleChangeType(e: MouseEvent) {
 
   btns.forEach(btn => btn.classList.remove('btn-active'));
   btn.classList.add('btn-active');
+  state.type = newType;
 
-  document.body.className = '';
-  const value = types[newType];
-  document.body.classList.add(value.parentClassName);
-
-  changeTimer(newType);
+  restartTimer();
 }
 
 function handleStartPause(e: MouseEvent) {
   const currentBtn = e.target as HTMLButtonElement;
-  if (intervalId) {
-    clearInterval(intervalId);
-    intervalId = null;
+  if (state.intervalId) {
+    clearInterval(state.intervalId);
+    state.intervalId = null;
     currentBtn.innerText = 'Start';
   } else {
     startTimer();
@@ -40,39 +39,45 @@ function renderTimer(minute: number, second: number) {
   timerElm.innerText = `${minuteWithPrefix}:${secondWithPrefix}`;
 }
 
+function restartTimer() {
+  const { time, parentClassName } = types[state.type];
+
+  // Replace the body bg color
+  document.body.className = parentClassName;
+
+  // Reset the current time
+  state.currentTime = time;
+
+  // Reset the startPauseBtn text
+  startPauseBtn.innerText = 'Start';
+
+  // Clear the interval
+  clearInterval(state.intervalId!);
+  state.intervalId = null;
+
+  // Reset timer UI
+  const [minute, second] = calcTimer();
+  renderTimer(minute, second);
+}
+
 // LOGIC FUNCTIONS
 function startTimer() {
-  intervalId = setInterval(() => {
+  state.intervalId = setInterval(() => {
     const [minute, second] = calcTimer();
     renderTimer(minute, second);
   }, 10);
 }
 
-function restartTimer() {
-  startPauseBtn.innerText = 'Start';
-  clearInterval(intervalId!);
-  intervalId = null;
-  const [minute, second] = calcTimer();
-  renderTimer(minute, second);
-}
-
-function changeTimer(newType: Type) {
-  const value = types[newType];
-  MAX_TIME = value.time;
-  restartTimer();
-}
-
 function calcTimer() {
-  const second = MAX_TIME % 60;
-  const minute = Math.floor(MAX_TIME / 60);
+  const second = state.currentTime % 60;
+  const minute = Math.floor(state.currentTime / 60);
 
-  if (MAX_TIME === 0) {
-    clearInterval(intervalId!);
-    intervalId = null;
+  if (state.currentTime === 0) {
+    clearInterval(state.intervalId!);
+    state.intervalId = null;
   }
 
-  MAX_TIME--;
-
+  state.currentTime--;
   return [minute, second];
 }
 
