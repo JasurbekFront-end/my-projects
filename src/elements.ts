@@ -1,3 +1,4 @@
-export const btns: NodeListOf<HTMLButtonElement> = document.querySelectorAll('.btn');
-export const timerElm: HTMLParagraphElement = document.querySelector('.timer')!;
-export const startPauseBtn: HTMLButtonElement = document.querySelector('#start-pause-btn')!;
+export const squares: NodeListOf<HTMLButtonElement> = document.querySelectorAll('.square');
+export const restartButton: HTMLButtonElement = document.querySelector('.restart')!;
+export const message: HTMLDivElement = document.querySelector('.message')!;
+export const historiesElm: HTMLDivElement = document.querySelector('.histories')!;

@@ -1,7 +1,7 @@
-export type Type = 'POMODORO' | 'SHORT_BREAK' | 'LONG_BREAK';
-
+export type Player = 'X' | 'O';
+export type Board = (Player | null)[];
 export type State = {
-  type: Type;
-  currentTime: number;
-  intervalId: NodeJS.Timer | null;
+  winner: Player | null;
+  currentStep: number;
+  histories: Board[];
 };
