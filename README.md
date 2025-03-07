@@ -1,4 +1,4 @@
-# ---------- 05.03.25 ---------- (58)
+# ---------- 07.03.25 ---------- (59)
 
 ## Homeworks
 
@@ -13,7 +13,7 @@
 
     ✅ Todo App 👍
     ✅ Pomodoro 👍
-    ✅ Tic Tac Toe (v1 + v2)
+    ✅ Tic Tac Toe (v1 👍 + v2)
     ✅ Pattern Memory
     ✅ Pig game
     ✅ Sudoku Flashing

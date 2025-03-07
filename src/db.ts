@@ -1,12 +1,17 @@
-import type { Player, State } from './types';
+import type { Player, State, Status } from './types';
 export const state: State = {
-  winner: null,
   currentStep: 0,
   histories: [new Array(9).fill(null)]
 };
 
+export function getCurrentBoard() {
+  const { currentStep, histories } = state;
+  const currentBoard = histories[currentStep];
+  return currentBoard;
+}
+
 export function getNextPlayer() {
-  const board = state.histories[state.currentStep];
+  const board = getCurrentBoard();
   const filteredBoard = board.filter(Boolean);
   const nextPlayer: Player = filteredBoard.length % 2 === 0 ? 'X' : 'O';
 
@@ -14,9 +19,10 @@ export function getNextPlayer() {
 }
 
 export function nextMove(moveIdx: number) {
-  if (state.winner) return;
+  const { winner } = getStatus();
+  if (winner) return;
 
-  const board = [...state.histories[state.currentStep]];
+  const board = [...getCurrentBoard()];
 
   const isEmpty = board[moveIdx] === null;
 
@@ -25,14 +31,17 @@ export function nextMove(moveIdx: number) {
   const nextPlayer = getNextPlayer();
   board[moveIdx] = nextPlayer;
 
-  state.histories.push(board);
+  state.histories.splice(state.currentStep + 1, Infinity, board);
   state.currentStep++;
-
-  state.winner = checkWinner();
 }
 
-export function checkWinner() {
-  const board = state.histories[state.currentStep];
+export function changeStep(step: number) {
+  state.currentStep = step;
+}
+
+export function getStatus() {
+  const board = getCurrentBoard();
+  const status: Status = { winner: null, isDraw: false };
 
   const lines = [
     [0, 1, 2],
@@ -48,11 +57,14 @@ export function checkWinner() {
   for (let i = 0; i < lines.length; i++) {
     const [a, b, c] = lines[i];
     if (board[a] && board[a] === board[b] && board[a] === board[c]) {
-      return board[a];
+      status.winner = board[a];
+      return status;
     }
   }
 
-  return null;
+  status.isDraw = board.every(Boolean);
+
+  return status;
 }
 
 export function reset() {

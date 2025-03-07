@@ -16,7 +16,11 @@
   }
   .game ol,
   .game ul {
-    padding-left: 30px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.25rem;
   }
   .board-row:after {
     clear: both;
