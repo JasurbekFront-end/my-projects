@@ -1,62 +1,32 @@
-import { changeStep, getCurrentBoard, getNextPlayer, getStatus, nextMove, reset, state } from './db';
-import { historiesElm, message, restartButton, squares } from './elements';
+import { boardElms } from './elements';
+import type { Sudoku } from './types';
 
-// Handle function
-function handleSquare(moveIdx: number) {
-  nextMove(moveIdx);
-  renderTicTacToe();
+const sudoku: Sudoku = [
+  [null, null, null, null, null, null, null, null, null],
+  [null, null, null, null, null, null, null, null, null],
+  [null, null, null, null, null, null, null, null, null],
+  [null, null, null, null, null, null, null, null, null],
+  [null, null, null, null, null, null, null, null, null],
+  [null, null, null, null, null, null, null, null, null],
+  [null, null, null, null, null, null, null, null, null],
+  [null, null, null, null, null, null, null, null, null],
+  [null, null, null, null, null, null, null, null, null]
+];
+
+function handleCell(boardIdx: number, cellIdx: number) {
+  console.log({ boardIdx, cellIdx });
 }
 
-function handleRestart(e: MouseEvent) {
-  reset();
-  renderTicTacToe();
-}
+for (let boardIdx = 0; boardIdx < sudoku.length; boardIdx++) {
+  const board = sudoku[boardIdx];
+  const boardElm = boardElms[boardIdx];
 
-function handleHistory(step: number) {
-  changeStep(step);
-  renderTicTacToe();
-}
+  for (let cellIdx = 0; cellIdx < board.length; cellIdx++) {
+    const cell = board[cellIdx];
+    const cellElm = boardElm.children[cellIdx] as HTMLButtonElement;
 
-// UI functions
-function renderTicTacToe() {
-  const { currentStep, histories } = state;
-  const { winner, isDraw } = getStatus();
-  const board = getCurrentBoard();
+    cellElm.innerText = `${boardIdx}-${cellIdx}`;
 
-  squares.forEach((square, idx) => {
-    square.textContent = board[idx];
-  });
-
-  if (winner) {
-    message.innerText = `Winner: ${winner}`;
-  } else if (isDraw) {
-    message.innerText = `Draw!`;
-  } else {
-    message.innerText = `Next Player: ${getNextPlayer()}`;
-  }
-
-  historiesElm.innerHTML = '';
-  for (let i = 0; i < histories.length; i++) {
-    const btn = document.createElement('button');
-    const innerText = i === 0 ? 'Go to game start' : `Go to move #${i}`;
-    btn.textContent = innerText;
-    btn.disabled = i === currentStep;
-    btn.addEventListener('click', () => handleHistory(i));
-    historiesElm.append(btn);
+    cellElm.addEventListener('click', () => handleCell(boardIdx, cellIdx));
   }
 }
-
-// Logic Function
-function addListeners() {
-  squares.forEach((square, idx) => {
-    square.addEventListener('click', () => handleSquare(idx));
-  });
-  restartButton.addEventListener('click', handleRestart);
-}
-
-function init() {
-  renderTicTacToe();
-  addListeners();
-}
-
-window.addEventListener('load', init);

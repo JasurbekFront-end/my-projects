@@ -4,17 +4,14 @@ export default {
   theme: {
     extend: {
       colors: {
-        pomodoro: '#BA4949',
-        short: '#38858A',
-        long: '#397097'
+        primary: '#344861',
+        secondary: '#BFC6D4',
+        active: '#E2EBF3',
+        focus: '#BBDEFB'
       },
       fontFamily: {
         poppins: 'Poppins'
       }
     }
-  },
-  corePlugins: {
-    preflight: false
-  },
-  plugins: []
+  }
 };

@@ -1,11 +1,3 @@
-export type Player = 'X' | 'O';
-export type Board = (Player | null)[];
-export type State = {
-  currentStep: number;
-  histories: Board[];
-};
-
-export type Status = {
-  winner: Player | null;
-  isDraw: boolean;
-};
+export type Value = number | null;
+export type Board = Value[]; // (number | null)[]
+export type Sudoku = Board[]; // ((number | null)[])[]
