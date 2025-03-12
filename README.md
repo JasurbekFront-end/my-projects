@@ -4,7 +4,7 @@
 
     ✅ Projects (DOM)(5d)
         ☑️ Sudoku Flashing (0.5d)
-        ☑️ Password Generator (0.5d)
+        ☑️ Password Generator only logics without UI (0.5d) 👍
         ☑️ Pattern Memory (1d)
         ☑️ Pig game (1d)
         ☑️ Quiz app (v1 + v2) (2d)
