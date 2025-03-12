@@ -3,4 +3,19 @@
 @tailwind utilities;
 
 @layer components {
+  .sudoku {
+    @apply bg-primary grid size-[600px] grid-cols-3 gap-0.5 p-0.5;
+  }
+
+  .board {
+    @apply bg-secondary grid grid-cols-3 gap-px;
+  }
+
+  .cell {
+    @apply text-primary hover:bg-focus grid place-items-center bg-white text-2xl font-bold transition-all hover:cursor-pointer active:scale-95;
+  }
+
+  .active {
+    @apply bg-active;
+  }
 }

@@ -1,67 +1,32 @@
-/* CONSTANTS (20 minutes) */
-const numbers = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'];
-const lowerCaseLetters = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'];
-const upperCaseLetters = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'];
-const specialCharacters = [
-  '!',
-  '@',
-  '#',
-  '$',
-  '%',
-  '^',
-  '&',
-  '*',
-  '(',
-  ')',
-  '_',
-  '-',
-  '+',
-  '=',
-  '{',
-  '}',
-  '[',
-  ']',
-  '|',
-  '\\',
-  ':',
-  ';',
-  "'",
-  '"',
-  ',',
-  '.',
-  '<',
-  '>',
-  '/',
-  '?',
-  '`',
-  '~'
+import { boardElms } from './elements';
+import type { Sudoku } from './types';
+
+const sudoku: Sudoku = [
+  [null, null, null, null, null, null, null, null, null],
+  [null, null, null, null, null, null, null, null, null],
+  [null, null, null, null, null, null, null, null, null],
+  [null, null, null, null, null, null, null, null, null],
+  [null, null, null, null, null, null, null, null, null],
+  [null, null, null, null, null, null, null, null, null],
+  [null, null, null, null, null, null, null, null, null],
+  [null, null, null, null, null, null, null, null, null],
+  [null, null, null, null, null, null, null, null, null]
 ];
-const MAX_PASSWORD_LENGTH = 12;
 
-/* LOGIC FUNCTIONS */
-// verb + noun (generatePassword)
-// noun + verb (passwordGenerate)
-function generatePassword() {
-  const allCharacters = [];
-  const isNumbers = false;
-  const isLowerCase = true;
-  const isUpperCase = true;
-  const isSpecialCharacters = true;
-
-  if (isNumbers) allCharacters.push(...numbers);
-  if (isLowerCase) allCharacters.push(...lowerCaseLetters);
-  if (isUpperCase) allCharacters.push(...upperCaseLetters);
-  if (isSpecialCharacters) allCharacters.push(...specialCharacters);
-
-  allCharacters.sort(() => Math.random() - 0.5);
-  const generatedPassword = allCharacters.slice(0, MAX_PASSWORD_LENGTH).join('');
-
-  return generatedPassword;
+function handleCell(boardIdx: number, cellIdx: number) {
+  console.log({ boardIdx, cellIdx });
 }
 
-function init() {
-  const password = generatePassword();
-  console.log('password = ', password);
-}
+for (let boardIdx = 0; boardIdx < sudoku.length; boardIdx++) {
+  const board = sudoku[boardIdx];
+  const boardElm = boardElms[boardIdx];
 
-window.addEventListener('load', init);
+  for (let cellIdx = 0; cellIdx < board.length; cellIdx++) {
+    const cell = board[cellIdx];
+    const cellElm = boardElm.children[cellIdx] as HTMLButtonElement;
+
+    cellElm.innerText = `${boardIdx}-${cellIdx}`;
+
+    cellElm.addEventListener('click', () => handleCell(boardIdx, cellIdx));
+  }
+}
