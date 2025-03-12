@@ -3,7 +3,7 @@
 ## Next plans
 
     ✅ Projects (DOM)(5d)
-        ☑️ Sudoku Flashing (0.5d)
+        ☑️ Sudoku Flashing (0.5d) 👍
         ☑️ Password Generator only logics without UI (0.5d) 👍
         ☑️ Pattern Memory (1d)
         ☑️ Pig game (1d)
