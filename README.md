@@ -1,40 +1,32 @@
 # ---------- 12.03.25 ---------- (61)
 
-## Projects
+## Next plans
 
-    ✅ Todo App 👍
-    ✅ Pomodoro 👍
-    ✅ Tic Tac Toe (v1 👍 + v2 👍)
-    ✅ Pattern Memory
-    ✅ Pig game
-    ✅ Sudoku Flashing
-    ✅ Quiz App (v1 + v2)
+    ✅ Projects (DOM)(5d)
+        ☑️ Sudoku Flashing (0.5d)
+        ☑️ Password Generator (0.5d)
+        ☑️ Pattern Memory (1d)
+        ☑️ Pig game (1d)
+        ☑️ Quiz app (v1 + v2) (2d)
 
-## Object and Set and Map
+    ✅ Git and Github (3d)
+        ☑️ git add
+        ☑️ git status
+        ☑️ git commit
+        ☑️ git fetch
+        ☑️ git merge
+        ☑️ git pull
+        ☑️ git push
+        ☑️ git checkout
+        ☑️ git stash
+        ☑️ git log
+        ☑️ git reset
 
-       ✅ Object
-           🔷 Object.keys()
-           🔷 Object.values()
-           🔷 Object.entries()
+    ✅ Deploying apps (1d)
+        ☑️ Deploying apps to vercel from github
+        ☑️ How to get new domain
+        ☑️ How to add domain your website
 
-       ✅ Set 👍
-           🔷 new Set() 👍
-           🔷 add() 👍
-           🔷 delete() 👍
-           🔷 has() 👍
-           🔷 clear() 👍
+    ✅ OOP (3d)
 
-       ✅ Map
-           🔷 new Map()
-           🔷 set()
-           🔷 get()
-           🔷 delete()
-           🔷 has()
-           🔷 clear()
-
-## Git and Github
-
-## Deploy ts app from github to Online Hosting
-
-    ✅ Vercel
-    ✅ Netlify
+    ✅ Examine - 6
