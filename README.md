@@ -1,5 +1,40 @@
-# ---------- 10.03.25 ---------- (60)
+# ---------- 12.03.25 ---------- (61)
 
-## Examine-5 JS-DOM
+## Projects
 
-### [project](https://t.me/c/2290401210/1586)
+    ✅ Todo App 👍
+    ✅ Pomodoro 👍
+    ✅ Tic Tac Toe (v1 👍 + v2 👍)
+    ✅ Pattern Memory
+    ✅ Pig game
+    ✅ Sudoku Flashing
+    ✅ Quiz App (v1 + v2)
+
+## Object and Set and Map
+
+       ✅ Object
+           🔷 Object.keys()
+           🔷 Object.values()
+           🔷 Object.entries()
+
+       ✅ Set 👍
+           🔷 new Set() 👍
+           🔷 add() 👍
+           🔷 delete() 👍
+           🔷 has() 👍
+           🔷 clear() 👍
+
+       ✅ Map
+           🔷 new Map()
+           🔷 set()
+           🔷 get()
+           🔷 delete()
+           🔷 has()
+           🔷 clear()
+
+## Git and Github
+
+## Deploy ts app from github to Online Hosting
+
+    ✅ Vercel
+    ✅ Netlify

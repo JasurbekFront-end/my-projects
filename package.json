@@ -3,8 +3,8 @@
   "module": "index.ts",
   "type": "module",
   "scripts": {
-    "dev:tailwind": "bun tailwindcss -i ./src/styles/index.css -o  ./dist/index.css --watch",
-    "dev:ts": "bun build --watch --outfile=./dist/index.js ./src/index.ts",
+    "dev:tailwind": "npm run tailwindcss -i ./src/styles/index.css -o  ./dist/index.css --watch",
+    "dev:ts": "npm run build --watch --outfile=./dist/index.js ./src/index.ts",
     "dev": "concurrently \"bun dev:tailwind\" \"bun dev:ts\""
   },
   "devDependencies": {
