@@ -1,13 +1,13 @@
-# ---------- 12.03.25 ---------- (61)
+# ---------- 14.03.25 ---------- (62)
 
 ## Next plans
 
     ✅ Projects (DOM)(5d)
         ☑️ Sudoku Flashing (0.5d) 👍
         ☑️ Password Generator only logics without UI (0.5d) 👍
+        ☑️ Quiz app (v1 + v2) (2d)
         ☑️ Pattern Memory (1d)
         ☑️ Pig game (1d)
-        ☑️ Quiz app (v1 + v2) (2d)
 
     ✅ Git and Github (3d)
         ☑️ git add
