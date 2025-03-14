@@ -3,5 +3,7 @@
 @tailwind utilities;
 
 @layer components {
-
+  .question {
+    @apply flex h-[400px] flex-col items-center justify-center bg-blue-200;
+  }
 }
