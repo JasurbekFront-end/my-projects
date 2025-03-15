@@ -11,15 +11,13 @@ export function renderQuiz(question: Question) {
   renderAnswers(question);
 }
 
-function renderQuestion(question: Question) {
-  number1Elm.innerText = question.number1.toString();
-  number2Elm.innerText = question.number2.toString();
-  operationElm.innerText = question.operation;
+function renderQuestion({ number1, number2, operation }: Question) {
+  number1Elm.innerText = number1.toString();
+  number2Elm.innerText = number2.toString();
+  operationElm.innerText = operation;
 }
 
-function renderAnswers(question: Question) {
-  const { answers, correctAnswer } = question;
-
+function renderAnswers({ answers, correctAnswer }: Question) {
   for (let i = 0; i < answers.length; i++) {
     const answerBtn = answerBtns[i];
     const answer = answers[i];

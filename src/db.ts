@@ -9,54 +9,40 @@ export function generateNumber(maxNumber: number): number {
 
 export function generateOperation() {
   const operations: Operation[] = ['*', '+', '-'];
-  const randomIdx = generateNumber(operations.length); // 0, 1, 2
+  const randomIdx = generateNumber(3); //
   const operation = operations[randomIdx];
 
   return operation;
 }
 
 export function calculateAnswer(number1: number, number2: number, operation: Operation) {
-  let answer = 0;
-
   switch (operation) {
     case '+':
-      answer = number1 + number2;
-      break;
+      return number1 + number2;
     case '-':
-      answer = number1 - number2;
-      break;
+      return number1 - number2;
     case '*':
-      answer = number1 * number2;
-      break;
-    default:
-      break;
+      return number1 * number2;
   }
-
-  return answer;
 }
 
 export function generateAnswers(correctAnswer: number) {
-  const answers = [correctAnswer];
+  const answers = new Set([correctAnswer]);
 
-  for (let i = 0; i < 3; i++) {
+  while (answers.size !== 4) {
     const randomAnswer = generateNumber(correctAnswer + ANSWER_INTERVAL); // ⏰
-    if (answers.includes(randomAnswer)) {
-      i--;
-      continue;
-    }
-
-    answers.push(randomAnswer);
+    answers.add(randomAnswer);
   }
 
-  return answers.sort(() => Math.random() - 0.5);
+  return Array.from(answers).sort(() => Math.random() - 0.5);
 }
 
 export function generateQuestion() {
-  const number1 = generateNumber(MAX_NUMBER);
-  const number2 = generateNumber(MAX_NUMBER);
-  const operation = generateOperation();
-  const correctAnswer = calculateAnswer(number1, number2, operation);
-  const answers = generateAnswers(correctAnswer);
+  const number1 = generateNumber(MAX_NUMBER); // 44
+  const number2 = generateNumber(MAX_NUMBER); // 20
+  const operation = generateOperation(); // "+"
+  const correctAnswer = calculateAnswer(number1, number2, operation); // 64
+  const answers = generateAnswers(correctAnswer); //
   const question: Question = { number1, number2, operation, correctAnswer, answers };
 
   return question;

@@ -1,6 +1,6 @@
 import type { Question } from './types';
 import { renderQuiz } from './ui';
-import { generateQuestion } from './utils';
+import { generateQuestion } from './db';
 const questions: Question[] = [];
 
 export function init() {
@@ -9,4 +9,4 @@ export function init() {
   renderQuiz(question);
 }
 
-init();
+window.addEventListener('load', init);
