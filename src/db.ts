@@ -1,5 +1,10 @@
-import { ANSWER_INTERVAL, MAX_NUMBER } from './constants';
-import type { Operation, Question } from './types';
+import { ANSWER_INTERVAL, MAX_NUMBER, MAX_QUESTION_COUNT } from './constants';
+import type { Operation, Question, State } from './types';
+
+export const state: State = {
+  questions: [],
+  currentQuestionIdx: 0
+};
 
 export function generateNumber(maxNumber: number): number {
   const number = Math.floor(Math.random() * maxNumber);
@@ -37,13 +42,50 @@ export function generateAnswers(correctAnswer: number) {
   return Array.from(answers).sort(() => Math.random() - 0.5);
 }
 
-export function generateQuestion() {
+export function getNextQuestion() {
+  if (state.questions.length === MAX_QUESTION_COUNT) return;
+
   const number1 = generateNumber(MAX_NUMBER); // 44
   const number2 = generateNumber(MAX_NUMBER); // 20
   const operation = generateOperation(); // "+"
   const correctAnswer = calculateAnswer(number1, number2, operation); // 64
   const answers = generateAnswers(correctAnswer); //
-  const question: Question = { number1, number2, operation, correctAnswer, answers };
+  const question: Question = {
+    number1,
+    number2,
+    operation,
+    correctAnswer,
+    answers,
+    selectedAnswer: null,
+    status: 'unanswered'
+  };
+
+  state.questions.push(question);
+  state.currentQuestionIdx = state.questions.length - 1;
 
   return question;
+}
+
+export function getCurrentQuestion() {
+  const currentQuestion = state.questions[state.currentQuestionIdx];
+
+  return currentQuestion;
+}
+
+export function checkAnswer(selectedAnswer: number) {
+  const question = getCurrentQuestion();
+  const isCorrect = selectedAnswer === question.correctAnswer;
+
+  question.status = isCorrect ? 'correct' : 'incorrect';
+  question.selectedAnswer = selectedAnswer;
+}
+
+export function getOrder() {
+  const order = state.currentQuestionIdx + 1;
+
+  return order;
+}
+
+export function changeQuestion(questionIdx: number) {
+  state.currentQuestionIdx = questionIdx;
 }

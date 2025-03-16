@@ -1,4 +1,4 @@
-# ---------- 14.03.25 ---------- (62)
+# ---------- 16.03.25 ---------- (63)
 
 ## Next plans
 
@@ -8,6 +8,16 @@
         ☑️ Quiz app (v1 + v2) (2d)
         ☑️ Pattern Memory (1d)
         ☑️ Pig game (1d)
+
+    ✅ Fragment 👍
+
+    ✅ Pick and Omit 👍
+
+    ✅ Extract and Exclude 👍
+
+    ✅ Enum vs Union types
+        ☑️ Enum
+        ☑️ Union types
 
     ✅ Git and Github (3d)
         ☑️ git add
