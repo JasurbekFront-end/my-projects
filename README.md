@@ -11,24 +11,24 @@
 
 ### 1. Introduction to Git & Version Control
 
-- What is Version Control and why is it important?
-- Difference between Git and GitHub
+- What is Version Control and why is it important? 👍
+- Difference between Git and GitHub 👍
 - How Git works (Local and Remote Repositories)
-- Installing Git (Windows, macOS, Linux)
-- Configuring Git (`git config`)
+- Installing Git (Windows, macOS, Linux) 👍
+- Configuring Git (`git config`) 👍
 
-🛠 **Practice:** Install Git and configure user details
+🛠 **Practice:** Install Git and configure user details 👍
 
 ---
 
 ### 2. Basic Git Commands
 
-- `git init` – Create a new repository
-- `git status` – Check repository status
-- `git add` – Stage changes
-- `git commit` – Save changes
-- `git log` – View commit history
-- `git diff` – Compare changes
+- `git init` – Create a new repository 👍
+- `git status` – Check repository status 👍
+- `git add` – Stage changes 👍
+- `git commit` – Save changes 👍
+- `git log` – View commit history 👍
+- `git diff` – Compare changes 👍
 - `git reset` and `git checkout` – Undo changes
 
 🛠 **Practice:** Create a local repository and commit changes
@@ -47,12 +47,12 @@
 
 ---
 
-### 4. Working with GitHub
+### 4. Working with GitHub 👍
 
-- Creating a GitHub repository
-- Connecting a local repository to GitHub (`git remote add origin`)
-- `git push` – Push changes to GitHub
-- `git pull` – Fetch and merge changes from GitHub
+- Creating a GitHub repository 👍
+- Connecting a local repository to GitHub (`git remote add origin`) 👍
+- `git push` – Push changes to GitHub 👍
+- `git pull` – Fetch and merge changes from GitHub (`git fetch` + `git merge`)
 - `git clone` – Copy a remote repository
 
 🛠 **Practice:** Create a GitHub repository and link it to a local repository
