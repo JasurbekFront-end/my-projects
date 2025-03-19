@@ -6,8 +6,7 @@
         ☑️ Sudoku Flashing (0.5d) 👍
         ☑️ Password Generator only logics without UI (0.5d) 👍
         ☑️ Quiz app (v1 + v2) (2d) 👍
-        ☑️ Pattern Memory (1d)
-        ☑️ Pig game (1d)
+        ☑️ Movies app (3d) 
 
 ### 1. Introduction to Git & Version Control 👍
 
@@ -60,10 +59,9 @@
 
 ### 5. Collaboration & Pull Requests
 
-- Understanding Forks and Clones
-- What is a Pull Request (PR)?
+- Understanding Clone
+- What is a Pull Request (PR)? 👍
 - Code Review and Merging PRs
-- Using GitHub Issues and Projects
 
 🛠 **Practice:** Fork a repository, create a PR, and review changes
 
