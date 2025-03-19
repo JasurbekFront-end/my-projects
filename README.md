@@ -1,4 +1,4 @@
-# ---------- 17.03.25 ---------- (64)
+# ---------- 19.03.25 ---------- (65)
 
 ## Next plans
 
@@ -9,11 +9,11 @@
         ☑️ Pattern Memory (1d)
         ☑️ Pig game (1d)
 
-### 1. Introduction to Git & Version Control
+### 1. Introduction to Git & Version Control 👍
 
 - What is Version Control and why is it important? 👍
 - Difference between Git and GitHub 👍
-- How Git works (Local and Remote Repositories)
+- How Git works (Local and Remote Repositories) 👍
 - Installing Git (Windows, macOS, Linux) 👍
 - Configuring Git (`git config`) 👍
 
@@ -31,14 +31,13 @@
 - `git diff` – Compare changes 👍
 - `git reset` and `git checkout` – Undo changes
 
-🛠 **Practice:** Create a local repository and commit changes
+🛠 **Practice:** Create a local repository and commit changes 👍
 
 ---
 
 ### 3. Branching and Merging
 
 - What is a Branch and why use it?
-- `git branch` – Create and list branches
 - `git checkout` / `git switch` – Switch branches
 - `git merge` – Merge branches
 - Resolving merge conflicts
@@ -73,28 +72,16 @@
 ### 6. Advanced Git
 
 - `git stash` – Save temporary changes
-- `git tag` – Versioning and Releases
 - `.gitignore` – Ignoring unnecessary files
 
 🛠 **Practice:** Use `git stash`, and `.gitignore`
 
----
+### Deploying apps (1d)
 
-### 7. Best Practices & Real-World Git Usage
-
-- Branch naming conventions
-- Writing clear commit messages
-- Git workflows (GitFlow, GitHub Flow)
-
-🛠 **Practice:** Implement a Git workflow for a sample project
-
----
-
-    ✅ Deploying apps (1d)
         ☑️ Deploying apps to vercel from github
         ☑️ How to get new domain
         ☑️ How to add domain your website
 
-    ✅ OOP (3d)
+### OOP (3d)
 
-    ✅ Examine - 6
+### Examine - 6
