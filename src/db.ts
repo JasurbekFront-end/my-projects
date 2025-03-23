@@ -120,24 +120,27 @@ export function getMovies() {
 }
 
 export function addMovie(movie: Omit<Movie, 'id'>) {
+  const movies = [...state.movies];
   const newMovie = { id: faker.string.nanoid(5), ...movie };
-  state.movies.push(newMovie);
+  movies.push(newMovie);
 
-  return newMovie;
+  setState({ movies });
 }
 
 export function updateMovie(movieId: string, movie: Partial<Omit<Movie, 'id'>>) {
-  const updateIdx = state.movies.findIndex(m => m.id === movieId);
-  state.movies[updateIdx] = { ...state.movies[updateIdx], ...movie };
+  const movies = [...state.movies];
+  const updateIdx = movies.findIndex(m => m.id === movieId);
+  movies[updateIdx] = { ...movies[updateIdx], ...movie };
 
-  return updateMovie;
+  setState({ movies });
 }
 
 export function deleteMovie(movieId: string) {
-  const deleteIdx = state.movies.findIndex(m => m.id === movieId);
-  const [deletedMovie] = state.movies.splice(deleteIdx, 1);
+  const movies = [...state.movies];
+  const deleteIdx = movies.findIndex(m => m.id === movieId);
+  movies.splice(deleteIdx, 1);
 
-  return deletedMovie;
+  setState({ movies });
 }
 
 export function setState(newState: Partial<State>) {

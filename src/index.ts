@@ -4,7 +4,6 @@ import { genresWrapper, moviesCountElm, paginationWrapper, searchInput, tableBod
 import type { Genre } from './types';
 
 // HANDLE FUNCTIONS
-
 function handleSelectGenre(event: MouseEvent) {
   const btn = event.target as HTMLButtonElement;
   const value = btn.dataset.value! as Genre;
@@ -31,7 +30,6 @@ function handleDelete(event: MouseEvent) {
 }
 
 // UI FUNCTIONS
-
 export function render() {
   renderGenres();
   renderMovies();
@@ -123,6 +121,7 @@ function renderPagination() {
 
   paginationWrapper.replaceChildren(fragment);
 }
+
 // LOGIC Functions
 function init() {
   render();
