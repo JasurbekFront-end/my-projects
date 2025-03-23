@@ -10,11 +10,77 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
-
     <title>Movies</title>
   </head>
   <body>
-    <button class="btn btn-primary mt-2">Click me</button>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand font-bold">G-20</a>
+        <div class="navbar-collapse">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link">Movies</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link">Login</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link">Register</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="page-wrapper">
+      <div class="container mt-[32px]">
+        <div class="row">
+          <div class="col-2">
+            <ul class="list-group" id="genres-wrapper">
+              <li class="list-group-item">An active item</li>
+              <li class="list-group-item">A second item</li>
+              <li class="list-group-item">A third item</li>
+              <li class="list-group-item">A fourth item</li>
+              <li class="list-group-item">And a fifth one</li>
+            </ul>
+          </div>
+          <div class="col">
+            <button class="btn btn-primary mb-[20px]" id="new-movie-btn">New Movie</button>
+            <p class="m-0" id="movies-count">Showing 10 movies in the database.</p>
+            <input type="text" name="query" class="form-control my-3" placeholder="Search..." id="search-input" />
+            <table class="table">
+              <thead>
+                <tr>
+                  <th>Title</th>
+                  <th>Genre</th>
+                  <th>Stock</th>
+                  <th>Rate</th>
+                  <th></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Airplane</td>
+                  <td>Comedy</td>
+                  <td>7</td>
+                  <td>3.5</td>
+                  <td>
+                    <button class="btn btn-primary btn-sm">Edit</button>
+                    <button class="btn btn-danger btn-sm">Delete</button>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <nav>
+              <ul class="pagination" id="pagination-wrapper">
+                
+                <li class="page-item active"><a class="page-link">2</a></li>
+                <li class="page-item"><a class="page-link">3</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 
   <script

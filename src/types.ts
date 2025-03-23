@@ -1,4 +1,4 @@
-export type Genre = 'Comedy' | 'Action' | 'Thriller';
+export type Genre = 'All' | 'Comedy' | 'Action' | 'Thriller';
 
 export interface Movie {
   id: string;
@@ -9,7 +9,7 @@ export interface Movie {
 }
 
 export interface State {
-  currentGenre: Genre | null;
+  currentGenre: Genre;
   currentPage: number;
   search: string;
   movies: Movie[];

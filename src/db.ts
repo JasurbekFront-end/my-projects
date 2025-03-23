@@ -2,9 +2,10 @@ import { GENRES, PAGE_SIZE } from './constants';
 import { faker } from '@faker-js/faker';
 import type { Movie, State } from './types';
 import { paginate } from './utils';
-export const state: State = {
-  currentGenre: null,
-  currentPage: 4,
+import { render } from '.';
+export let state: State = {
+  currentGenre: 'All',
+  currentPage: 1,
   search: '',
   movies: [
     {
@@ -106,7 +107,7 @@ export function getMovies() {
   console.log('movies = ', movies);
 
   // Genre filter
-  const filteredMovies: Movie[] = currentGenre ? movies.filter(m => m.genre === currentGenre) : movies;
+  const filteredMovies: Movie[] = currentGenre !== 'All' ? movies.filter(m => m.genre === currentGenre) : movies;
 
   // Search filter
   const searchedMovies: Movie[] = search
@@ -115,10 +116,7 @@ export function getMovies() {
 
   const paginatedMovies: Movie[] = paginate(searchedMovies, currentPage, PAGE_SIZE);
 
-  console.log('paginatedMovies = ', paginatedMovies);
-  console.log('state = ', state);
-
-  return paginatedMovies;
+  return { movies: paginatedMovies, total: searchedMovies.length };
 }
 
 export function addMovie(movie: Omit<Movie, 'id'>) {
@@ -140,6 +138,12 @@ export function deleteMovie(movieId: string) {
   const [deletedMovie] = state.movies.splice(deleteIdx, 1);
 
   return deletedMovie;
+}
+
+export function setState(newState: Partial<State>) {
+  state = { ...state, ...newState };
+
+  render();
 }
 
 function generateMovie(): Movie {

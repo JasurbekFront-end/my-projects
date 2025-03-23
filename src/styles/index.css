@@ -2,4 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-
+@layer components {
+  .nav-item {
+    @apply cursor-pointer text-gray-200 hover:text-gray-900;
+  }
+}
