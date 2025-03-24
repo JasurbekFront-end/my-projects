@@ -1,3 +1,4 @@
+import { initMovie } from '../movie';
 import { GENRES, PAGE_SIZE } from './constants';
 import { deleteMovie, getMovies, setState, state } from './db';
 import type { Genre } from './types';
@@ -167,9 +168,10 @@ function addListeners() {
   const searchInput: HTMLInputElement = document.querySelector('#search-input')!;
 
   searchInput.addEventListener('input', handleChangeSearch);
+  newMovieBtn.addEventListener('click', initMovie);
 }
 
-export function moviesInit() {
+export function initMovies() {
   renderInitHTML();
 
   render();
