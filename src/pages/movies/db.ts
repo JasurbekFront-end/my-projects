@@ -104,7 +104,6 @@ export let state: State = {
 
 export function getMovies() {
   const { movies, currentGenre, search, currentPage } = state;
-  console.log('movies = ', movies);
 
   // Genre filter
   const filteredMovies: Movie[] = currentGenre !== 'All' ? movies.filter(m => m.genre === currentGenre) : movies;
