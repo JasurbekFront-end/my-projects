@@ -13,8 +13,5 @@ export default {
         poppins: 'Poppins'
       }
     }
-  },
-  corePlugins: {
-    preflight: false
   }
 };
