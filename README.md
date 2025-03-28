@@ -1,4 +1,4 @@
-# ---------- 26.03.25 ---------- (69)
+# ---------- 28.03.25 ---------- (70)
 
 ### Next plans
 
@@ -14,14 +14,15 @@
     ✅ TDZ(Temporal Dead Zone) only for [let and const] 👍
     ✅ Scoping (var - function, let and const - block) 👍
 
-### Object
+### Object 👍
 
-    ✅ Object
-    ✅ Object.assign()
-    ✅ Object.keys()
-    ✅ Object.values()
-    ✅ Object.entries()
-    ✅ Object.freeze()
+    ✅ Object 👍
+    ✅ key in 👍
+    ✅ Object.keys() 👍
+    ✅ Object.values() 👍
+    ✅ Object.entries() 👍
+    ✅ structuredClone vs Object.assign() 👍
+    ✅ Object.freeze() 👍
 
 ### Functions
 
@@ -33,18 +34,18 @@
 
 ### Referencing
 
+    ✅ Arrow functions  👍
+    ✅ Spread operator 👍
+    ✅ Destructuring 👍
+    ✅ Rest parameters 👍
+    ✅ Default parameters
+    ✅ Error Handling
     ✅ OOP
     ✅ Classes
-    ✅ Arrow functions
-    ✅ Spread operator
-    ✅ Destructuring
-    ✅ Rest parameters
-    ✅ Default parameters
     ✅ Template literals
     ✅ Promises
     ✅ Async/Await
     ✅ Fetch API
-    ✅ Error Handling
     ✅ Debugging
     ✅ Functional Programming
 
