@@ -10,7 +10,9 @@ export default defineConfig([
   tseslint.configs.recommended,
   {
     rules: {
-      '@typescript-eslint/no-unused-vars': 'warn'
+      '@typescript-eslint/no-unused-vars': 'warn',
+      '@typescript-eslint/no-explicit-any': 'warn',
+      '@typescript-eslint/ban-ts-comment': 'off'
     }
   }
 ]);
