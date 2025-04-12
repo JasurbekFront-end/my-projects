@@ -22,5 +22,7 @@
   "peerDependencies": {
     "typescript": "^5.0.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "quiz": "."
+  }
 }
