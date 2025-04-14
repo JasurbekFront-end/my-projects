@@ -1,50 +1,4 @@
-# ---------- 09.04.25 ---------- (73)
-
-### Next plans
-
-    ✅ Projects (DOM)(5d)
-        ☑️ Sudoku Flashing (0.5d) 👍
-        ☑️ Password Generator only logics without UI (0.5d) 👍
-        ☑️ Quiz app (v1 + v2) (2d) 👍
-        ☑️ Movies app (3d) 👍
-
-### Let vs Const vs Var 👍
-
-    ✅ Hosting 👍
-    ✅ TDZ(Temporal Dead Zone) only for [let and const] 👍
-    ✅ Scoping (var - function, let and const - block) 👍
-
-### Object 👍
-
-    ✅ Object 👍
-    ✅ key in 👍
-    ✅ Object.keys() 👍
-    ✅ Object.values() 👍
-    ✅ Object.entries() 👍
-    ✅ structuredClone vs Object.assign() 👍
-    ✅ Object.freeze() 👍
-
-### Functions
-
-    ✅ Anonymous function (function expression) 👍
-    ✅ Function Expression vs Function Declaration 👍
-    ✅ Functions and this 👍
-    ✅ Functions and arguments 👍
-    ✅ Functions and call, bind, apply 👍
-
-### Topics
-
-    ✅ Arrow functions  👍
-    ✅ Spread operator 👍
-    ✅ Destructuring 👍
-    ✅ Rest parameters 👍
-    ✅ Default parameters 👍
-
-### Error handling
-
-    ✅ Throw 👍
-    ✅ Try and catch blocks 👍
-    ✅ Error handling 👍
+# ---------- 14.04.25 ---------- (75)
 
 ### JS OOP
 
@@ -58,14 +12,87 @@
     ✅ call && bind && apply function methods 👍🏻
     ✅ Constructor function
     ✅ new keyword
-    ✅ Abstraction
-    ✅ Private Properties and Methods
+    ✅ Prototype chain
     ✅ Getters and Setters
     ✅ Object.defineProperty && Object.freeze && Object.hasOwnProperty
-
     ✅ Class
     ✅ Constructor
     ✅ Inheritance
+    ✅ Abstraction
+    ✅ Private Properties and Methods
+
+### Constructor Function
+
+    ✅ Simple regular function
+    ✅ Uses this to refer to the newly created object (only works correctly with new)
+    ✅ Capitalized by convention (e.g., function Person() {})
+    ✅ Used to create multiple similar objects
+
+### new Keyword
+
+    ✅ Creates a new empty object {}
+    ✅ Sets the constructor function’s this to point to that new object
+    ✅ Links the new object’s prototype to the constructor’s .prototype
+    ✅ Automatically returns the new object (unless the function returns)
+    ✅ Explain with function.call method
+
+### setPrototypeOf and getPrototypeOf
+
+    ✅ setPrototypeOf
+    ✅ getPrototypeOf
+
+### Prototype chain
+
+    ✅ Explain with simple example
+
+### instanceof keyword
+
+    ✅ Checks if an object was created by a specific constructor
+    ✅ Returns true if the constructor appears in the prototype chain
+
+### Getters and Setters
+
+    ✅ Control how properties are accessed/changed
+    ✅ Use get and set keywords
+
+### Object.defineProperty
+
+    ✅ Fine-tune property behavior (value, writable, enumerable, configurable)
+
+### Object.freeze
+
+    ✅ Prevent any modification to the object
+    ✅ Object becomes immutable
+
+### Object.hasOwnProperty
+
+    ✅ Checks if a property exists directly on the object
+    ✅ Ignores inherited properties
+
+### Class
+
+    ✅ Template for creating objects
+    ✅ Encapsulation of data and behavior
+
+### Constructor
+
+    ✅ Initializes object properties
+    ✅ Runs automatically when a new object is created
+
+### Inheritance
+
+    ✅ Allows one class to inherit properties and methods from another
+    ✅ Helps in code reusability
+
+### Abstraction
+
+    ✅ Hides the implementation details
+    ✅ Focuses on essential features
+
+### Private Properties and Methods
+
+    ✅ Encapsulation of sensitive data
+    ✅ Accessed only within the class
 
 # JS Advanced
 
@@ -92,13 +119,6 @@
     ✅ private and public
     ✅ class
     ✅ Generic types
-
-# PayMe Project
-
-    ✅ Login Page(email, password)
-    ✅ Register Page(email, password, name, username, confirmPassword, phone(imask))
-    ✅ Forget Password(email)
-    ✅ Reset Password(password, confirmPassword)
 
 # [JS Interview questions (500)](https://github.com/sudheerj/javascript-interview-questions)
 

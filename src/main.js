@@ -36,18 +36,18 @@
 
 /* __proto__ vs prototype */
 
-const string = new String('arslonbek');
-console.log('string = ', string);
+// const string = new String('arslonbek');
+// console.log('string = ', string);
 
-const boolean = new Boolean(true);
-console.log('boolean = ', boolean);
+// const boolean = new Boolean(true);
+// console.log('boolean = ', boolean);
 
-function Box() {} // new Function()
-const box = new Box(); // {}
-console.log('box = ', box);
+// function Box() {} // new Function()
+// const box = new Box(); // {}
+// console.log('box = ', box);
 
-console.log(Box.__proto__ === Function.prototype);
-console.log(Box.__proto__.__proto__ === Function.prototype.__proto__);
-console.log(Function.__proto__ === Function.prototype);
-console.log(Function.prototype.__proto__ === Object.prototype);
-console.log(Function.prototype.__proto__.__proto__);
+// console.log(Box.__proto__ === Function.prototype);
+// console.log(Box.__proto__.__proto__ === Function.prototype.__proto__);
+// console.log(Function.__proto__ === Function.prototype);
+// console.log(Function.prototype.__proto__ === Object.prototype);
+// console.log(Function.prototype.__proto__.__proto__);
