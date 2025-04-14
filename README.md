@@ -23,48 +23,48 @@
 
 ### Constructor Function
 
-    ✅ Simple regular function
-    ✅ Uses this to refer to the newly created object (only works correctly with new)
-    ✅ Capitalized by convention (e.g., function Person() {})
-    ✅ Used to create multiple similar objects
+    ✅ Simple regular function 👍
+    ✅ Uses this to refer to the newly created object (only works correctly with new) 👍
+    ✅ Capitalized by convention (e.g., function Person() {}) 👍
+    ✅ Used to create multiple similar objects 👍
 
 ### new Keyword
 
-    ✅ Creates a new empty object {}
-    ✅ Sets the constructor function’s this to point to that new object
-    ✅ Links the new object’s prototype to the constructor’s .prototype
-    ✅ Automatically returns the new object (unless the function returns)
-    ✅ Explain with function.call method
+    ✅ Creates a new empty object {} 👍
+    ✅ Sets the constructor function’s this to point to that new object 👍
+    ✅ Links the new object’s prototype to the constructor’s .prototype 👍
+    ✅ Automatically returns the new object (unless the function returns) 👍
+    ✅ Explain with function.call method 👍
 
 ### setPrototypeOf and getPrototypeOf
 
-    ✅ setPrototypeOf
-    ✅ getPrototypeOf
+    ✅ setPrototypeOf 👍
+    ✅ getPrototypeOf 👍
 
-### Prototype chain
+### Prototype chain 👍
 
-    ✅ Explain with simple example
+    ✅ Explain with simple example 👍
 
-### instanceof keyword
+### instanceof keyword 👍
 
-    ✅ Checks if an object was created by a specific constructor
+    ✅ Checks if an object was created by a specific constructor 👍
     ✅ Returns true if the constructor appears in the prototype chain
 
-### Getters and Setters
+### Getters and Setters 👍
 
     ✅ Control how properties are accessed/changed
     ✅ Use get and set keywords
 
-### Object.defineProperty
+### Object.defineProperty 👍
 
-    ✅ Fine-tune property behavior (value, writable, enumerable, configurable)
+    ✅ Fine-tune property behavior (value, writable, enumerable, configurable) 👍
 
-### Object.freeze
+### Object.freeze 👍
 
     ✅ Prevent any modification to the object
     ✅ Object becomes immutable
 
-### Object.hasOwnProperty
+### Object.hasOwnProperty 👍
 
     ✅ Checks if a property exists directly on the object
     ✅ Ignores inherited properties
@@ -97,15 +97,14 @@
 # JS Advanced
 
     ✅ Expression vs Statement 👍🏻
-    ✅ OOP && Object.create && Object.assign
-    ✅ Prototype && Prototype Chain
-    ✅ Functional Programming && Closure
-    ✅ JS Execution && Event Loop
-    ✅ JS Modules
-    ✅ Getters && Setters
-    ✅ Promises && Async/Await
-    ✅ NPM Package
-    ✅ Backend && AJAX && Fetch
+    ✅ OOP - 3d
+    ✅ Prototype && Prototype Chain 👍🏻
+    ✅ Functional Programming && Closure - 1d
+    ✅ JS Execution && Event Loop - 1d
+    ✅ JS Modules  👍
+    ✅ Promises && Async/Await - 2d
+    ✅ NPM Package 👍
+    ✅ Backend && AJAX && Fetch  - 2d
     ✅ Clean Code
 
 # Typescript
