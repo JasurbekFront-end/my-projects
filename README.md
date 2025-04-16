@@ -62,24 +62,27 @@
     ✅ Methods for accessing data: External data manipulation should only happen via methods.
     🇺🇿 Ma'lumotlarga kirish uchun metodlar: Tashqi ma'lumotlarni faqat metodlar orqali o‘zgartirish kerak.
 
-### Inheritance
+### Access Modifiers: public, private, protected 👍
 
-    ✅ Inheritance: A class can inherit properties and methods from another class.
+    ✅ public: Accessible from anywhere. 👍
+    🇺🇿 public: Hamma joydan kirish mumkin.
+
+    ✅ private: Only accessible within the class. 👍
+    🇺🇿 private: Faqat class ichidan kirish mumkin.
+
+    ✅ protected: Accessible within the class and its subclasses. 👍
+    🇺🇿 protected: Class va uning subclasslari ichidan kirish mumkin.
+
+### Inheritance 👍
+
+    ✅ Inheritance: A class can inherit properties and methods from another class. 👍
     🇺🇿 Inheritance (Meros olish): Bitta class boshqa classdan xususiyatlar va metodlarni meros oladi.
 
-    ✅ extends keyword: Used to create a subclass.
+    ✅ extends keyword: Used to create a subclass. 👍
     🇺🇿 extends kalit so‘zi: Subclass yaratish uchun ishlatiladi.
 
-    ✅ Overriding methods: Subclass can modify or override methods of the parent class.
+    ✅ Overriding methods: Subclass can modify or override methods of the parent class. 👍
     🇺🇿 Metodlarni override qilish: Subclass parent class metodlarini o‘zgartirishi yoki qayta yozishi mumkin.
-
-### Polymorphism
-
-    ✅ Polymorphism: Methods that can take multiple forms, based on the class context.
-    🇺🇿 Polymorphism (Ko‘p shakllilik): Metodlar turli shakllarda ishlashi mumkin, class kontekstiga qarab.
-
-    ✅ Method Overriding: A subclass can change a parent class method’s behavior.
-    🇺🇿 Metodlarni Override qilish: Subclass parent class metodining ish faoliyatini o‘zgartirishi mumkin.
 
 ### Abstraction
 
@@ -91,17 +94,6 @@
 
     ✅ Interfaces: Define a contract for classes without providing implementation.
     🇺🇿 Interface: Classlar uchun implementatsiya taqdim etmasdan shartnoma belgilash.
-
-### Access Modifiers: public, private, protected
-
-    ✅ public: Accessible from anywhere.
-    🇺🇿 public: Hamma joydan kirish mumkin.
-
-    ✅ private: Only accessible within the class.
-    🇺🇿 private: Faqat class ichidan kirish mumkin.
-
-    ✅ protected: Accessible within the class and its subclasses.
-    🇺🇿 protected: Class va uning subclasslari ichidan kirish mumkin.
 
 ### Static Methods & Properties
 

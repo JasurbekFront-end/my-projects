@@ -13,7 +13,8 @@ export default defineConfig([
       '@typescript-eslint/no-unused-vars': 'warn',
       '@typescript-eslint/no-explicit-any': 'warn',
       '@typescript-eslint/ban-ts-comment': 'off',
-      'no-prototype-builtins': 'off'
+      'no-prototype-builtins': 'off',
+      'no-unused-private-class-members': 'off'
     }
   }
 ]);

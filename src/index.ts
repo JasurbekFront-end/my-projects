@@ -1,2 +1,2 @@
-// import './class';
-import './challenges';
+import './class';
+// import './challenges';

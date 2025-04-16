@@ -31,4 +31,33 @@
  */
 
 // Sizning yechimingizni shu yerda yozing
-class Car {}
+class Car {
+  brand: string;
+  model: string;
+  color: string;
+  year: number;
+
+  constructor(brand: string, model: string, color: string, year: number) {
+    this.brand = brand;
+    this.model = model;
+    this.color = color;
+    this.year = year;
+  }
+
+  start() {
+    console.log(`${this.brand} ${this.model} ishga tushdi`);
+  }
+
+  stop() {
+    console.log(`${this.brand} ${this.model} to'xtadi`);
+  }
+
+  getInfo() {
+    return `${this.year} yil ${this.color} ${this.brand} ${this.model}`;
+  }
+}
+
+const myCar = new Car('Toyota', 'Camry', 'qora', 2020);
+myCar.start();
+myCar.stop();
+console.log(myCar.getInfo());

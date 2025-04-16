@@ -1,5 +1,5 @@
-import './01-car-challenge';
-// import './02-bank-account-challenge';
+// import './01-car-challenge';
+import './02-person-challenge';
 // import './03-person-challenge';
 // import './04-book-challenge';
 // import './05-movie-challenge';
