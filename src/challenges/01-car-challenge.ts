@@ -31,3 +31,4 @@
  */
 
 // Sizning yechimingizni shu yerda yozing
+class Car {}

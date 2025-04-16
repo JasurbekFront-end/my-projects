@@ -1,1 +1,2 @@
-console.log('Lesson-76');
+// import './class';
+import './challenges';
