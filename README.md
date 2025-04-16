@@ -1,4 +1,4 @@
-# ---------- 14.04.25 ---------- (75)
+# ---------- 16.04.25 ---------- (76)
 
 ### JS OOP
 
@@ -21,53 +21,203 @@
     ✅ Abstraction
     ✅ Private Properties and Methods
 
-### Constructor Function 👍
+### Object and Class — The Foundation of OOP
 
-    ✅ Simple regular function 👍
-    ✅ Uses this to refer to the newly created object (only works correctly with new) 👍
-    ✅ Capitalized by convention (e.g., function Person() {}) 👍
-    ✅ Used to create multiple similar objects 👍
+    ✅ Object: A real instance of a class. It has properties and methods.
+    🇺🇿 Ob'ekt: Classning haqiqiy namunasi. U xususiyatlar va metodlarga ega.
 
-### new Keyword
+    ✅ Class: A blueprint for creating objects. It defines the properties and methods.
+    🇺🇿 Class: Ob'ektlarni yaratish uchun shablon. U xususiyatlar va metodlarni belgilaydi.
 
-    ✅ Creates a new empty object {} 👍
-    ✅ Sets the constructor function’s this to point to that new object 👍
-    ✅ Links the new object’s prototype to the constructor’s .prototype 👍
-    ✅ Automatically returns the new object (unless the function returns) 👍
-    ✅ Explain with function.call method 👍
+    ✅ Why do we need classes?
+    🇺🇿 Nima uchun class kerak?
 
-### setPrototypeOf and getPrototypeOf 👍
+### Constructor and Properties
 
-    ✅ setPrototypeOf 👍
-    ✅ getPrototypeOf 👍
+    ✅ Constructor: A special method that runs when an object is created.
+    🇺🇿 Constructor: Ob'ekt yaratilganda avtomatik ravishda ishga tushadigan maxsus metod.
 
-### Prototype chain 👍
+    ✅ this keyword: Refers to the current object instance inside the class.
+    🇺🇿 this kalit so‘zi: Class ichidagi joriy ob'ektga murojaat qiladi.
 
-    ✅ Explain with simple example 👍
+    ✅ Public and Private properties: Class properties can be set to public or private.
+    🇺🇿 Public va Private xususiyatlar: Class xususiyatlari public (hamma uchun ochiq) yoki private (faqat class ichida) bo‘lishi mumkin.
 
-### instanceof keyword 👍
+### Methods (Actions within Classes)
 
-    ✅ Checks if an object was created by a specific constructor 👍
-    ✅ Returns true if the constructor appears in the prototype chain
+    ✅ Methods: Functions within a class, used to define actions for objects.
+    🇺🇿 Methods: Class ichidagi funksiyalar bo‘lib, ob'ektlar uchun harakatlarni belgilaydi.
 
-### Getters and Setters 👍
+    ✅ Accessing methods with this: Referring to the current object.
+    🇺🇿 this yordamida metodlarga murojaat qilish: Joriy ob'ektga murojaat qilish.
 
-    ✅ Control how properties are accessed/changed
-    ✅ Use get and set keywords
+### Encapsulation
 
-### Object.defineProperty 👍
+    ✅ Encapsulation: The concept of hiding the internal details and exposing only necessary parts.
+    🇺🇿 Encapsulation (Kapsulatsiya): Ichki tafsilotlarni yashirish va faqat kerakli qismlarni ochish tushunchasi.
 
-    ✅ Fine-tune property behavior (value, writable, enumerable, configurable) 👍
+    ✅ Private, public, protected: Access control for properties and methods.
+    🇺🇿 Private, public, protected: Xususiyatlar va metodlarga kirishni boshqarish.
 
-### Object.freeze 👍
+    ✅ Methods for accessing data: External data manipulation should only happen via methods.
+    🇺🇿 Ma'lumotlarga kirish uchun metodlar: Tashqi ma'lumotlarni faqat metodlar orqali o‘zgartirish kerak.
 
-    ✅ Prevent any modification to the object
-    ✅ Object becomes immutable
+### Inheritance
 
-### Object.hasOwnProperty 👍
+    ✅ Inheritance: A class can inherit properties and methods from another class.
+    🇺🇿 Inheritance (Meros olish): Bitta class boshqa classdan xususiyatlar va metodlarni meros oladi.
 
-    ✅ Checks if a property exists directly on the object
-    ✅ Ignores inherited properties
+    ✅ extends keyword: Used to create a subclass.
+    🇺🇿 extends kalit so‘zi: Subclass yaratish uchun ishlatiladi.
+
+    ✅ Overriding methods: Subclass can modify or override methods of the parent class.
+    🇺🇿 Metodlarni override qilish: Subclass parent class metodlarini o‘zgartirishi yoki qayta yozishi mumkin.
+
+### Polymorphism
+
+    ✅ Polymorphism: Methods that can take multiple forms, based on the class context.
+    🇺🇿 Polymorphism (Ko‘p shakllilik): Metodlar turli shakllarda ishlashi mumkin, class kontekstiga qarab.
+
+    ✅ Method Overriding: A subclass can change a parent class method’s behavior.
+    🇺🇿 Metodlarni Override qilish: Subclass parent class metodining ish faoliyatini o‘zgartirishi mumkin.
+
+### Abstraction
+
+    ✅ Abstraction: Hiding unnecessary details and exposing only the essential features.
+    🇺🇿 Abstraktsiya: Keraksiz tafsilotlarni yashirish va faqat asosiy xususiyatlarni ochib berish.
+
+    ✅ Abstract class: A class that cannot be instantiated and is meant to be inherited.
+    🇺🇿 Abstract class: Yaratib bo‘lmaydigan va meros olish uchun mo‘ljallangan class.
+
+    ✅ Interfaces: Define a contract for classes without providing implementation.
+    🇺🇿 Interface: Classlar uchun implementatsiya taqdim etmasdan shartnoma belgilash.
+
+### Access Modifiers: public, private, protected
+
+    ✅ public: Accessible from anywhere.
+    🇺🇿 public: Hamma joydan kirish mumkin.
+
+    ✅ private: Only accessible within the class.
+    🇺🇿 private: Faqat class ichidan kirish mumkin.
+
+    ✅ protected: Accessible within the class and its subclasses.
+    🇺🇿 protected: Class va uning subclasslari ichidan kirish mumkin.
+
+### Static Methods & Properties
+
+    ✅ Static methods/properties: Belong to the class itself rather than to instances of the class.
+    🇺🇿 Static metodlar/xususiyatlar: Classga tegishli bo‘lib, classning instansiyalariga emas.
+
+    ✅ static keyword: Used to define static methods and properties.
+    🇺🇿 static kalit so‘zi: Static metodlar va xususiyatlarni aniqlash uchun ishlatiladi.
+
+### Interface and Implements
+
+    ✅ Interface: A blueprint for classes, defining methods that must be implemented.
+    🇺🇿 Interface: Classlar uchun shablon bo‘lib, implementatsiya qilinishi kerak bo‘lgan metodlarni belgilaydi.
+
+    ✅ implements keyword: A class uses this keyword to agree to implement the methods in an interface.
+    🇺🇿 implements kalit so‘zi: Class interface metodlarini implementatsiya qilishga rozi bo‘lishi uchun ishlatiladi.
+
+### Real-Life Project
+
+    ✅ Student Performance Tracker: A project that uses encapsulation, inheritance, and abstraction.
+    🇺🇿 Student Performance Tracker: Encapsulation, Inheritance, va Abstractionni qo‘llaydigan loyiha.
+
+    ✅ Library System: A project using polymorphism and composition.
+    🇺🇿 Library System: Polymorphism va Compositionni ishlatadigan loyiha.
+
+    ✅ Banking System: A system with strong encapsulation and validation for transactions.
+    🇺🇿 Banking System: Kuchli encapsulation va tranzaksiyalar uchun validatsiya qo‘llanadigan tizim.
+
+    ✅ E-commerce Order System: A full OOP system integrating all OOP principles.
+    🇺🇿 E-commerce Order System: Barcha OOP prinsiplarini birlashtirgan to‘liq tizim.
+
+    ✅ University Management System: A complex system involving various relationships between entities.
+    🇺🇿 University Management System: Turli entitilar o‘rtasidagi aloqalar mavjud murakkab tizim.
+
+### Super Challenge: Build a Mini School ERP System
+
+    ✅ Create classes like City, School, User, Student, Teacher, Course, Classroom, Exam, and Grade.
+    🇺🇿 City, School, User, Student, Teacher, Course, Classroom, Exam, va Grade kabi classlar yarating.
+
+    ✅ Apply Encapsulation, Abstraction, Inheritance, and Polymorphism throughout the project.
+    🇺🇿 Loyihada Encapsulation, Abstraction, Inheritance, va Polymorphism prinsiplarini to‘liq qo‘llang.
+
+    ✅ Implement role-based access control for users.
+    🇺🇿 Foydalanuvchilar uchun rollarga asoslangan kirish nazorati (role-based access)ni amalga oshiring.
+
+# JS Advanced
+
+    ✅ Expression vs Statement 👍🏻
+    ✅ OOP(Factory Function, Constructor Function and Class) - 3d
+    ✅ Prototype && Prototype Chain 👍🏻
+    ✅ Functional Programming && Closure - 1d
+    ✅ JS Execution && Event Loop - 1d
+    ✅ JS Modules  👍
+    ✅ Promises && Async/Await - 2d
+    ✅ NPM Package 👍
+    ✅ Backend && AJAX && Fetch  - 2d
+    ✅ Clean Code
+
+# Typescript
+
+    ✅ @ts-ignore vs @ts-expect-error 👍
+    ✅ type
+    ✅ as
+    ✅ unknown || any || never
+    ✅ interface
+    ✅ extends and implements
+    ✅ private and public
+    ✅ class
+    ✅ Generic types
+
+# [JS Interview questions (500)](https://github.com/sudheerj/javascript-interview-questions)
+
+### Object and Class — The Foundation of OOP
+
+    ✅ Object: A real instance of a class. It has properties and methods.
+    🇺🇿 Ob'ekt: Classning haqiqiy namunasi. U xususiyatlar va metodlarga ega.
+
+    ✅ Class: A blueprint for creating objects. It defines the properties and methods.
+    🇺🇿 Class: Ob'ektlarni yaratish uchun shablon. U xususiyatlar va metodlarni belgilaydi.
+
+    ✅ Why do we need classes?
+    🇺🇿 Nima uchun class kerak?
+
+### Constructor and Properties
+
+    ✅ Constructor: A special method that runs when an object is created.
+    ✅ this keyword: Refers to the current object instance inside the class.
+    ✅ Public and Private properties: Class properties can be set to public or private.
+
+### Methods (Actions within Classes)
+
+    ✅ Methods: Functions within a class, used to define actions for objects.
+    ✅ Accessing methods with this: Referring to the current object.
+
+### Encapsulation
+
+    ✅ Encapsulation: The concept of hiding the internal details and exposing only necessary parts.
+    ✅ Private, public, protected: Access control for properties and methods.
+    ✅ Methods for accessing data: External data manipulation should only happen via methods.
+
+### Inheritance
+
+    ✅ Inheritance: A class can inherit properties and methods from another class.
+    ✅ extends keyword: Used to create a subclass.
+    ✅ Overriding methods: Subclass can modify or override methods of the parent class.
+
+### Polymorphism
+
+    ✅ Polymorphism: Methods that can take multiple forms, based on the class context.
+    ✅ Method Overriding: A subclass can change a parent class method’s behavior.
+
+### Abstraction
+
+    ✅ Abstraction: Hiding unnecessary details and exposing only the essential features.
+    ✅ Abstract class: A class that cannot be instantiated and is meant to be inherited.
+    ✅ Interfaces: Define a contract for classes without providing implementation.
 
 ### Class
 
@@ -89,6 +239,18 @@
     ✅ Hides the implementation details
     ✅ Focuses on essential features
 
+### Access Modifiers
+
+    ✅ public
+        1️⃣ Accessible from anywhere
+        2️⃣ Default if not specified
+    ✅ private
+        1️⃣ Accessible only within the class
+        2️⃣ Encapsulates sensitive data
+    ✅ protected
+        1️⃣ Accessible within the class and its subclasses
+        2️⃣ Not accessible from outside
+
 ### Private Properties and Methods
 
     ✅ Encapsulation of sensitive data
@@ -97,7 +259,334 @@
 # JS Advanced
 
     ✅ Expression vs Statement 👍🏻
-    ✅ OOP - 3d
+    ✅ OOP(Factory Function, Constructor Function and Class) - 3d
+    ✅ Prototype && Prototype Chain 👍🏻
+    ✅ Functional Programming && Closure - 1d
+    ✅ JS Execution && Event Loop - 1d
+    ✅ JS Modules  👍
+    ✅ Promises && Async/Await - 2d
+    ✅ NPM Package 👍
+    ✅ Backend && AJAX && Fetch  - 2d
+    ✅ Clean Code
+
+# Typescript
+
+    ✅ @ts-ignore vs @ts-expect-error 👍
+    ✅ type
+    ✅ as
+    ✅ unknown || any || never
+    ✅ interface
+    ✅ extends and implements
+    ✅ private and public
+    ✅ class
+    ✅ Generic types
+
+# [JS Interview questions (500)](https://github.com/sudheerj/javascript-interview-questions)
+
+### Object and Class — The Foundation of OOP
+
+    ✅ Object: A real instance of a class. It has properties and methods.
+    🇺🇿 Ob'ekt: Classning haqiqiy namunasi. U xususiyatlar va metodlarga ega.
+
+    ✅ Class: A blueprint for creating objects. It defines the properties and methods.
+    🇺🇿 Class: Ob'ektlarni yaratish uchun shablon. U xususiyatlar va metodlarni belgilaydi.
+
+    ✅ Why do we need classes?
+    🇺🇿 Nima uchun class kerak?
+
+### Constructor and Properties
+
+    ✅ Constructor: A special method that runs when an object is created.
+    ✅ this keyword: Refers to the current object instance inside the class.
+    ✅ Public and Private properties: Class properties can be set to public or private.
+
+### Methods (Actions within Classes)
+
+    ✅ Methods: Functions within a class, used to define actions for objects.
+    ✅ Accessing methods with this: Referring to the current object.
+
+### Encapsulation
+
+    ✅ Encapsulation: The concept of hiding the internal details and exposing only necessary parts.
+    ✅ Private, public, protected: Access control for properties and methods.
+    ✅ Methods for accessing data: External data manipulation should only happen via methods.
+
+### Inheritance
+
+    ✅ Inheritance: A class can inherit properties and methods from another class.
+    ✅ extends keyword: Used to create a subclass.
+    ✅ Overriding methods: Subclass can modify or override methods of the parent class.
+
+### Polymorphism
+
+    ✅ Polymorphism: Methods that can take multiple forms, based on the class context.
+    ✅ Method Overriding: A subclass can change a parent class method’s behavior.
+
+### Abstraction
+
+    ✅ Abstraction: Hiding unnecessary details and exposing only the essential features.
+    ✅ Abstract class: A class that cannot be instantiated and is meant to be inherited.
+    ✅ Interfaces: Define a contract for classes without providing implementation.
+
+### Class
+
+    ✅ Template for creating objects
+    ✅ Encapsulation of data and behavior
+
+### Constructor
+
+    ✅ Initializes object properties
+    ✅ Runs automatically when a new object is created
+
+### Inheritance
+
+    ✅ Allows one class to inherit properties and methods from another
+    ✅ Helps in code reusability
+
+### Abstraction
+
+    ✅ Hides the implementation details
+    ✅ Focuses on essential features
+
+### Access Modifiers
+
+    ✅ public
+        1️⃣ Accessible from anywhere
+        2️⃣ Default if not specified
+    ✅ private
+        1️⃣ Accessible only within the class
+        2️⃣ Encapsulates sensitive data
+    ✅ protected
+        1️⃣ Accessible within the class and its subclasses
+        2️⃣ Not accessible from outside
+
+### Private Properties and Methods
+
+    ✅ Encapsulation of sensitive data
+    ✅ Accessed only within the class
+
+# JS Advanced
+
+    ✅ Expression vs Statement 👍🏻
+    ✅ OOP(Factory Function, Constructor Function and Class) - 3d
+    ✅ Prototype && Prototype Chain 👍🏻
+    ✅ Functional Programming && Closure - 1d
+    ✅ JS Execution && Event Loop - 1d
+    ✅ JS Modules  👍
+    ✅ Promises && Async/Await - 2d
+    ✅ NPM Package 👍
+    ✅ Backend && AJAX && Fetch  - 2d
+    ✅ Clean Code
+
+# Typescript
+
+    ✅ @ts-ignore vs @ts-expect-error 👍
+    ✅ type
+    ✅ as
+    ✅ unknown || any || never
+    ✅ interface
+    ✅ extends and implements
+    ✅ private and public
+    ✅ class
+    ✅ Generic types
+
+# [JS Interview questions (500)](https://github.com/sudheerj/javascript-interview-questions)
+
+### Object and Class — The Foundation of OOP
+
+    ✅ Object: A real instance of a class. It has properties and methods.
+    🇺🇿 Ob'ekt: Classning haqiqiy namunasi. U xususiyatlar va metodlarga ega.
+
+    ✅ Class: A blueprint for creating objects. It defines the properties and methods.
+    🇺🇿 Class: Ob'ektlarni yaratish uchun shablon. U xususiyatlar va metodlarni belgilaydi.
+
+    ✅ Why do we need classes?
+    🇺🇿 Nima uchun class kerak?
+
+### Constructor and Properties
+
+    ✅ Constructor: A special method that runs when an object is created.
+    ✅ this keyword: Refers to the current object instance inside the class.
+    ✅ Public and Private properties: Class properties can be set to public or private.
+
+### Methods (Actions within Classes)
+
+    ✅ Methods: Functions within a class, used to define actions for objects.
+    ✅ Accessing methods with this: Referring to the current object.
+
+### Encapsulation
+
+    ✅ Encapsulation: The concept of hiding the internal details and exposing only necessary parts.
+    ✅ Private, public, protected: Access control for properties and methods.
+    ✅ Methods for accessing data: External data manipulation should only happen via methods.
+
+### Inheritance
+
+    ✅ Inheritance: A class can inherit properties and methods from another class.
+    ✅ extends keyword: Used to create a subclass.
+    ✅ Overriding methods: Subclass can modify or override methods of the parent class.
+
+### Polymorphism
+
+    ✅ Polymorphism: Methods that can take multiple forms, based on the class context.
+    ✅ Method Overriding: A subclass can change a parent class method’s behavior.
+
+### Abstraction
+
+    ✅ Abstraction: Hiding unnecessary details and exposing only the essential features.
+    ✅ Abstract class: A class that cannot be instantiated and is meant to be inherited.
+    ✅ Interfaces: Define a contract for classes without providing implementation.
+
+### Class
+
+    ✅ Template for creating objects
+    ✅ Encapsulation of data and behavior
+
+### Constructor
+
+    ✅ Initializes object properties
+    ✅ Runs automatically when a new object is created
+
+### Inheritance
+
+    ✅ Allows one class to inherit properties and methods from another
+    ✅ Helps in code reusability
+
+### Abstraction
+
+    ✅ Hides the implementation details
+    ✅ Focuses on essential features
+
+### Access Modifiers
+
+    ✅ public
+        1️⃣ Accessible from anywhere
+        2️⃣ Default if not specified
+    ✅ private
+        1️⃣ Accessible only within the class
+        2️⃣ Encapsulates sensitive data
+    ✅ protected
+        1️⃣ Accessible within the class and its subclasses
+        2️⃣ Not accessible from outside
+
+### Private Properties and Methods
+
+    ✅ Encapsulation of sensitive data
+    ✅ Accessed only within the class
+
+# JS Advanced
+
+    ✅ Expression vs Statement 👍🏻
+    ✅ OOP(Factory Function, Constructor Function and Class) - 3d
+    ✅ Prototype && Prototype Chain 👍🏻
+    ✅ Functional Programming && Closure - 1d
+    ✅ JS Execution && Event Loop - 1d
+    ✅ JS Modules  👍
+    ✅ Promises && Async/Await - 2d
+    ✅ NPM Package 👍
+    ✅ Backend && AJAX && Fetch  - 2d
+    ✅ Clean Code
+
+# Typescript
+
+    ✅ @ts-ignore vs @ts-expect-error 👍
+    ✅ type
+    ✅ as
+    ✅ unknown || any || never
+    ✅ interface
+    ✅ extends and implements
+    ✅ private and public
+    ✅ class
+    ✅ Generic types
+
+# [JS Interview questions (500)](https://github.com/sudheerj/javascript-interview-questions)
+
+### Object and Class — The Foundation of OOP
+
+    ✅ Object: A real instance of a class. It has properties and methods.
+    🇺🇿 Ob'ekt: Classning haqiqiy namunasi. U xususiyatlar va metodlarga ega.
+
+    ✅ Class: A blueprint for creating objects. It defines the properties and methods.
+    🇺🇿 Class: Ob'ektlarni yaratish uchun shablon. U xususiyatlar va metodlarni belgilaydi.
+
+    ✅ Why do we need classes?
+    🇺🇿 Nima uchun class kerak?
+
+### Constructor and Properties
+
+    ✅ Constructor: A special method that runs when an object is created.
+    ✅ this keyword: Refers to the current object instance inside the class.
+    ✅ Public and Private properties: Class properties can be set to public or private.
+
+### Methods (Actions within Classes)
+
+    ✅ Methods: Functions within a class, used to define actions for objects.
+    ✅ Accessing methods with this: Referring to the current object.
+
+### Encapsulation
+
+    ✅ Encapsulation: The concept of hiding the internal details and exposing only necessary parts.
+    ✅ Private, public, protected: Access control for properties and methods.
+    ✅ Methods for accessing data: External data manipulation should only happen via methods.
+
+### Inheritance
+
+    ✅ Inheritance: A class can inherit properties and methods from another class.
+    ✅ extends keyword: Used to create a subclass.
+    ✅ Overriding methods: Subclass can modify or override methods of the parent class.
+
+### Polymorphism
+
+    ✅ Polymorphism: Methods that can take multiple forms, based on the class context.
+    ✅ Method Overriding: A subclass can change a parent class method’s behavior.
+
+### Abstraction
+
+    ✅ Abstraction: Hiding unnecessary details and exposing only the essential features.
+    ✅ Abstract class: A class that cannot be instantiated and is meant to be inherited.
+    ✅ Interfaces: Define a contract for classes without providing implementation.
+
+### Class
+
+    ✅ Template for creating objects
+    ✅ Encapsulation of data and behavior
+
+### Constructor
+
+    ✅ Initializes object properties
+    ✅ Runs automatically when a new object is created
+
+### Inheritance
+
+    ✅ Allows one class to inherit properties and methods from another
+    ✅ Helps in code reusability
+
+### Abstraction
+
+    ✅ Hides the implementation details
+    ✅ Focuses on essential features
+
+### Access Modifiers
+
+    ✅ public
+        1️⃣ Accessible from anywhere
+        2️⃣ Default if not specified
+    ✅ private
+        1️⃣ Accessible only within the class
+        2️⃣ Encapsulates sensitive data
+    ✅ protected
+        1️⃣ Accessible within the class and its subclasses
+        2️⃣ Not accessible from outside
+
+### Private Properties and Methods
+
+    ✅ Encapsulation of sensitive data
+    ✅ Accessed only within the class
+
+# JS Advanced
+
+    ✅ Expression vs Statement 👍🏻
+    ✅ OOP(Factory Function, Constructor Function and Class) - 3d
     ✅ Prototype && Prototype Chain 👍🏻
     ✅ Functional Programming && Closure - 1d
     ✅ JS Execution && Event Loop - 1d
