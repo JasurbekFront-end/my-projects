@@ -10,18 +10,18 @@
     ✅ Object.create 👍🏻
     ✅ this keyword 👍🏻
     ✅ call && bind && apply function methods 👍🏻
-    ✅ Constructor function
-    ✅ new keyword
-    ✅ Prototype chain
-    ✅ Getters and Setters
-    ✅ Object.defineProperty && Object.freeze && Object.hasOwnProperty
+    ✅ Constructor function 👍🏻
+    ✅ new keyword 👍🏻
+    ✅ Prototype chain 👍🏻
+    ✅ Getters and Setters 👍🏻
+    ✅ Object.defineProperty && Object.freeze && Object.hasOwnProperty 👍🏻
     ✅ Class
     ✅ Constructor
     ✅ Inheritance
     ✅ Abstraction
     ✅ Private Properties and Methods
 
-### Constructor Function
+### Constructor Function 👍
 
     ✅ Simple regular function 👍
     ✅ Uses this to refer to the newly created object (only works correctly with new) 👍
@@ -36,7 +36,7 @@
     ✅ Automatically returns the new object (unless the function returns) 👍
     ✅ Explain with function.call method 👍
 
-### setPrototypeOf and getPrototypeOf
+### setPrototypeOf and getPrototypeOf 👍
 
     ✅ setPrototypeOf 👍
     ✅ getPrototypeOf 👍
