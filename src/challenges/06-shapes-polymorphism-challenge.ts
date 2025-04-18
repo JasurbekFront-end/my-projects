@@ -41,3 +41,37 @@
  */
 
 // Sizning yechimingizni shu yerda yozing
+
+abstract class Shape {
+  abstract calculateArea(): number;
+}
+
+class Circle extends Shape {
+  constructor(public radius: number) {
+    super();
+  }
+
+  calculateArea(): number {
+    const area = Math.PI * this.radius * this.radius;
+    return Number(area.toFixed(2));
+  }
+}
+
+class Rectangle extends Shape {
+  constructor(
+    public width: number,
+    public height: number
+  ) {
+    super();
+  }
+
+  calculateArea(): number {
+    return this.width * this.height;
+  }
+}
+
+const shapes: Shape[] = [new Circle(5), new Rectangle(4, 6)];
+
+shapes.forEach(shape => {
+  console.log(shape.calculateArea());
+});

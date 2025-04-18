@@ -84,7 +84,7 @@
     ✅ Overriding methods: Subclass can modify or override methods of the parent class. 👍
     🇺🇿 Metodlarni override qilish: Subclass parent class metodlarini o‘zgartirishi yoki qayta yozishi mumkin.
 
-### Abstraction
+### Abstraction 👍
 
     ✅ Abstraction: Hiding unnecessary details and exposing only the essential features.
     🇺🇿 Abstraktsiya: Keraksiz tafsilotlarni yashirish va faqat asosiy xususiyatlarni ochib berish.
@@ -95,7 +95,7 @@
     ✅ Interfaces: Define a contract for classes without providing implementation.
     🇺🇿 Interface: Classlar uchun implementatsiya taqdim etmasdan shartnoma belgilash.
 
-### Static Methods & Properties
+### Static Methods & Properties 👍
 
     ✅ Static methods/properties: Belong to the class itself rather than to instances of the class.
     🇺🇿 Static metodlar/xususiyatlar: Classga tegishli bo‘lib, classning instansiyalariga emas.
@@ -103,7 +103,7 @@
     ✅ static keyword: Used to define static methods and properties.
     🇺🇿 static kalit so‘zi: Static metodlar va xususiyatlarni aniqlash uchun ishlatiladi.
 
-### Interface and Implements
+### Interface and Implements 👍
 
     ✅ Interface: A blueprint for classes, defining methods that must be implemented.
     🇺🇿 Interface: Classlar uchun shablon bo‘lib, implementatsiya qilinishi kerak bo‘lgan metodlarni belgilaydi.
@@ -147,10 +147,9 @@
     ✅ Functional Programming && Closure - 1d
     ✅ JS Execution && Event Loop - 1d
     ✅ JS Modules  👍🏻
-    ✅ Promises && Async/Await - 2d
+    ✅ Callback fucntion && Promises && Async/Await - 2d
     ✅ NPM Package 👍🏻
     ✅ Backend && AJAX && Fetch  - 2d
-    ✅ Clean Code
 
 # Typescript
 

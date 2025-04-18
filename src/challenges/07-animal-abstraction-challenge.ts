@@ -20,7 +20,7 @@
  *    - move(): void - yugurish
  *
  * 3. Cat classini Animal dan meros oling va quyidagi metodlarni implementatsiya qiling:
- *    - makeSound(): void - "Miyov" deb ovoz chiqarish
+ *    - makeSound(): void - "Miyov-Miyov" deb ovoz chiqarish
  *    - move(): void - sakrash
  *
  * 4. Bird classini Animal dan meros oling va quyidagi metodlarni implementatsiya qiling:
@@ -42,3 +42,48 @@
  */
 
 // Sizning yechimingizni shu yerda yozing
+
+abstract class Animal {
+  constructor(public name: string) {}
+  abstract makeSound(): void;
+  abstract move(): void;
+}
+
+class Dog extends Animal {
+  makeSound(): void {
+    console.log(`${this.name} Vov-vov`);
+  }
+  move(): void {
+    console.log(`${this.name} yugurdi`);
+  }
+}
+
+class Cat extends Animal {
+  makeSound(): void {
+    console.log(`${this.name} Miyov-Miyov`);
+  }
+  move(): void {
+    console.log(`${this.name} sakradi`);
+  }
+}
+
+class Bird extends Animal {
+  makeSound(): void {
+    console.log(`${this.name} Chirp-chirp`);
+  }
+  move(): void {
+    console.log(`${this.name} uchdi`);
+  }
+}
+
+const dog = new Dog('Rex');
+dog.makeSound();
+dog.move();
+
+const cat = new Cat('Whiskers');
+cat.makeSound();
+cat.move();
+
+const bird = new Bird('Tweety');
+bird.makeSound();
+bird.move();
