@@ -1,4 +1,4 @@
-# ---------- 16.04.25 ---------- (76)
+# ---------- 18.04.25 ---------- (77)
 
 ### JS OOP
 
@@ -51,7 +51,7 @@
     ✅ Accessing methods with this: Referring to the current object. 👍
     🇺🇿 this yordamida metodlarga murojaat qilish: Joriy ob'ektga murojaat qilish.
 
-### Encapsulation
+### Encapsulation 👍
 
     ✅ Encapsulation: The concept of hiding the internal details and exposing only necessary parts.
     🇺🇿 Encapsulation (Kapsulatsiya): Ichki tafsilotlarni yashirish va faqat kerakli qismlarni ochish tushunchasi.
@@ -159,7 +159,7 @@
     ✅ as
     ✅ unknown || any || never
     ✅ interface
-    ✅ extends and implements
+    ✅ extends and implementsf
     ✅ private and public
     ✅ class
     ✅ Generic types
