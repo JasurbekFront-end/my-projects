@@ -15,25 +15,25 @@
     ✅ Prototype chain 👍🏻
     ✅ Getters and Setters 👍🏻
     ✅ Object.defineProperty && Object.freeze && Object.hasOwnProperty 👍🏻
-    ✅ Class
-    ✅ Constructor
-    ✅ Inheritance
-    ✅ Abstraction
-    ✅ Private Properties and Methods
+    ✅ Class 👍🏻
+    ✅ Constructor 👍🏻
+    ✅ Inheritance 👍🏻
+    ✅ Abstraction 👍🏻
+    ✅ Private Properties and Methods 👍🏻
 
-### Closure
+# Closure
 
-     ✅ Function scope
-     ✅ Lexical Environment
+     ✅ Function scope 👍🏻
+     ✅ Lexical Environment 👍🏻
      ✅ Private variables
      ✅ Memoization
 
 # JS Advanced
 
     ✅ Expression vs Statement 👍🏻
-    ✅ OOP(Factory Function 👍🏻, Constructor Function 👍🏻 and Class) - 3d
+    ✅ OOP(Factory Function 👍🏻, Constructor Function 👍🏻 and Class 👍🏻) - 3d 👍🏻
     ✅ Prototype && Prototype Chain 👍🏻
-    ✅ Functional Programming && Closure - 1d
+    ✅ Closure - 1d
     ✅ JS Execution && Event Loop - 1d
     ✅ JS Modules  👍🏻
     ✅ Callback fucntion && Promises && Async/Await - 2d
