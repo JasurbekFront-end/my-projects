@@ -1,4 +1,4 @@
-# ---------- 21.04.25 ---------- (78)
+# ---------- 21.04.25 ---------- (79)
 
 ### JS OOP
 
@@ -25,7 +25,7 @@
 
      ✅ Function scope 👍🏻
      ✅ Lexical Environment 👍🏻
-     ✅ Private variables
+     ✅ Private variables 👍🏻
      ✅ Memoization
 
 # JS Advanced
@@ -36,7 +36,7 @@
     ✅ Closure - 1d
     ✅ JS Execution && Event Loop - 1d
     ✅ JS Modules  👍🏻
-    ✅ Callback fucntion && Promises && Async/Await - 2d
+    ✅ Callback function && Promises && Async/Await - 2d
     ✅ NPM Package 👍🏻
     ✅ Backend && AJAX && Fetch  - 2d
 

@@ -68,23 +68,23 @@
 // store.decrement();
 // console.log(store.getState());
 
-function once(func: any) {
-  let callCount = 0;
-  let value: any;
-  return function (num: any) {
-    if (callCount === 0) {
-      callCount++;
-      value = func(num);
-      return value;
-    }
+// function once(func: any) {
+//   let callCount = 0;
+//   let value: any;
+//   return function (num: any) {
+//     if (callCount === 0) {
+//       callCount++;
+//       value = func(num);
+//       return value;
+//     }
 
-    return value;
-  };
-}
+//     return value;
+//   };
+// }
 
-/*** Uncomment these to check your work! ***/
-const onceFunc = once(() => {});
-console.dir(onceFunc);
-console.log(onceFunc(4)); // => should log 6
-console.log(onceFunc(10)); // => should log 6
-console.log(onceFunc(9001)); // => should log 6
+// /*** Uncomment these to check your work! ***/
+// const onceFunc = once(() => {});
+// console.dir(onceFunc);
+// console.log(onceFunc(4)); // => should log 6
+// console.log(onceFunc(10)); // => should log 6
+// console.log(onceFunc(9001)); // => should log 6
