@@ -1,44 +1,22 @@
-# ---------- 21.04.25 ---------- (79)
-
-### JS OOP
-
-    ✅ Object 👍🏻
-    ✅ Object.assign 👍🏻
-    ✅ [...] spread operator 👍🏻
-    ✅ Try Catch 👍🏻
-    ✅ Factory function  👍🏻
-    ✅ Object.create 👍🏻
-    ✅ this keyword 👍🏻
-    ✅ call && bind && apply function methods 👍🏻
-    ✅ Constructor function 👍🏻
-    ✅ new keyword 👍🏻
-    ✅ Prototype chain 👍🏻
-    ✅ Getters and Setters 👍🏻
-    ✅ Object.defineProperty && Object.freeze && Object.hasOwnProperty 👍🏻
-    ✅ Class 👍🏻
-    ✅ Constructor 👍🏻
-    ✅ Inheritance 👍🏻
-    ✅ Abstraction 👍🏻
-    ✅ Private Properties and Methods 👍🏻
-
-# Closure
-
-     ✅ Function scope 👍🏻
-     ✅ Lexical Environment 👍🏻
-     ✅ Private variables 👍🏻
-     ✅ Memoization
+# ---------- 23.04.25 ---------- (79)
 
 # JS Advanced
 
     ✅ Expression vs Statement 👍🏻
     ✅ OOP(Factory Function 👍🏻, Constructor Function 👍🏻 and Class 👍🏻) - 3d 👍🏻
     ✅ Prototype && Prototype Chain 👍🏻
-    ✅ Closure - 1d
-    ✅ JS Execution && Event Loop - 1d
-    ✅ JS Modules  👍🏻
-    ✅ Callback function && Promises && Async/Await - 2d
+    ✅ Closure - 1d 👍🏻
+    ✅ JS Modules ()
     ✅ NPM Package 👍🏻
-    ✅ Backend && AJAX && Fetch  - 2d
+    ✅ Callback function && Promises && Async/Await - 2d
+    ✅ Backend && AJAX && Fetch  - 4d
+    ✅ JS Execution && Event Loop - 1d
+
+# JS Modules
+
+    ✅ Named export
+    ✅ Default export
+    ✅ ESM vd COMMONJS
 
 # Typescript
 
