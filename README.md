@@ -6,9 +6,9 @@
     ✅ OOP(Factory Function 👍🏻, Constructor Function 👍🏻 and Class 👍🏻) - 3d 👍🏻
     ✅ Prototype && Prototype Chain 👍🏻
     ✅ Closure - 1d 👍🏻
-    ✅ JS Modules ()
+    ✅ JS Modules () 👍🏻
     ✅ NPM Package 👍🏻
-    ✅ Callback function && Promises && Async/Await - 2d
+    ✅ Callbacks && Promises && Async/Await - 2d
     ✅ Backend && AJAX && Fetch  - 4d
     ✅ JS Execution && Event Loop - 1d
 
@@ -24,11 +24,13 @@
     ✅ Deterministic function
     ✅ Without sideeffect function
 
-## JS Modules
+## JS Modules 👍
 
-    ✅ Named export
-    ✅ Default export
-    ✅ ESM vd COMMONJS
+    ✅ Named export 👍
+    ✅ Default export 👍
+    ✅ All import with * 👍
+    ✅ Alias 👍
+    ✅ ESM vd COMMONJS 👍
 
 ## Asynchronous vs Synchronous
 
