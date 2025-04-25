@@ -15,10 +15,10 @@
 ## Functional Programming && Closure
 
     ✅ Closure 👍
-    ✅ Curring function
-    ✅ Pure function
+    ✅ Curring function 👍
+    ✅ Pure function 👍
 
-## Pure function
+## Pure function 👍
 
     ✅ what is pure function(https://www.youtube.com/watch?v=dZ41D6LDSBg)
     ✅ Deterministic function
