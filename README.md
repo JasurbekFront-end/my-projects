@@ -1,4 +1,4 @@
-# ---------- 25.04.25 ---------- (80)
+# ---------- 28.04.25 ---------- (81)
 
 # JS Advanced
 
@@ -11,26 +11,6 @@
     ✅ Callbacks && Promises && Async/Await - 2d
     ✅ Backend && AJAX && Fetch  - 4d
     ✅ JS Execution && Event Loop - 1d
-
-## Functional Programming && Closure
-
-    ✅ Closure 👍
-    ✅ Curring function 👍
-    ✅ Pure function 👍
-
-## Pure function 👍
-
-    ✅ what is pure function(https://www.youtube.com/watch?v=dZ41D6LDSBg)
-    ✅ Deterministic function
-    ✅ Without sideeffect function
-
-## JS Modules 👍
-
-    ✅ Named export 👍
-    ✅ Default export 👍
-    ✅ All import with * 👍
-    ✅ Alias 👍
-    ✅ ESM vd COMMONJS 👍
 
 ## Asynchronous vs Synchronous
 
@@ -79,5 +59,3 @@
     ✅ Generic types
 
 # [JS Interview questions (500)](https://github.com/sudheerj/javascript-interview-questions)
-
-# [CSBIN.IO](http://csbin.io)
