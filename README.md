@@ -1,4 +1,4 @@
-# ---------- 28.04.25 ---------- (81)
+# ---------- 30.04.25 ---------- (82)
 
 # JS Advanced
 
@@ -14,33 +14,33 @@
 
 ## Asynchronous vs Synchronous
 
-     ✅ setTimeout
+     ✅ setTimeout 👍
      ✅ Patterns
-          ✅ Callbacks
+          ✅ Callbacks 👍
           ✅ Promises
           ✅ Async / await
 
-## Callbacks
+## Callbacks 👍
 
-     ✅ Callbacks
-     ✅ Callback Hell
+     ✅ Callbacks 👍
+     ✅ Callback Hell 👍
 
 ## Promises
 
-          🎁 Pending(pending)
-          🎁 Resolve(fulfilled)
-          🎁 Rejected(rejected)
-          🎁 then
-          🎁 catch
-          🎁 finally
+          🎁 Pending(pending) 👍
+          🎁 Resolve(fulfilled) 👍
+          🎁 Rejected(rejected) 👍
+          🎁 then 👍
+          🎁 catch 👍
+          🎁 finally 👍
           🎁 Promise.all
           🎁 Promise.rice
           🎁 Promise.allSettled
 
-## Replacing Callbacks with Promises
+## Replacing Callbacks with Promises 👍
 
-     ✅ Parallel Promises
-     ✅ Simple example with DOM
+     ✅ Parallel Promises 👍
+     ✅ Simple example with DOM 👍
 
 ## Async and Await
 

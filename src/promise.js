@@ -65,3 +65,22 @@
 // .catch(error => {
 //   console.log(first)
 // })
+// import { PromisePDP } from './promise-pdp';
+
+// const p = new Promise(resolve => {
+//   setTimeout(() => {
+//     resolve(20);
+//   }, 1000);
+// });
+
+// p.then(value => {
+//   console.log('LOG-1 = ', value);
+
+//   return new Promise(resolve =>
+//     setTimeout(() => {
+//       resolve(30);
+//     }, 1000)
+//   );
+// }).then(value => {
+//   console.log('LOG-2 = ', value);
+// });
