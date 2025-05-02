@@ -30,6 +30,11 @@
 
      ✅ Asynchronous function
 
+## Generic types
+
+     ✅ Simple functions
+     ✅ Using with promises
+
 # AJAX - Asynchronous JavaScript And XML
 
         ✅ Simple example AJAX Request
