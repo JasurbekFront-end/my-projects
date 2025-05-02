@@ -1,4 +1,4 @@
-# ---------- 30.04.25 ---------- (82)
+# ---------- 02.04.25 ---------- (83)
 
 # JS Advanced
 
@@ -12,19 +12,6 @@
     ✅ Backend && AJAX && Fetch  - 4d
     ✅ JS Execution && Event Loop - 1d
 
-## Asynchronous vs Synchronous
-
-     ✅ setTimeout 👍
-     ✅ Patterns
-          ✅ Callbacks 👍
-          ✅ Promises
-          ✅ Async / await
-
-## Callbacks 👍
-
-     ✅ Callbacks 👍
-     ✅ Callback Hell 👍
-
 ## Promises
 
           🎁 Pending(pending) 👍
@@ -33,29 +20,46 @@
           🎁 then 👍
           🎁 catch 👍
           🎁 finally 👍
+          🎁 Promise.resolve
+          🎁 Promise.reject
           🎁 Promise.all
           🎁 Promise.rice
           🎁 Promise.allSettled
-
-## Replacing Callbacks with Promises 👍
-
-     ✅ Parallel Promises 👍
-     ✅ Simple example with DOM 👍
 
 ## Async and Await
 
      ✅ Asynchronous function
 
+# AJAX - Asynchronous JavaScript And XML
+
+        ✅ Simple example AJAX Request
+        ✅ JSON - JavaScript object notation
+        ✅ explain fetch
+        ✅ Simple example with fetch
+
+# Create Todo App Backend and Frontend
+
+- ------CREATE------
+- [POST]["/todos"] -> create todo
+-
+- ------READ------
+- [GET]["/todos"] -> get all todos
+- [GET]["/todos/:todoId"] -> get single todo
+-
+- ------UPDATE------
+- [PUT | PATCH]["/todos/:todoId"] -> update todo
+-
+- ------DELETE------
+- [DELETE]["/todos/:todoId"] -> delete todo
+
 # Typescript
 
     ✅ @ts-ignore vs @ts-expect-error 👍🏻
-    ✅ type
-    ✅ as
+    ✅ type 👍🏻
+    ✅ as 👍🏻
     ✅ unknown || any || never
-    ✅ interface
-    ✅ extends and implements
-    ✅ private and public
-    ✅ class
+    ✅ interface 👍🏻
+    ✅ extends and implements 👍🏻
+    ✅ private and public 👍🏻
+    ✅ class 👍🏻
     ✅ Generic types
-
-# [JS Interview questions (500)](https://github.com/sudheerj/javascript-interview-questions)
