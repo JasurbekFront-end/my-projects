@@ -8,11 +8,12 @@
     ✅ Closure - 1d 👍🏻
     ✅ JS Modules () 👍🏻
     ✅ NPM Package 👍🏻
-    ✅ Callbacks && Promises && Async/Await - 2d
+    ✅ Callbacks && Promises && Async/Await - 2d 👍
+    ✅ JSON
     ✅ Backend && AJAX && Fetch  - 4d
     ✅ JS Execution && Event Loop - 1d
 
-## Promises
+## Promises 👍
 
           🎁 Pending(pending) 👍
           🎁 Resolve(fulfilled) 👍
@@ -20,15 +21,21 @@
           🎁 then 👍
           🎁 catch 👍
           🎁 finally 👍
-          🎁 Promise.resolve
-          🎁 Promise.reject
-          🎁 Promise.all
-          🎁 Promise.rice
-          🎁 Promise.allSettled
+          🎁 Promise.resolve 👍
+          🎁 Promise.reject 👍
+          🎁 Promise.all 👍
+          🎁 Promise.race 👍
+          🎁 Promise.allSettled 👍
 
-## Async and Await
+## Async and Await 👍
 
-     ✅ Asynchronous function
+     ✅ Asynchronous function 👍
+
+## JSON (JavaScript object notation) 👍
+
+     ✅ JSON data types 👍
+     ✅ JSON.parse 👍
+     ✅ JSON.stringify 👍
 
 ## Generic types
 

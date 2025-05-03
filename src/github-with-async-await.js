@@ -89,40 +89,43 @@ function getCommitFiles(commitId) {
 
 function displayUser(user) {
   console.log('user = ', user);
-
-  return getUserRepos(user.id);
 }
 
 function displayRepos(repos) {
   console.log('repos = ', repos);
-
-  return getRepoBranches(repos[0].id);
 }
 
 function displayBranches(branches) {
   console.log('branches = ', branches);
-
-  return getRepoCommits(branches[0]);
 }
 
 function displayCommits(commits) {
   console.log('commits = ', commits);
-
-  return getCommitFiles(commits[0].id);
 }
 
 function displayFiles(files) {
   console.log('files = ', files);
 }
 
-/* PROMISE */
-getGithubUser('arslonbekXX')
-  .then(displayUser)
-  .then(displayRepos)
-  .then(displayBranches)
-  .then(displayCommits)
-  .then(displayFiles)
-  .catch(error => console.error(error));
+/* ASYNC AWAIT */
+try {
+  const user = await getGithubUser('arslonbekXX');
+  displayUser(user);
+
+  const repos = await getUserRepos(user.id);
+  displayRepos(repos);
+
+  const branches = await getRepoBranches(repos[0].id);
+  displayBranches(branches);
+
+  const commits = await getRepoCommits(branches[0]);
+  displayCommits(commits);
+
+  const files = await getCommitFiles(commits[0].id);
+  displayFiles(files);
+} catch (error) {
+  console.error(error);
+}
 
 /**
  * Challenge - 1
