@@ -16,30 +16,29 @@
 
 ## Some topics of TYPESCRIPT
 
-    ✅ @ts-ignore vs @ts-expect-error
-    ✅ Type vs Interface
+    ✅ @ts-ignore vs @ts-expect-error 👍
+    ✅ Type vs Interface 👍
     ✅ What does the keyword "as" mean?
-    ✅ unknown || any || never
+    ✅ unknown || any || never 👍
     ✅ Generic types
 
-## Type vs Interface
+## Type vs Interface 👍
 
-     ✅ interface is best for defining object shapes
-     ✅ type is more flexible — can represent primitives, unions, tuples, etc.
-     ✅ interface supports declaration merging (can be extended multiple times)
-     ✅ type does not support merging — duplicate names cause errors
-     ✅ type supports union and intersection types (|, &)
-     ✅ interface uses extends, type uses & for extending
-     ✅ interface is preferred for React props and large codebases
-     ✅ Both can be used with classes via implements
+     ✅ interface is best for defining object shapes 👍
+     ✅ type is more flexible — can represent primitives, unions, tuples, etc. 👍
+     ✅ interface supports declaration merging (can be extended multiple times) 👍
+     ✅ type does not support merging — duplicate names cause errors 👍
+     ✅ type supports union and intersection types (|, &) 👍
+     ✅ interface uses extends, type uses & for extending 👍
+     ✅ Both can be used with classes via implements 👍
 
 ## Typescript Generics
 
-     ✅ Why we need generic types
-     ✅ What is T
-     ✅ Generic types with simple functions
-     ✅ Generic type with extends
-     ✅ Conditional Generics
+     ✅ Why we need generic types 👍
+     ✅ What is T 👍
+     ✅ Generic types with simple functions 👍
+     ✅ Generic type with extends 👍
+     ✅ Conditional Generics 👍
      ✅ Explain generics challenges (https://www.totaltypescript.com/workshops/typescript-generics)
 
 # AJAX - Asynchronous JavaScript And XML

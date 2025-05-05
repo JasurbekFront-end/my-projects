@@ -1,6 +1,3 @@
-console.log("Lesson-85")
-
-
-
-
-
+// import "./interface-vs-type"
+// import './unknown-any-never';
+import './generics';
