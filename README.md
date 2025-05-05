@@ -8,39 +8,39 @@
     ✅ Closure - 1d 👍🏻
     ✅ JS Modules () 👍🏻
     ✅ NPM Package 👍🏻
-    ✅ Callbacks && Promises && Async/Await - 2d 👍
-    ✅ JSON
-    ✅ Backend && AJAX && Fetch  - 4d
+    ✅ Callbacks && Promises && Async/Await - 2d 👍🏻
+    ✅ JSON 👍🏻
+    ✅ Some topics of TYPESCRIPT - 1.5d
+    ✅ Backend && AJAX && Fetch  - 2.5d
     ✅ JS Execution && Event Loop - 1d
 
-## Promises 👍
+## Some topics of TYPESCRIPT
 
-          🎁 Pending(pending) 👍
-          🎁 Resolve(fulfilled) 👍
-          🎁 Rejected(rejected) 👍
-          🎁 then 👍
-          🎁 catch 👍
-          🎁 finally 👍
-          🎁 Promise.resolve 👍
-          🎁 Promise.reject 👍
-          🎁 Promise.all 👍
-          🎁 Promise.race 👍
-          🎁 Promise.allSettled 👍
+    ✅ @ts-ignore vs @ts-expect-error
+    ✅ Type vs Interface
+    ✅ What does the keyword "as" mean?
+    ✅ unknown || any || never
+    ✅ Generic types
 
-## Async and Await 👍
+## Type vs Interface
 
-     ✅ Asynchronous function 👍
+     ✅ interface is best for defining object shapes
+     ✅ type is more flexible — can represent primitives, unions, tuples, etc.
+     ✅ interface supports declaration merging (can be extended multiple times)
+     ✅ type does not support merging — duplicate names cause errors
+     ✅ type supports union and intersection types (|, &)
+     ✅ interface uses extends, type uses & for extending
+     ✅ interface is preferred for React props and large codebases
+     ✅ Both can be used with classes via implements
 
-## JSON (JavaScript object notation) 👍
+## Typescript Generics
 
-     ✅ JSON data types 👍
-     ✅ JSON.parse 👍
-     ✅ JSON.stringify 👍
-
-## Generic types
-
-     ✅ Simple functions
-     ✅ Using with promises
+     ✅ Why we need generic types
+     ✅ What is T
+     ✅ Generic types with simple functions
+     ✅ Generic type with extends
+     ✅ Conditional Generics
+     ✅ Explain generics challenges (https://www.totaltypescript.com/workshops/typescript-generics)
 
 # AJAX - Asynchronous JavaScript And XML
 
@@ -51,27 +51,15 @@
 
 # Create Todo App Backend and Frontend
 
-- ------CREATE------
-- [POST]["/todos"] -> create todo
--
-- ------READ------
-- [GET]["/todos"] -> get all todos
-- [GET]["/todos/:todoId"] -> get single todo
--
-- ------UPDATE------
-- [PUT | PATCH]["/todos/:todoId"] -> update todo
--
-- ------DELETE------
-- [DELETE]["/todos/:todoId"] -> delete todo
+✅ ------CREATE------
+✅ [POST]["/todos"] -> create todo
 
-# Typescript
+✅ ------READ------
+✅ [GET]["/todos"] -> get all todos
+✅ [GET]["/todos/:todoId"] -> get single todo
 
-    ✅ @ts-ignore vs @ts-expect-error 👍🏻
-    ✅ type 👍🏻
-    ✅ as 👍🏻
-    ✅ unknown || any || never
-    ✅ interface 👍🏻
-    ✅ extends and implements 👍🏻
-    ✅ private and public 👍🏻
-    ✅ class 👍🏻
-    ✅ Generic types
+✅ ------UPDATE------
+✅ [PUT | PATCH]["/todos/:todoId"] -> update todo
+
+✅ ------DELETE------
+✅ [DELETE]["/todos/:todoId"] -> delete todo
