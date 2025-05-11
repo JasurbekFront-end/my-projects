@@ -1,4 +1,4 @@
-# ---------- 02.04.25 ---------- (83)
+# ---------- 11.04.25 ---------- (86)
 
 # JS Advanced
 
@@ -39,7 +39,7 @@
      ✅ Generic types with simple functions 👍
      ✅ Generic type with extends 👍
      ✅ Conditional Generics 👍
-     ✅ Explain generics challenges (https://www.totaltypescript.com/workshops/typescript-generics)
+     ✅ Explain generics challenges (https://www.totaltypescript.com/workshops/typescript-generics) 👍
 
 # AJAX - Asynchronous JavaScript And XML
 
