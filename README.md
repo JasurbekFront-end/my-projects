@@ -2,25 +2,25 @@
 
 # JS Advanced
 
-    ✅ Expression vs Statement 👍🏻
-    ✅ OOP(Factory Function 👍🏻, Constructor Function 👍🏻 and Class 👍🏻) - 3d 👍🏻
-    ✅ Prototype && Prototype Chain 👍🏻
-    ✅ Closure - 1d 👍🏻
-    ✅ JS Modules () 👍🏻
-    ✅ NPM Package 👍🏻
-    ✅ Callbacks && Promises && Async/Await - 2d 👍🏻
-    ✅ JSON 👍🏻
-    ✅ Some topics of TYPESCRIPT - 1.5d
+    ✅ Expression vs Statement 👍
+    ✅ OOP(Factory Function 👍, Constructor Function 👍 and Class 👍) - 3d 👍
+    ✅ Prototype && Prototype Chain 👍
+    ✅ Closure - 1d 👍
+    ✅ JS Modules () 👍
+    ✅ NPM Package 👍
+    ✅ Callbacks && Promises && Async/Await - 2d 👍
+    ✅ JSON 👍
+    ✅ Some topics of TYPESCRIPT - 1.5d 👍
     ✅ Backend && AJAX && Fetch  - 2.5d
     ✅ JS Execution && Event Loop - 1d
 
-## Some topics of TYPESCRIPT
+## Some topics of TYPESCRIPT 👍
 
     ✅ @ts-ignore vs @ts-expect-error 👍
     ✅ Type vs Interface 👍
-    ✅ What does the keyword "as" mean?
+    ✅ What does the keyword "as" mean? 👍
     ✅ unknown || any || never 👍
-    ✅ Generic types
+    ✅ Generic types 👍
 
 ## Type vs Interface 👍
 
@@ -47,6 +47,10 @@
         ✅ JSON - JavaScript object notation
         ✅ explain fetch
         ✅ Simple example with fetch
+
+# xhr - XML HTTP REQUEST
+
+# fetch
 
 # Create Todo App Backend and Frontend
 

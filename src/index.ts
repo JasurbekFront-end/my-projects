@@ -1,1 +1,3 @@
-import './types';
+// import './types';
+// import './promise';
+import './xhr';

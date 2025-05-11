@@ -1,12 +1,38 @@
 const DELAY = 500;
 
-function delay(callback) {
+interface User {
+  id: number;
+  username: string;
+}
+
+interface Repository {
+  id: number;
+  name: string;
+}
+
+interface Branch {
+  id: number;
+  name: string;
+}
+
+interface Commit {
+  id: number;
+  message: string;
+}
+
+interface File {
+  id: number;
+  name: string;
+}
+
+function delay(callback: () => void) {
   setTimeout(callback, DELAY);
 }
+
 function getGithubUser(username: string) {
   console.log(`Loading user(${username})...`);
 
-  return new Promise<{ id: number; username: string }>((resolve, reject) => {
+  return new Promise<User>((resolve, reject) => {
     delay(() => {
       const user = { id: 123, username };
       if (user) {
@@ -18,8 +44,8 @@ function getGithubUser(username: string) {
   });
 }
 
-function getUserRepos(userId) {
-  return new Promise((resolve, reject) => {
+function getUserRepos(userId: User['id']) {
+  return new Promise<Repository[]>((resolve, reject) => {
     console.log(`Loading repos owner ${userId} ...`);
     delay(() => {
       const repos = [
@@ -36,12 +62,16 @@ function getUserRepos(userId) {
   });
 }
 
-function getRepoBranches(repoId) {
+function getRepoBranches(repoId: Repository['id']) {
   console.log(`Loading branches of repo ${repoId}...`);
 
-  return new Promise((resolve, reject) => {
+  return new Promise<Branch[]>((resolve, reject) => {
     delay(() => {
-      const branches = ['main', 'dev', 'test'];
+      const branches = [
+        { id: 1, name: 'main' },
+        { id: 2, name: 'dev' },
+        { id: 3, name: 'test' }
+      ];
       if (branches.length) {
         resolve(branches);
       } else {
@@ -51,8 +81,8 @@ function getRepoBranches(repoId) {
   });
 }
 
-function getRepoCommits(branchId) {
-  return new Promise((resolve, reject) => {
+function getRepoCommits(branchId: Branch['id']) {
+  return new Promise<Commit[]>((resolve, reject) => {
     console.log(`Loading commits of branch ${branchId} ...`);
     delay(() => {
       const commits = [
@@ -69,8 +99,8 @@ function getRepoCommits(branchId) {
   });
 }
 
-function getCommitFiles(commitId) {
-  return new Promise((resolve, reject) => {
+function getCommitFiles(commitId: Commit['id']) {
+  return new Promise<File[]>((resolve, reject) => {
     console.log(`Loading files of commit ${commitId} ...`);
     delay(() => {
       const files = [
@@ -95,7 +125,7 @@ getGithubUser('arslonbekXX')
   .then(displayFiles)
   .catch(error => console.error(error));
 
-function displayUser(user: { id: number; username: string }) {
+function displayUser(user: User) {
   console.log('user = ', user);
 
   return getUserRepos(user.id);
@@ -110,7 +140,7 @@ function displayRepos(repos: Repository[]) {
 function displayBranches(branches: Branch[]) {
   console.log('branches = ', branches);
 
-  return getRepoCommits(branches[0]);
+  return getRepoCommits(branches[0].id);
 }
 
 function displayCommits(commits: Commit[]) {
@@ -122,21 +152,3 @@ function displayCommits(commits: Commit[]) {
 function displayFiles(files: File[]) {
   console.log('files = ', files);
 }
-
-/**
- * Challenge - 1
- * 1. Loading user...
- * 2. user = { id: 123, username: 'arslonbekXX' }
- * 3. Loading repos...
- * 4. repos = [
- *    { id: 1, name: 'repo1' },
- *    { id: 2, name: 'repo2' },
- *    { id: 3, name: 'repo3' },
- * ]
- * 5. Loading commits...
- * 6. commits = [
- *    { id: 1, message: 'commit1' },
- *    { id: 2, message: 'commit2' },
- *    { id: 3, message: 'commit3' },
- * ]
- */
