@@ -1,3 +1,1 @@
-// import './types';
-// import './promise';
-import './xhr';
+import "./main.css"
