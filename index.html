@@ -1,14 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<link rel="icon" type="image/svg+xml" href="/vite.svg" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link href="/src/style.css" rel="stylesheet" />
-		<title>Vite + TS</title>
-	</head>
-	<body>
-		<h1>Hello Vite APP</h1>
-		<script type="module" src="/src/main.ts"></script>
-	</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/src/style.css" rel="stylesheet" />
+    <title>My Projects</title>
+  </head>
+  <body>
+    <div class="flex w-full mt-7 items-start justify-around pb-[180px]">
+      <div class="w-[40%] border p-5 rounded-xl border-gray-500 font-poppins">
+        <h1 class="text-[25px] font-[600]">💼 Resume Maker</h1>
+        <p class="text-[14px] mt-2 text-gray-700">
+          A professional and responsive Resume Maker web application that allows
+          users to easily create, preview, and download their resumes in
+          real-time. Designed with a user-friendly step-based form and modern
+          UI, it ensures a smooth and intuitive experience on all devices.
+        </p>
+        <h2 class="text-gray-800 font-[500] mt-4 text-[20px]">Key Features:</h2>
+        <ul class="mt-2 flex flex-col gap-2 text-[15px] text-gray-700">
+          <li>
+            1. Responsive Design – Mobile-first, fully responsive layout that
+            adapts to any screen size.
+          </li>
+          <li>
+            2. Live Resume Renderer – Real-time preview panel that updates
+            instantly as the user fills in their information.
+          </li>
+          <li>
+            3. Data Persistence – Automatically saves user input in localStorage
+            and restores it on page reload.
+          </li>
+          <li>
+            4. Download as PDF – Allows users to export their resume as a
+            high-quality PDF using @react-pdf/renderer.
+          </li>
+          <li>
+            5. Resume Archive – Stores downloaded resumes for future reference
+            and reuse.
+          </li>
+        </ul>
+        <h2 class="text-gray-800 font-[500] mt-4 text-[20px]">
+          Technologies Used:
+        </h2>
+        <ul class="mt-2 flex flex-col gap-2 text-[15px] text-gray-700">
+          <li>1. React.js – For building interactive user interfaces.</li>
+          <li>2. TypeScript – For type-safe, maintainable code.</li>
+          <li>
+            3. Tailwind CSS – For fast and consistent styling with utility-first
+            classes.
+          </li>
+          <li>4.Vite – For a fast and modern frontend build setup.</li>
+          <li>
+            5. @react-pdf/renderer – For generating downloadable PDF resumes
+            directly in the browser.
+          </li>
+        </ul>
+        <div class="flex flex-col gap-2 items-start">
+          <h1 class="mt-5 text-[16px]">Source code:</h1>
+          <a
+            target="_blank"
+            class="text-[14px] text-blue-500 underline"
+            href="https://github.com/JasurbekFront-end/Resume-maker-react-app"
+            >https://github.com/JasurbekFront-end/Resume-maker-react-app</a
+          >
+        </div>
+        <div class="flex flex-col gap-2 items-start mt-4">
+          <h1 class="mt-5 text-[16px]">Visit:</h1>
+          <a
+            target="_blank"
+            class="text-[14px] text-blue-500 underline"
+            href="https://resume-maker-react-app.vercel.app"
+            >https://resume-maker-react-app.vercel.app</a
+          >
+        </div>
+      </div>
+      <div class="w-[40%] border p-5 rounded-xl border-gray-500 font-poppins">
+        <h1 class="text-[25px] font-[600]">🖼️ Picture Valley</h1>
+        <p class="text-[14px] mt-2 text-gray-700">
+          Picture Valley is a modern and responsive image gallery web
+          application that allows users to explore and save high-quality images
+          from an external API. Users can like or collect their favorite images,
+          which are stored locally for future access — all with a smooth,
+          intuitive user experience.
+        </p>
+        <h2 class="text-gray-800 font-[500] mt-4 text-[20px]">Key Features:</h2>
+        <ul class="mt-2 flex flex-col gap-2 text-[15px] text-gray-700">
+          <li>
+            1. Responsive Design – Seamless experience across all devices, built
+            with a mobile-first approach.
+          </li>
+          <li>
+            2. API Integration – Dynamically fetches images from a third-party
+            API ( Pexels).
+          </li>
+          <li>
+            Image Liking & Collection – Users can like and collect images,
+            stored efficiently in localStorage.
+          </li>
+          <li>
+            Persistent Data – Liked and collected images remain saved even after
+            refreshing or closing the browser.
+          </li>
+        </ul>
+        <h2 class="text-gray-800 font-[500] mt-4 text-[20px]">
+          Technologies Used:
+        </h2>
+        <ul class="mt-2 flex flex-col gap-2 text-[15px] text-gray-700">
+          <li>1. React.js – For building interactive user interfaces.</li>
+          <li>2. TypeScript – For type-safe, maintainable code.</li>
+          <li>
+            3. Tailwind CSS – For fast and consistent styling with utility-first
+            classes.
+          </li>
+          <li>4.Vite – For a fast and modern frontend build setup.</li>
+          <li>5. Pexels – For sourcing free, high-resolution images.</li>
+        </ul>
+        <div class="flex flex-col gap-2 items-start">
+          <h1 class="mt-5 text-[16px]">Source code:</h1>
+          <a
+            target="_blank"
+            class="text-[14px] text-blue-500 underline"
+            href="https://github.com/JasurbekFront-end/picture-valley"
+            >https://github.com/JasurbekFront-end/picture-valley</a
+          >
+        </div>
+        <div class="flex flex-col gap-2 items-start mt-4">
+          <h1 class="mt-5 text-[16px]">Visit:</h1>
+          <a
+            target="_blank"
+            class="text-[14px] text-blue-500 underline"
+            href="https://picture-valley.vercel.app"
+            >https://picture-valley.vercel.app</a
+          >
+        </div>
+      </div>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
 </html>
